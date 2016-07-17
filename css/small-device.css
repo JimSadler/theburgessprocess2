@@ -1,0 +1,29 @@
+/* Responsive Styles */
+@media screen and (min-width: 45em) {
+
+    header {
+        background: #352a38 url("img/Marthajumbotron.jpg") no-repeat top center;
+        padding: 10% 0;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+    }
+    .header-content-inner {
+        margin-top: 14.285714285714286em;
+        margin-bottom: 20em;
+    }
+    header .header-content {
+        margin-top: 200px;
+
+    }
+}
+@media screen and (max-width: 150em) {
+    header {
+        background: #352a38 url("img/Marthajumbotron-s.jpg") no-repeat top center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+
+    }
+}
+
