@@ -16,9 +16,7 @@ body {
 body {
      /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
-img {
-    max-width: 100%;
-}
+
 .fade {
      bottom: -50px;
      opacity: 0;
@@ -35,7 +33,7 @@ footer {
 
     margin-top: 20px;
     height: 400px;
-    background-color: #022D4D;
+
 }
 .container-fluid {
      margin: auto;
@@ -60,9 +58,9 @@ footer {
 /* Home Page Carousel */
 
  .logo  {
-    background: url('img/marthaLogo.png') no-repeat;
-    height: 80px;
-    width: 80px;
+   /* background: url('img/marthaLogo.png') no-repeat;*/
+    height: 80px !important;
+    width: 80px !important;
 }
 #logo2 {
     display: none;
@@ -86,7 +84,9 @@ header {
     -o-background-size: cover;
 }
 
-
+#blog-navbar {
+    background-color: #002d4c;
+}
 
 p .fade {
     width: 100px;
@@ -338,7 +338,6 @@ footer {
     .header-content .header-content-inner {
         margin-top: 14.285714285714286em;
     }
-
 
 
 }
