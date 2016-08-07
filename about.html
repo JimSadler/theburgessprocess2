@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Modern Business - Start Bootstrap Template</title>
+    <title>Martha Burgess Novak About</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -25,6 +25,8 @@
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <script src="js/picturefill.js"></script>
+        <script src="js/matchmedia.js"></script>
     <![endif]-->
 
 </head>
@@ -32,7 +34,7 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar about navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -42,7 +44,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+                <a class="navbar-brand page scroll fade" href="index.html"><img  class="img-responsive" id="logo" src="http://www.jimsadlermusic.com/resources/marthaLogo.png" alt="Martha Burgess Novak logo" onload=$(this).fadeIn();></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -123,28 +125,30 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">About
-                    <small>Subheading</small>
+                <h1 class="page-header">Staff
+                    <small>Healers</small>
                 </h1>
-                <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
-                    </li>
-                    <li class="active">About</li>
-                </ol>
+                
             </div>
         </div>
         <!-- /.row -->
 
         <!-- Intro Content -->
         <div class="row">
-            <div class="col-md-6">
-                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+            <div class="col-md-6" id="marthaAboutImg">
+                <img class="img-responsive" src="/Users/jimsadler/WebstormProjects/theburgessprocess2/img/Headshots/MBHeadshot_fountain.jpg" alt="">
+
             </div>
-            <div class="col-md-6">
-                <h2>About Modern Business</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
+            <div class="col-md-6 editable" id="marthaAbout">
+                <h2 id="marthaAboutHead">About Martha</h2>
+                <p class="container-paragraphs">Martha Burgess Novak has a unique roadmap which takes you from awareness to consciousness to the enlightened life that is yours for
+                    the choosing. It is unlike any healing journey you have ever experienced. By releasing you once and for all from habitual emotional clutter and circular thinking, you are freed from the hold of the past to move fully
+                    into your dynamic present. Here you find deep levels of peace, compassion and forgiveness for yourself and others. Here you begin to live the powerful and ever-expanding, abundant life that is yours in the fullness of God.</p>
+                <p class="container-paragraphs">It is here in the fullness of God, where you live your life in complete authenticity. In advanced stages of consciousness, you experience the enlightened life, free from anxiety and fear.
+                    Instead, your life is filled with ever increasing joy, passion and potential. You live your truth, you know that you are limited by nothing, you know that you are pure, creative potential as your mind is sharply focused
+                    to create the life you want.</p>
+                <p class="container-paragraphs">If this sounds too good to be true, you do not know Martha. Martha is a powerful spiritual teacher, healer, and emotional intuitive who, over her lifetime, has developed a life-changing system
+                    of training, not only for business, but also for spirituality in every aspect of daily life. It is called The Burgess Process and it teaches that everything is the spiritual journey.</p>
             </div>
         </div>
         <!-- /.row -->
@@ -152,13 +156,13 @@
         <!-- Team Members -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">Our Team</h2>
+                <h2 class="page-header">Our Healers</h2>
             </div>
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                    <img class="img-responsive" src="/Users/jimsadler/WebstormProjects/theburgessprocess2/img/Headshots/DianaHeadshot.jpg" alt="">
                     <div class="caption">
-                        <h3>John Smith<br>
+                        <h3>Diana Cohen<br>
                             <small>Job Title</small>
                         </h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
@@ -175,12 +179,16 @@
             </div>
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                    <img class="img-responsive" src="/Users/jimsadler/WebstormProjects/theburgessprocess2/img/Headshots/tracyHeadshot.jpg" alt="">
                     <div class="caption">
-                        <h3>John Smith<br>
-                            <small>Job Title</small>
+                        <h3>Tracy Turner<br>
+                            <small>Emotional Intuitive and Healing Facilitator</small>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
+                        <p>Tracy works with Martha Burgess Novak and the Burgess Process in Sandy Springs, Georgia.  Tracy was born and reared in Atlanta, Ga. and worked in marketing and advertising for 30 years.
+                            Tracy has always been interested in consciousness studies as an avid reader and researcher, but true clarity was not found until she attended a Leadership Program at AT&T where Martha Burgess Novak
+                            spoke. Tracy recognized Martha immediately as her teacher and started weekly sessions with her as well as participating in years of study in healing and spiritual development classes.  Tracy now works
+                            full time as an intuitive and healing facilitator with Martha and works daily to be a clear channel for herself and her clients.  With the tools Tracy has to share with you, all things are possible.
+                            </p>
                         <ul class="list-inline">
                             <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
                             </li>
@@ -194,9 +202,9 @@
             </div>
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                    <img class="img-responsive" src="/Users/jimsadler/WebstormProjects/theburgessprocess2/img/Headshots/BettyHeadshot4.jpg" alt="">
                     <div class="caption">
-                        <h3>John Smith<br>
+                        <h3>Betty Smith Sadler<br>
                             <small>Job Title</small>
                         </h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
@@ -211,99 +219,42 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 text-center">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <div class="caption">
-                        <h3>John Smith<br>
-                            <small>Job Title</small>
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
-                        <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <div class="caption">
-                        <h3>John Smith<br>
-                            <small>Job Title</small>
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
-                        <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="thumbnail">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <div class="caption">
-                        <h3>John Smith<br>
-                            <small>Job Title</small>
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
-                        <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /.row -->
 
-        <!-- Our Customers -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">Our Customers</h2>
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6">
-                <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6">
-                <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6">
-                <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6">
-                <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6">
-                <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6">
-                <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
-            </div>
         </div>
-        <!-- /.row -->
 
         <hr>
 
         <!-- Footer -->
+        <!-- Footer -->
         <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+            <div id="contact" class="container-fluid">
+                <div class="row foot">
+                    <div class="col-lg-12">
+                        <h3 class="page-header">Contact Martha Burgess Novak</h3>
+                        <ul class="list-inline social-icons">
+                            <li><a href="https://www.facebook.com/theburgessprocess" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/marthaburgess" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://www.youtube.com/user/marthaburgess"><i class="fa fa-youtube" target="_blank"></i></a></li>
+                            <li><a href="https://plus.google.com/u/0/108407100426749067671"><i class="fa fa-google-plus" target="_blank"></i></a></li>
+                            <li><a href="https://twitter.com/MarthaBurgess"><i class="fa fa-twitter" target="_blank"></i></a></li>
+
+
+                        </ul>
+
+                        <div class="col-lg-4 col-lg-offset-2 text-center">
+                            <i class="fa fa-phone fa-3x wow bounceIn wow tada"></i>
+                            <p>770.206.4002</p>
+                        </div>
+                        <div class="col-lg-4 text-center">
+                            <i class="fa fa-envelope-o fa-3x"></i>
+                            <p><a href="mailto:your-email@your-domain.com">theburgessprocess@yahoo.com</a></p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-12 copyright">
+                    <p class="copyright fa fa-copyright">The Burgess Process 2016</p>
                 </div>
             </div>
         </footer>
@@ -316,6 +267,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
