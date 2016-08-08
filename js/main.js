@@ -9,10 +9,9 @@ $(document).ready(function() {
         scroll_start = $(this).scrollTop();
         if(scroll_start > offset.top) {
             $('.navbar').css('background-color', '#333333');
-            console.log("yo this is working");
         }else {
             $('.navbar').css('background-color', 'transparent')
-            console.log('no');
+
         }
     });
 });
