@@ -9,14 +9,29 @@
 html,
 body {
     height: 100%;
+    width: 100%;
     background-color: #f9f4f2;
     font-size: 15px;
 }
-
+a.fa-envelope-o {
+    color: #0b5868 !important;
+    text-decoration: none;
+}
+i.fa-envelope-o {
+    color: #0b5868 !important;
+    text-decoration: none;
+}
+a[href="mailto:theburgessprocess@yahoo.com"] {
+    color: #0b5868 !important;
+    text-decoration: none;
+}
 body {
      /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
-
+.row {
+    margin-right: 35px !important;
+    margin-left: 125px !important;
+}
 .fade {
      bottom: -50px;
      opacity: 0;
@@ -27,6 +42,10 @@ body {
     transition: opacity 3s, bottom 2s ease;
     bottom: 0px;
     opacity: 1;
+}
+
+div#marthaAbout {
+    margin-top: 75px;
 }
 #marthaAboutHead {
     text-align: center;
@@ -42,7 +61,9 @@ footer {
 
 }
 .navbar.about {
-    background-color: #333333;
+    background-color: rgba(7, 44, 71, 0.9);}
+#navbar-index {
+    background-color: rgba(7, 44, 71, 0.9);
 }
 .container-fluid {
      margin: auto;
@@ -51,10 +72,14 @@ footer {
  }
 
 .copyright {
-    margin-top: 30px;
-    font-size: 12px;
+    margin-top: 15px;
+    font-size: 14px;
 }
-
+.me-tag a{
+    margin-top: 40px;
+    font-size: 12px;
+    color: #333333;
+}
 
 .img-portfolio {
     margin-bottom: 30px;
@@ -67,17 +92,24 @@ footer {
 /* Home Page Carousel */
 
  #logo  {
-   background: url('http://www.marthaburgessnovak.net/css/img/marthaLogo.png') no-repeat;
-   height: 80px !important;
-   width: 80px !important;
-   margin-left: 15px;
-   margin-top: 15px;
+   //background: url('/img/M-logo-fill-index1.png') no-repeat;
+   height: 100px !important;
+   width: 100px !important;
+   margin-left: 3.5em;
+   margin-top: 5px;
+   -webkit-animation-duration: 1s;
 }
 #logo2 {
-    display: none;
+    //background: url('/img/M-logo-fill.png') no-repeat;
+    height: 100px !important;
+    width: 100px !important;
+    margin-left: 1.5em;
+    margin-top: 5px;
 }
 
-
+.header-content-inner {
+    -webkit-animation-duration: 4s;
+}
 .header-content {
     position: relative;
     background: transparent;
@@ -94,8 +126,47 @@ header {
     background-size: cover;
     -o-background-size: cover;
 }
-
-
+.container.healers {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 6.5em;
+    margin-left: 6.5em;
+}
+.container-fluid.martha-intro {
+    margin-top: 6em;
+    padding-bottom: 75px
+}
+.row.healer-staff {
+    margin-bottom: 65px;
+    margin-top: 65px;
+}
+.container-fluid.healer-head {
+    margin-bottom: 65px;
+    border-bottom: 1px solid #555555;
+}
+a.fa-envelope-o {
+    color: #0b5868 !important;
+}
+.healer-staff .text-center a:hover, .foot-contact ul li a:hover {
+    color: #008f63 !important;
+}
+.healer-staff .text-center a, .foot-contact ul li a {
+    color: #0b5868 !important;
+}
+ul.foot-contact {
+    color: #0b5868 !important;
+}
+#christina-about-img, #tracy-about-img, #betty-about-img, #diana-about-img {
+    display: block;
+    max-width: 100%;
+    height: 465px;
+}
+#diana-about-txt, #christina-about-txt, #betty-about-txt, #tracy-about-txt {
+    padding-top: 4.5em;
+}
+p.bio-txt {
+    margin-bottom: 25px;
+}
 p .fade {
     width: 100px;
     padding: 20px;
@@ -111,12 +182,15 @@ header .header-content .header-content-inner p {
     font-size: 16px;
     font-weight: 200;
     color: #f9f4f2;
-    padding-right:  2.5em;
-    padding-left:  2.5em;
+    padding-right: 2.5em;
+    padding-left: 2.5em;
     width: auto;
-
-
 }
+
+.fa-2x {
+    font-size: 1.3em !important;
+}
+
 header .header-content {
     position: relative;
     width: 100%;
@@ -165,7 +239,7 @@ header .header-content .header-content-inner hr {
 
     text-align: center;
     margin-top: 3em;
-    margin-bottom: 2.5em;
+    margin-bottom: 1.5em;
     border-color: #9d9d9d;
 
 }
@@ -197,6 +271,7 @@ ul .nav {
 ul.social-icons {
      list-style: none;
      display: block;
+    margin-bottom: 35px;
  }
 .fa {
 display: inline-block;
@@ -206,11 +281,11 @@ ul.social-icons li a {
     list-style: none;
     display: block;
     background-color: #777777;
-    height: 40px !important;
-    width: 40px !important;
+    height: 32px !important;
+    width: 32px !important;
     border-radius: 100%;
     font-size: 20px;
-    line-height: 40px;
+    line-height: 32px;
     color: #f9f4f2;
     outline: none;
     -webkit-transition: all 0.3s;
@@ -221,11 +296,17 @@ ul.social-icons li a {
 ul.social-icons li a:hover,
 ul.social-icons li a:focus,
 ul.social-icons li a:active {
-    background-color: #fac16b;
-    color: black;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6e6b4+13,f6e6b4+26,ed9017+86 */
+    background: #f6e6b4; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f6e6b4 13%, #f6e6b4 26%, #ed9017 86%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #f6e6b4 13%,#f6e6b4 26%,#ed9017 86%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #f6e6b4 13%,#f6e6b4 26%,#ed9017 86%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#ed9017',GradientType=0 ); /* IE6-9 */
+
+    color: #0b5868;
 }
 .fa-3x:hover {
-    color: #fac16b;
+    color: #0b5868;
 }
 
 .h4, .h5, .h6, h4, h5, h6 {
@@ -281,7 +362,14 @@ div .radio-archives ul {
     border-radius: 4px;
 }
 .btn:hover {
-    background-color: #fac16b;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6e6b4+13,f6e6b4+26,ed9017+86 */
+    background: #f6e6b4; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f6e6b4 13%, #f6e6b4 26%, #ed9017 86%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #f6e6b4 13%,#f6e6b4 26%,#ed9017 86%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #f6e6b4 13%,#f6e6b4 26%,#ed9017 86%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#ed9017',GradientType=0 ); /* IE6-9 */
+
+    color: #0b5868;
 }
 
 nav {
@@ -386,4 +474,13 @@ footer {
             height: 70%;
         }
     }
+}
+/*---------------------------------------------------->*/
+
+.theprocess {
+    text-align: center;
+    margin-bottom: 25px;
+}
+p.theprocesstxt {
+    margin-bottom: 55px;
 }

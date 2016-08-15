@@ -8,20 +8,20 @@ $(document).ready(function() {
     $(document).scroll(function() {
         scroll_start = $(this).scrollTop();
         if(scroll_start > offset.top) {
-            $('.navbar').css('background-color', '#333333');
+            $('#navbar-index').css('background-color', '#333333');
         }else {
-            $('.navbar').css('background-color', 'transparent')
+            $('#navbar-index').css('background-color', 'transparent')
 
         }
     });
 });
 
 
-$( document ).ready(function() {
+/*$( document ).ready(function() {
     $('#logo').hide().one("load",function(){
         $(this).fadeIn(2000);
     }).each(function(){
         if(this.complete) $(this).trigger("load");
     });
     $('.fade').addClass('fade-in');
-});
+});*/
