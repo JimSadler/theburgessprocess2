@@ -8,9 +8,9 @@ $(document).ready(function() {
     $(document).scroll(function() {
         scroll_start = $(this).scrollTop();
         if(scroll_start > offset.top) {
-            $('#navbar-index').css('background-color', '#333333');
+            $('#navbar-index').css('background-color', 'rgba(2, 23, 40, 0.8)');
         }else {
-            $('#navbar-index').css('background-color', 'transparent')
+            $('#navbar-index').css('background-color', 'rgba(2, 23, 40, 0.8)')
 
         }
     });

@@ -61,9 +61,10 @@ footer {
 
 }
 .navbar.about {
-    background-color: rgba(7, 44, 71, 0.9);}
+    background-color: rgba(2, 23, 40, 0.8);
+}
 #navbar-index {
-    background-color: rgba(7, 44, 71, 0.9);
+    background-color: rgba(2, 23, 40, 0.8);
 }
 .container-fluid {
      margin: auto;

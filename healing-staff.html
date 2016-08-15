@@ -20,7 +20,8 @@
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="font-awesome-animation.min.css">
+    <link rel="stylesheet" href="css/font-awesome-animation.css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -37,7 +38,7 @@
 
     <!-- Navigation -->
     <nav class="navbar about navbar-default navbar-fixed-top" role="navigation">
-
+      <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -46,26 +47,40 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page scroll fade" href="index.html"><img  class="img-responsive" id="logo2" src="img/m-logo-circle-fill-about.png" alt="Martha Burgess Novak logo" onload= $(this).fadeIn();></a>
+                <a class="navbar-brand page scroll" href="index.html">
+                    <img  class="img-responsive animated flip" id="logo" src="img/m-logo-circle-fill-about.png" alt="Martha Burgess Novak logo"> <!--onload=$(this).fadeIn();--->
+                </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-right animated fadeInUp">
 
             <li>
-                <a href="index.html" class="fade">Home</a>
+                <a href="index.html">Home</a>
             </li>
             <li class="active">
-                <a href="healing-staff.html" class="fade">Healing Staff</a>
+                <a href="healing-staff.html">Healing Staff</a>
             </li>
-
             <li>
-                <a href="http://www.marthaburgessnovak.net/RealTalkBlog" class="fade">RealTalk with Martha </a>
+                <a href="index.html#burgess">The Burgess Process</a>
+            </li>
+            <li>
+                <a href="index.html#book">The Life You Want</a>
+            </li>
+            <li>
+                <a href="index.html#radio">Radio Show</a>
+            </li>
+            <li>
+                <a href="index.html#class">2016 Workshops</a>
+            </li>
+            <li>
+            <li>
+                <a href="http://www.marthaburgessnovak.net/RealTalkBlog">RealTalk with Martha </a>
             </li>
         </ul>
         </div>
             <!-- /.navbar-collapse -->
-
+      </div>
         <!-- /.container -->
     </nav>
 
@@ -107,7 +122,7 @@
         <section>    <!-- Team Members -->
              <div class="container-fluid healers">
 
-                    <!--
+                    <!--betty
 
                     <div class="row healer-staff">
                         <div class="col-md-8 editable" id="betty-about-txt">
@@ -135,11 +150,42 @@
                         </div>
 
                     </div>
-
                   <hr>
                     -->
 
+                 <!-- Beth -
 
+                       <div class="row healer-staff">
+                           <div class="col-md-8 editable" id="betty-about-txt">
+                               <h3 id="betty-about-head">-Beth Leeper <br>
+                                   <small>Master Facilitator</small>
+                               </h3>
+                               <p class="bio-txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
+
+                               <div class="col-lg-4 text-center">
+
+                                   <a href="mailto:ejleeper@aol.com"><i class="fa fa-envelope-o fa-2x"></i><br> Email Beth</a>
+                               </div>
+                               <ul class="list-inline social-icons">
+                                   <li><a href="https://www.facebook.com/beth.leeper.5"><i class="fa fa-1.5x fa-facebook"></i></a>
+                                   </li>
+                                   <li><a href="https://www.linkedin.com/in/beth-leeper-13338b19"><i class="fa fa-1.5x fa-linkedin"></i></a> https://twitter.com/ejleeper
+                                   </li>
+                                   <li><a href="https://twitter.com/ejleeper"><i class="fa fa-1.5x fa-twitter"></i></a>
+
+                               </ul>
+
+                           </div>
+
+                           <div class="col-md-4">
+                               <img id="betty-about-img" class="img-responsive" src="img/" alt="">
+                           </div>
+
+                       </div>
+                     <hr>
+                       -->
+
+                    <!-- Diana --->
                     <div class="row healer-staff">
 
                     <div class="col-md-8 editable" id="diana-about-txt">
@@ -174,8 +220,38 @@
 
                     </div>
                  </div>
-
                 <hr>
+
+                 <!-- Christina -->
+                 <div class="row healer-staff">
+                     <div class="col-md-8 editable" id="christina-about-txt">
+                         <h3 id="christina-about-head">Chrisina McCarthy<br>
+                             <small>Master Facilitator</small>
+                         </h3>
+
+                         <p class="bio-txt">Christina has a degree in psychology and is a Certified Master Facilitator in the Burgess Process.  With a lifelong interest in human behavior and a sincere desire to help others
+                             achieve their goals, she found the Burgess Process to be the most effective technique for getting to the root of what is blocking the way to true, lasting change.  From a young age,
+                             she discovered she had a natural intuition for reading other people's emotions as well as an innate ability to see behavioral patterns.  She is grateful her training in psychology and
+                             the Burgess Process has given her the tools to utilize these gifts to be of service to others.  Full of compassion for each client's individual journey, Christina has a passion for helping
+                             the client navigate his or her own unique system of wiring to reveal the potential within.</p>
+                         <div class="col-lg-4 text-center">
+
+                             <a href="mailto:mcstina@gmail.com"><i class="fa fa-envelope-o fa-2x"></i><br> Email Christina</a>
+                         </div>
+                         <ul class="list-inline social-icons">
+                             <li><a href="https://www.facebook.com/christina.mccarthy.94"><i class="fa fa-1.5x fa-facebook"></i></a>
+                             </li>
+                         </ul>
+                     </div>
+                     <div class="col-md-4">
+                         <img id="christina-about-img" class="img-responsive" src="img/Headshots/CristinaHshot.jpg" alt="">
+                     </div>
+
+                 </div>
+                 <hr>
+             </div>
+
+                 <!-- Tracy -->
                 <div class="row healer-staff">
                     <div class="col-md-8 editable" id="tracy-about-txt">
                         <h3 id="tracy-about-head">Tracy Turner<br>
@@ -202,39 +278,7 @@
                         <img id="tracy-about-img" class="img-responsive" src="img/Headshots/tracyHeadshot.jpg" alt="">
                     </div>
                 </div>
-
-
-                    <hr>
-
-
-                <div class="row healer-staff">
-                    <div class="col-md-8 editable" id="christina-about-txt">
-                        <h3 id="christina-about-head">Chrisina McCarthy<br>
-                            <small>Master Facilitator</small>
-                        </h3>
-
-                        <p class="bio-txt">Christina has a degree in psychology and is a Certified Master Facilitator in the Burgess Process.  With a lifelong interest in human behavior and a sincere desire to help others
-                            achieve their goals, she found the Burgess Process to be the most effective technique for getting to the root of what is blocking the way to true, lasting change.  From a young age,
-                            she discovered she had a natural intuition for reading other people's emotions as well as an innate ability to see behavioral patterns.  She is grateful her training in psychology and
-                            the Burgess Process has given her the tools to utilize these gifts to be of service to others.  Full of compassion for each client's individual journey, Christina has a passion for helping
-                            the client navigate his or her own unique system of wiring to reveal the potential within.</p>
-                        <div class="col-lg-4 text-center">
-
-                            <a href="mailto:mcstina@gmail.com"><i class="fa fa-envelope-o fa-2x"></i><br> Email Christina</a>
-                        </div>
-                        <ul class="list-inline social-icons">
-                            <li><a href="https://www.facebook.com/christina.mccarthy.94"><i class="fa fa-1.5x fa-facebook"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <img id="christina-about-img" class="img-responsive" src="img/Headshots/CristinaHshot.jpg" alt="">
-                    </div>
-
-                </div>
-              <hr>
-             </div>
-
+                <hr>
 
         </section>
         <!-- Footer -->
@@ -276,7 +320,7 @@
         </footer>
 
         <div class="container-fluid me-tag" style="margin-bottom: 25px; text-align: right;">
-            <a href="http://www.jimsadlerdevelopment.tech" target="_blank"><i class="fa fa-cog fa-spin fa-1.5x " aria-hidden="true"></i>  Website developed by Jim Sadler Development</a>
+            <a href="http://www.jimsadlerdevelopment.tech" target="_blank"><i class="fa fa-cog fa-spin fa-lg " aria-hidden="true"></i>  Website developed by Jim Sadler Development</a>
         </div>
     </div>
 
