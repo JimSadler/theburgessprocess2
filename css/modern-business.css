@@ -45,7 +45,7 @@ body {
 }
 
 div#marthaAbout {
-    margin-top: 75px;
+    margin-top: 12em;
 }
 #marthaAboutHead {
     text-align: center;
@@ -167,6 +167,8 @@ ul.foot-contact {
 }
 p.bio-txt {
     margin-bottom: 25px;
+    padding-right: 11em;
+    padding-left: 11em;
 }
 p .fade {
     width: 100px;
