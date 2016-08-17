@@ -45,14 +45,15 @@ body {
 }
 
 div#marthaAbout {
-    margin-top: 12em;
+    margin-top: 2em;
 }
 #marthaAboutHead {
     text-align: center;
 
 }
 #marthaAboutImg {
-    padding-top: 80px;
+    padding-top: 10px;
+    margin-top: 5em;
 }
 footer {
 
@@ -138,12 +139,17 @@ header {
     padding-bottom: 75px
 }
 .row.healer-staff {
-    margin-bottom: 65px;
-    margin-top: 65px;
+    margin-bottom: 5em;
+    margin-top: 5em;
 }
 .container-fluid.healer-head {
-    margin-bottom: 65px;
+    margin-bottom: -1em;
     border-bottom: 1px solid #555555;
+}
+
+hr {
+
+    border-top: 1px solid #ccc !important;
 }
 a.fa-envelope-o {
     color: #0b5868 !important;
@@ -167,8 +173,8 @@ ul.foot-contact {
 }
 p.bio-txt {
     margin-bottom: 25px;
-    padding-right: 11em;
-    padding-left: 11em;
+    padding-right: 2em;
+    padding-left: 2em;
 }
 p .fade {
     width: 100px;
