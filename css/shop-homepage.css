@@ -7,7 +7,11 @@
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
-
+.container-fluid {
+    margin: auto;
+    text-align: center;
+    border: none;
+}
 .navbar-default {
     background-color: transparent !important;
     border-color: #f9f2f4 !important;
@@ -69,4 +73,69 @@ body {
     padding: 9px;
     color: #333;
 }
+ul.social-icons {
+    list-style: none;
+    display: block;
+    margin-bottom: 35px;
+}
+ul.social-icons li a {
+    list-style: none;
+    display: block;
+    background-color: #777777;
+    height: 32px !important;
+    width: 32px !important;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 32px;
+    color: #f9f4f2;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+ul.social-icons li a:hover,
+ul.social-icons li a:focus,
+ul.social-icons li a:active {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6e6b4+13,f6e6b4+26,ed9017+86 */
+    background: #f6e6b4; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f6e6b4 13%, #f6e6b4 26%, #ed9017 86%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #f6e6b4 13%,#f6e6b4 26%,#ed9017 86%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #f6e6b4 13%,#f6e6b4 26%,#ed9017 86%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#ed9017',GradientType=0 ); /* IE6-9 */
+
+    color: #0b5868;
+}
+.fa-2x {
+    font-size: 1.3em !important;
+}
+.fa {
+    display: inline-block;
+
+}
+img#conscious-life {
+    width: 15%;
+    padding-top: 35px;
+}
+a.fa-envelope-o {
+    color: #0b5868 !important;
+    text-decoration: none;
+}
+i.fa-envelope-o {
+    color: #0b5868 !important;
+    text-decoration: none;
+}
+a[href="mailto:theburgessprocess@yahoo.com"] {
+    color: #0b5868 !important;
+    text-decoration: none;
+}
+ul.foot-contact {
+    color: #0b5868 !important;
+}
+.me-tag a {
+    margin-top: 40px;
+    font-size: 12px;
+    color: #333333;
+}
+
 
