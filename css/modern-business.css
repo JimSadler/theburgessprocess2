@@ -268,7 +268,9 @@ header .header-content .header-content-inner hr {
     border-color: #9d9d9d;
 
 }
-
+img#conscious-life {
+    width: 15%;
+}
 ul .nav {
     text-align: center;
     float: right;

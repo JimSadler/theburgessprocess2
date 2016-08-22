@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="20c95fde-78d0-4dbc-8e7e-9a2378ffd90b" name="marthaburgessnovak.net" url="http://marthaburgessnovak.net">
+      <webServer id="20c95fde-78d0-4dbc-8e7e-9a2378ffd90b" name="dreamhost" url="http://marthaburgessnovak.net">
         <fileTransfer host="marthaburgessnovak.net" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
