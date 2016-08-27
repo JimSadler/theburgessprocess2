@@ -26,6 +26,13 @@ body {
 #navbar-index {
     background-color: rgba(2, 23, 40, 0.8) !important;
 }
+.navbar-brand {
+    float: left;
+    height: 60px;
+    width: 60px;
+    font-size: 18px;
+    line-height: 20px;
+}
 #logo {
     height: 100px !important;
     width: 100px !important;
