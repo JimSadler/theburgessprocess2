@@ -269,7 +269,7 @@ header .header-content .header-content-inner hr {
 
 }
 img#conscious-life {
-    width: 15%;
+    width: 15% !important;
 }
 ul .nav {
     text-align: center;
