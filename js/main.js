@@ -15,7 +15,11 @@ $(document).ready(function() {
         }
     });
 });
-
+$(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
+});
 
 /*$( document ).ready(function() {
     $('#logo').hide().one("load",function(){
