@@ -185,6 +185,7 @@ header .header-content-inner h2 {
 .header-content {
     position: relative;
     background: transparent;
+    padding-top: 45em;
 }
 header {
     position: relative;
@@ -204,21 +205,27 @@ header .header-content .header-content-inner p {
     margin-right: 2em;
     font-size: 16px;
     color: #f9f4f2;
-    padding-right: 73.5em;
-    padding-left: 4.5em;
+    padding-right: 2.5em;
+    padding-left: 2.5em;
     width: auto;
+
 }
 .header-content hr {
     border-top: 1px solid #ccc !important;
-    width: 25%;
-    margin: 5px 126px 10px;
+    width: 67%;
+    margin: 3px 121px 10px;
+    background-color: white;
 }
 header .header-content {
+    header .header-content {
     position: relative;
-    width: 100%;
-    padding: 330px 15px 20px 15px;
+    /* width: 65%; */
+    padding: 45em 0em 0em 6em;
     text-align: center;
+    margin-right: 61em;
+    /* margin-top: 45em; */
 }
+
 header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 0;
@@ -228,7 +235,7 @@ header .header-content .header-content-inner h1 {
 header .header-content-inner h2 {
     margin-top: 20px;
     margin-bottom: 10px;
-    padding: 1em 40em .1em 1em;
+    padding: 1em 5em 1em 2em;
 }
 
 /* end of alt header styles ******/
