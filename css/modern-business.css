@@ -63,11 +63,12 @@ div#marthaAbout {
     margin-top: 5em;
 
 }
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: rgba(221, 221, 221, 0);
+}
 footer {
-
     margin-top: 20px;
     height: 400px;
-
 }
 .navbar.about {
     background-color: rgba(2, 23, 40, 0.8);
@@ -181,16 +182,16 @@ header .header-content-inner h2 {
 /* alternate header styles *********/
 .header-content-inner {
     -webkit-animation-duration: 4s;
+   margin-top: 45em;
 }
 .header-content {
     position: relative;
     background: transparent;
-    padding-top: 45em;
 }
 header {
     position: relative;
     width: 100%;
-    height: 85em;
+    height: 71em;
     text-align: center;
     color: #fff;
     background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree.jpg");
@@ -198,7 +199,6 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    object-fit: cover;
 }
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
@@ -206,19 +206,15 @@ header .header-content .header-content-inner p {
     margin-right: 2em;
     font-size: 16px;
     color: #f9f4f2;
-    padding-right: 2.5em;
-    padding-left: 2.5em;
     width: auto;
-
 }
 .header-content hr {
     border-top: 1px solid #ccc !important;
-    width: 67%;
-    margin: 3px 121px 10px;
+    width: 65%;
     background-color: white;
+    margin-top: 0;
 }
 header .header-content {
-    header .header-content {
     position: relative;
     /* width: 65%; */
     padding: 45em 0em 0em 6em;
@@ -226,7 +222,6 @@ header .header-content {
     margin-right: 61em;
     /* margin-top: 45em; */
 }
-
 header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 0;
@@ -236,7 +231,7 @@ header .header-content .header-content-inner h1 {
 header .header-content-inner h2 {
     margin-top: 20px;
     margin-bottom: 10px;
-    padding: 1em 5em 1em 2em;
+
 }
 
 /* end of alt header styles ******/
@@ -566,10 +561,17 @@ and (orientation : portrait) {
         font-size: 13px;
     }
     header .header-content {
-        padding: 108px 15px 20px 15px;
+        position: relative;
+        width: auto;
+        padding: 16em 1em 1em 1em;
+        text-align: center;
+        margin-right: 0;
+        margin-left: 0;
     }
     .header-content .header-content-inner {
-        margin-top: 16.285714em;
+        margin-top: 10.285714em;
+        padding-right: .5em;
+        padding-left: .5em;
     }
     .header-content .header-content-inner h2 {
         font-size: 17px;
@@ -588,11 +590,13 @@ and (orientation : portrait) {
         margin-left: 7em;
     }
     .header-content .header-content-inner #untitled-region-1 {
-        font-size: 14px;
-        color: black;
+        font-size: 15px;
+        color: #fff;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        margin: 101px 10px 10px 20px;
         padding: 1px;
+        font-weight: 300;
+        margin-left: 0;
+        margin-right: 0;
     }
     #logo {
         width:65%;
@@ -646,15 +650,13 @@ and (orientation : portrait) {
 
 }
 
-
-/* Iphone 5 landscape ****************************/
-@media only screen
+/*@media only screen
 and (min-device-width : 320px)
-and (max-device-width : 568px)
+and (max-device-width : 1024px)
 and (orientation : landscape) {
     header {
         /*background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron.jpg");*/
-        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree.jpg");
+        /*background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree.jpg");
 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -680,20 +682,137 @@ and (orientation : landscape) {
         font-size: 13px;
     }
     header .header-content {
-        padding: 47px 15px 20px 15px;
+        padding: 112px 15px 20px 15px;
+        margin: 0;
     }
     .header-content .header-content-inner {
-        margin-top: 11.185714em;
+        margin-top: 10.185714em;
+        padding-left: 1em;
+    }
+    .header-content .header-content-inner h2 {
+        font-size: 17px;
+        margin-top: 10px;
+        padding: 24px 0px 1px 0px;
+        text-align: left;
+    }
+
+    .header-content .header-content-inner hr {
+        width: 56%;
+        float: left;
+
+    }
+    .header-content .header-content-inner .hr2 {
+        margin: 14px;
+        width: 50%;
+        margin-top: 20px;
+        margin-left: 7em;
+    }
+    .header-content .header-content-inner #untitled-region-1 {
+        font-size: 14px;
+        color: black;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin: 68px 10px 10px 20px;
+        padding: 1px;
+    }
+    #logo {
+        width:65%;
+        margin-left: 1.5em;
+    }
+    #book img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+    }
+    .conscious-life {
+        margin-bottom: -1.5em;
+    }
+    img#conscious-life {
+        width: 35% !important;
+        padding-top: 1.5em;
+    }
+    footer {
+        margin: 1.5em;
+        height: auto !important;
+    }
+    .me-tag {
+        text-align: center !important;
+    }
+    .me-tag a {
+        margin-top: 20px;
+        font-size: 10px;
+        color: #333333;
+    }
+    .copyright {
+        font-size: 12px !important;
+    }
+    #phone{
+        padding-left:0 !important;
+    }
+    #phone p {
+        font-size: 12px !important;
+    }
+    #email {
+        padding-right: 0 !important;
+    }
+    #email a {
+        font-size: 12px !important;
+    }
+    #logo {
+        width:55% !important;
+        margin-left: 1.5em;
+        margin-top: -8px;
+    }
+}*/
+/* Iphone 5 landscape ****************************/
+@media only screen
+and (max-device-width : 568px)
+and (orientation : landscape) {
+    header {
+        /*background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron.jpg");*/
+        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree.jpg");
+
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        height: 100%;
+    }
+    .navbar-brand {
+        float: left;
+        width: 60px;
+        height: 49px;
+    }
+    #burgess {
+        margin-top: 7em;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    body {
+        font-size: 13px;
+    }
+    header .header-content {
+        padding: 103px 15px 20px 15px;
+        margin: 0;
+    }
+    .header-content .header-content-inner {
+        margin-top: 10.185714em;
+        padding-left: 1em;
     }
     .header-content .header-content-inner h2 {
         font-size: 17px;
         margin-top: 10px;
         padding: 24px 1px 1px 1px;
+        text-align: left;
     }
 
     .header-content .header-content-inner hr {
-        margin: 6px auto;
-        width: 50%;
+        width: 56%;
+        float: left;
     }
     .header-content .header-content-inner .hr2 {
         margin: 14px;
@@ -761,7 +880,7 @@ and (orientation : landscape) {
 
 /* iPhone 6 portrait ******************************/
 @media only screen
-and (min-device-width : 375px)
+and (min-device-width : 569px)
 and (max-device-width : 667px)
 and (orientation : portrait) {
     header {
@@ -792,11 +911,20 @@ and (orientation : portrait) {
     body {
         font-size: 13px;
     }
+
     header .header-content {
-        padding: 175px 15px 20px 15px;
+        position: relative;
+        width: auto;
+        padding: 16em 1em 1em 1em;
+        text-align: center;
+        margin-right: 0;
+        margin-left: 0;
+
     }
     .header-content .header-content-inner {
         margin-top: 16.285714em;
+        padding-right: .5em;
+        padding-left: .5em;
     }
     .header-content .header-content-inner h2 {
         font-size: 17px;
@@ -815,11 +943,13 @@ and (orientation : portrait) {
         margin-left: 7em;
     }
     .header-content .header-content-inner #untitled-region-1 {
-        font-size: 14px;
-        color: black;
+        font-size: 15px;
+        color: #fff;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        margin: 79px 10px 10px 20px;
         padding: 1px;
+        font-weight: 300;
+        margin-left: 0;
+        margin-right: 0;
     }
     #logo {
         width:65%;
@@ -874,7 +1004,7 @@ and (orientation : portrait) {
 
 /* iPhone 6 landscape ******************************/
 @media only screen
-and (min-device-width : 375px)
+and (min-device-width : 569px)
 and (max-device-width : 667px)
 and (orientation : landscape) {
     header {
@@ -886,98 +1016,118 @@ and (orientation : landscape) {
         -o-background-size: cover;
         height: 100%;
     }
+
     .navbar-brand {
         float: left;
         width: 60px;
         height: 49px;
     }
+
     #burgess {
-        margin-top: 282px;
+        margin-top: 94px;
     }
+
     h3 {
         font-size: 18px;
     }
+
     h4 {
         font-size: 16px;
     }
+
     body {
         font-size: 14px;
     }
+
     header .header-content {
-        padding: 71px 15px 20px 15px;
+        padding: 11em 1.5em 2em 1.5em;
+        margin: 0;
     }
+
     .header-content .header-content-inner {
-        margin-top: 11.185714em;
+        margin-top: 9.185714em;
+        padding-left: 1em;
     }
+
     .header-content .header-content-inner h2 {
         font-size: 17px;
         margin-top: 10px;
         padding: 24px 1px 1px 1px;
+        text-align: left;
+
     }
 
     .header-content .header-content-inner hr {
-        margin: 6px auto;
         width: 50%;
+        float: left;
     }
-    .header-content .header-content-inner .hr2 {
-        margin: 14px;
-        width: 50%;
-        margin-top: 20px;
-        margin-left: 7em;
-    }
+
     .header-content .header-content-inner #untitled-region-1 {
         font-size: 14px;
         color: black;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        margin: 128px 10px 10px 20px;
+        margin: 5.6em 1em 1em 2em;
         padding: 1px;
     }
+
     #logo {
-        width:65%;
+        width: 65%;
         margin-left: 1.5em;
     }
+
     #book img {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 40%;
     }
+
     .conscious-life {
         margin-bottom: -1.5em;
     }
+
     img#conscious-life {
         width: 35% !important;
         padding-top: 1.5em;
     }
+
     footer {
         margin: 1.5em;
         height: auto !important;
     }
+
     .me-tag {
         text-align: center !important;
     }
+
     .me-tag a {
         margin-top: 20px;
         font-size: 10px;
         color: #333333;
     }
+
     .copyright {
-        font-size: 12px !important;
+        font-size: 12px;
     }
-    #phone{
-        padding-left:0 !important;
+
+    #phone {
+        padding-left: 0;
     }
+
     #phone p {
-        font-size: 12px !important;
+        font-size: 12px;
     }
+
     #email {
-        padding-right: 0 !important;
+        padding-right: 0;
     }
+
     #email a {
-        font-size: 12px !important;
+        font-size: 12px;
     }
+
     #logo {
-        width:55% !important;
+        width: 55%;
         margin-left: 1.5em;
         margin-top: -8px;
     }
@@ -985,7 +1135,7 @@ and (orientation : landscape) {
 
 /* iPhone 6 Plus portrait *************************/
 @media only screen
-and (min-device-width : 414px)
+and (min-device-width : 320px)
 and (max-device-width : 736px)
 and (orientation : portrait) {
     header {
@@ -1005,7 +1155,7 @@ and (orientation : portrait) {
         height: 49px;
     }
     #burgess {
-        margin-top: 100px;
+        margin-top: 0em;
     }
     h3 {
         font-size: 18px;
@@ -1017,33 +1167,39 @@ and (orientation : portrait) {
         font-size: 13px;
     }
     header .header-content {
-        padding: 206px 15px 20px 15px;
+        position: relative;
+        width: auto;
+        padding: 16em 1em 1em 1em;
+        text-align: center;
+        margin-right: 0;
+        margin-left: 0;
     }
     .header-content .header-content-inner {
-        margin-top: 16.285714em;
+        margin-top: 22em;
+        padding-right: .5em;
+        padding-left: .5em;
     }
     .header-content .header-content-inner h2 {
-        font-size: 17px;
+        font-size: 16px;
         margin-top: 10px;
         padding: 24px 1px 1px 1px;
     }
 
     .header-content .header-content-inner hr {
-        margin: 6px auto;
         width: 50%;
+        margin-bottom: 5em;
     }
-    .header-content .header-content-inner .hr2 {
-        margin: 14px;
-        width: 50%;
-        margin-top: 20px;
-        margin-left: 7em;
-    }
+
     .header-content .header-content-inner #untitled-region-1 {
-        font-size: 14px;
+        display:none;
+        font-size: 15px;
         color: black;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        margin: 51px 10px 10px 20px;
         padding: 1px;
+        font-weight: 300;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 1.5em;
     }
     #logo {
         width:65%;
@@ -1098,7 +1254,7 @@ and (orientation : portrait) {
 
 /* iPhone 6 Plus landscape *************************/
 @media only screen
-and (min-device-width : 414px)
+and (min-device-width : 668px)
 and (max-device-width : 736px)
 and (orientation : landscape) {
     header {
@@ -1116,7 +1272,7 @@ and (orientation : landscape) {
         height: 49px;
     }
     #burgess {
-        margin-top: 282px;
+        margin-top: 93px;
     }
     h3 {
         font-size: 18px;
@@ -1129,6 +1285,7 @@ and (orientation : landscape) {
     }
     header .header-content {
         padding: 80px 15px 20px 15px;
+        margin-right: 0;
     }
     .header-content .header-content-inner {
         margin-top: 11.185714em;
@@ -1136,24 +1293,18 @@ and (orientation : landscape) {
     .header-content .header-content-inner h2 {
         font-size: 17px;
         margin-top: 10px;
-        padding: 24px 338px 1px 1px;
+        padding: 107px 338px 1px 1px;
     }
-
     .header-content .header-content-inner hr {
         margin: 6px 300px 1px 1px;
         width: 50%;
     }
-    .header-content .header-content-inner .hr2 {
-        margin: 14px;
-        width: 50%;
-        margin-top: 20px;
-        margin-left: 7em;
-    }
+
     .header-content .header-content-inner #untitled-region-1 {
         font-size: 14px;
         color: black;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        margin: 128px 10px 10px 20px;
+        margin: 72px 10px 10px 20px;
         padding: 1px;
     }
     #logo {
@@ -1170,15 +1321,15 @@ and (orientation : landscape) {
         margin-bottom: -1.5em;
     }
     img#conscious-life {
-        width: 35% !important;
+        width: 35%;
         padding-top: 1.5em;
     }
     footer {
         margin: 1.5em;
-        height: auto !important;
+        height: auto;
     }
     .me-tag {
-        text-align: center !important;
+        text-align: center;
     }
     .me-tag a {
         margin-top: 20px;
@@ -1186,22 +1337,22 @@ and (orientation : landscape) {
         color: #333333;
     }
     .copyright {
-        font-size: 12px !important;
+        font-size: 12px;
     }
     #phone{
-        padding-left:0 !important;
+        padding-left:0;
     }
     #phone p {
-        font-size: 12px !important;
+        font-size: 12px;
     }
     #email {
-        padding-right: 0 !important;
+        padding-right: 0;
     }
     #email a {
-        font-size: 12px !important;
+        font-size: 12px;
     }
     #logo {
-        width:55% !important;
+        width:55%;
         margin-left: 1.5em;
         margin-top: -8px;
     }
@@ -1213,8 +1364,8 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
     header {
-        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron-port.jpg");
-         /*background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
+       /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron-port.jpg");*/
+         background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");
         -webkit-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;
@@ -1275,9 +1426,10 @@ and (orientation : portrait) {
     }
     header .header-content {
         padding: 325px 15px 20px 15px;
+        margin: 0;
     }
     .header-content .header-content-inner {
-        margin-top: 8.185714em;
+        margin-top: 32.185714em;
     }
     .header-content .header-content-inner h2 {
         font-size: 25px;
@@ -1357,7 +1509,7 @@ and (max-device-width : 1024px)
 and (orientation : landscape) {
     header {
        /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron.jpg");*/
-        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-med.jpg");
+       background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-med.jpg");
         -webkit-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;
@@ -1422,19 +1574,23 @@ and (orientation : landscape) {
     }
     header .header-content {
         padding: 224px 15px 20px 15px;
+        margin: 0;
     }
     .header-content .header-content-inner {
-        margin-top: 7.185714em;
+        margin-top: 22.185714em;
+        padding-right: 22em;
     }
     .header-content .header-content-inner h2 {
         font-size: 23px;
         margin-top: 10px;
         padding: 20px 1px 1px 1px;
+        text-align: left;
     }
 
     .header-content .header-content-inner hr {
-        margin: 6px auto;
-        width: 50%;
+        width: 58%;
+        margin: 0;
+        float: left;
     }
     .header-content .header-content-inner .hr2 {
         margin: 14px;
@@ -1444,10 +1600,11 @@ and (orientation : landscape) {
     }
     .header-content .header-content-inner #untitled-region-1 {
         font-size: 14px;
-        color: black;
+        color: #fff;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        margin: 200px 10px 10px 20px;
+        margin: 2em 10em 1em 0;
         padding: 1px;
+
     }
     #logo {
         width:65%;
@@ -1500,6 +1657,61 @@ and (orientation : landscape) {
     }
 }
 
+/* Galaxy S5/ HTC One Portrait ***********************/
+@media screen
+and (device-width: 360px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+}
+/* Galaxy S5/ HTC One Landscape ***********************/
+@media screen
+and (device-width: 360px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) {
+
+}
+
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+
+
+}
 
 @media (max-width: 1211px) {
     .healers .healer-staff {
