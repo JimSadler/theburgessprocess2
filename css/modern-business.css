@@ -6,7 +6,7 @@
 
 /* Global Styles */
 
-html,
+html
 body {
     height: 100%;
     width: 100%;
@@ -55,8 +55,12 @@ div#marthaAbout {
     text-align: center;
 
 }
+.upcoming-lectures {
+    height: 24em;
+}
 .panel-body {
-    height: 132px;
+    height: 355px;
+    text-align: center;
 }
 #marthaAboutImg {
     padding-top: 10px;
@@ -126,6 +130,9 @@ footer {
     padding-right: 25px;
     padding-left: 25px;
 }
+.lectures-head{
+    font-size: 16px;
+}
 
 /* Header */
 /*.header-content-inner {
@@ -182,7 +189,7 @@ header .header-content-inner h2 {
 /* alternate header styles *********/
 .header-content-inner {
     -webkit-animation-duration: 4s;
-   margin-top: 45em;
+
 }
 .header-content {
     position: relative;
@@ -199,6 +206,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    -webkit-animation-duration: 2s !important;
 }
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
@@ -216,11 +224,10 @@ header .header-content .header-content-inner p {
 }
 header .header-content {
     position: relative;
-    /* width: 65%; */
-    padding: 45em 0em 0em 6em;
+    padding: 45em 0 0 6em;
     text-align: center;
-    margin-right: 61em;
-    /* margin-top: 45em; */
+
+
 }
 header .header-content .header-content-inner h1 {
     margin-top: 0;
@@ -279,6 +286,10 @@ ul.foot-contact {
     display: block;
     max-width: 100%;
     height: 465px;
+}
+.facilitator-hr {
+    border-top: 1px solid #ccc;
+    width: 75%;
 }
 #diana-about-txt, #christina-about-txt, #betty-about-txt, #tracy-about-txt {
     padding-top: 4.5em;
@@ -521,6 +532,33 @@ h4 .subheading {
 footer {
     margin: 50px 0;
 }
+/* Workshop Styles **************************************************/
+
+.animated.fadeIn {
+    -webkit-animation-duration: 3s !important;
+}
+.performance-class-panel-body {
+    height: 18em;
+}
+.advanced-class-panel-head {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.format-class-panel-head{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.format-class-panel-body{
+    height:23em;
+}
+.advanced-class-panel-body{
+    height: 20em;
+}
+
+
+
 
 /* Responsive Styles ****************************************************************************************************/
 /* work on stying the portrait header content for the new img
@@ -784,7 +822,7 @@ and (orientation : landscape) {
         height: 49px;
     }
     #burgess {
-        margin-top: 7em;
+        margin-top: 0;
     }
     h3 {
         font-size: 18px;
@@ -814,13 +852,8 @@ and (orientation : landscape) {
         width: 56%;
         float: left;
     }
-    .header-content .header-content-inner .hr2 {
-        margin: 14px;
-        width: 50%;
-        margin-top: 20px;
-        margin-left: 7em;
-    }
     .header-content .header-content-inner #untitled-region-1 {
+        display: none;
         font-size: 14px;
         color: black;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1024,7 +1057,7 @@ and (orientation : landscape) {
     }
 
     #burgess {
-        margin-top: 94px;
+        margin-top: 0;
     }
 
     h3 {
@@ -1063,6 +1096,7 @@ and (orientation : landscape) {
     }
 
     .header-content .header-content-inner #untitled-region-1 {
+        display: none;
         font-size: 14px;
         color: black;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1272,7 +1306,7 @@ and (orientation : landscape) {
         height: 49px;
     }
     #burgess {
-        margin-top: 93px;
+        margin-top: 0;
     }
     h3 {
         font-size: 18px;
@@ -1301,6 +1335,7 @@ and (orientation : landscape) {
     }
 
     .header-content .header-content-inner #untitled-region-1 {
+        display: none;
         font-size: 14px;
         color: black;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1674,7 +1709,7 @@ and (orientation: landscape) {
 
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1271px) {
     .navbar-header {
         float: none;
     }

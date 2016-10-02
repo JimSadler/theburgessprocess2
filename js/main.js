@@ -14,13 +14,15 @@ $(document).ready(function() {
 
         }
     });
-});
-$(document).on('click','.navbar-collapse.in',function(e) {
-    if( $(e.target).is('a') ) {
-        $(this).collapse('hide');
-    }
-});
 
+    $(document).on('click','.navbar-collapse.in',function(e) {
+        if( $(e.target).is('a') ) {
+            $(this).collapse('hide');
+            }
+        });
+  //added margin to h3
+    ele.find('h3:contains(2016)').css('margin-top','4em');
+});
 /*$( document ).ready(function() {
     $('#logo').hide().one("load",function(){
         $(this).fadeIn(2000);
