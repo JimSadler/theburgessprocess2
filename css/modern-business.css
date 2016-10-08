@@ -45,6 +45,9 @@ body {
     bottom: 0;
     opacity: 1;
 }
+.nav.fadeInDown {
+    -webkit-animation-duration: 2s;
+}
 div#burgess-blurb {
     margin-bottom: 40px;
 }
@@ -65,7 +68,10 @@ div#marthaAbout {
 #marthaAboutImg {
     padding-top: 10px;
     margin-top: 5em;
-
+}
+ #nav-container {
+    padding-right: 1em !important;
+    padding-left: 1em !important;
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color: rgba(221, 221, 221, 0);
@@ -80,11 +86,15 @@ footer {
 #navbar-index {
     background-color: rgba(2, 23, 40, 0.8);
 }
+
+
 .container-fluid {
     margin: auto;
     text-align: center;
-    border:none;
+    padding-right: 10px;
+    padding-left: 10px;
 }
+
 
 .copyright {
     margin-top: 15px;
@@ -112,7 +122,7 @@ footer {
     width: 100px;
     margin-left: 3.5em;
     margin-top: 5px;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 1300ms;
 }
 #marthaAbout.fadeIn{
     -webkit-animation-duration: 3s;
@@ -135,8 +145,12 @@ footer {
 }
 
 /* Header */
-/*.header-content-inner {
-    -webkit-animation-duration: 4s;
+.header-content-inner {
+    margin-top: 15em;
+
+}
+.header-content-inner.fadeInUpBig{
+    -webkit-animation-duration: 3500ms;
 }
 .header-content {
     position: relative;
@@ -183,11 +197,11 @@ header .header-content .header-content-inner h1 {
 header .header-content-inner h2 {
     margin-top: 20px;
     margin-bottom: 10px;
-}*/
+}
 
 /* end of Header */
 /* alternate header styles *********/
-.header-content-inner {
+/*.header-content-inner {
     -webkit-animation-duration: 4s;
 
 }
@@ -211,7 +225,7 @@ header {
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
     margin-left: 2em;
-    margin-right: 2em;
+    margin-right: 0;
     font-size: 16px;
     color: #f9f4f2;
     width: auto;
@@ -224,7 +238,7 @@ header .header-content .header-content-inner p {
 }
 header .header-content {
     position: relative;
-    padding: 45em 0 0 6em;
+    padding: 39em 0 0 1em;
     text-align: center;
 
 
@@ -239,7 +253,7 @@ header .header-content-inner h2 {
     margin-top: 20px;
     margin-bottom: 10px;
 
-}
+} */
 
 /* end of alt header styles ******/
 
@@ -535,10 +549,10 @@ footer {
 /* Workshop Styles **************************************************/
 
 .animated.fadeIn {
-    -webkit-animation-duration: 3s !important;
+    -webkit-animation-duration: 4s !important;
 }
 .performance-class-panel-body {
-    height: 18em;
+    height: 27em;
 }
 .advanced-class-panel-head {
     text-align: center;
@@ -570,8 +584,8 @@ and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation : portrait) {
     header {
-        /*background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron-port.jpg");*/
-        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");
+        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron-port.jpg");
+       /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
         -webkit-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;
@@ -807,8 +821,8 @@ and (orientation : landscape) {
 and (max-device-width : 568px)
 and (orientation : landscape) {
     header {
-        /*background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron.jpg");*/
-        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree.jpg");
+        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron.jpg");
+        /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -917,8 +931,8 @@ and (min-device-width : 569px)
 and (max-device-width : 667px)
 and (orientation : portrait) {
     header {
-        /*background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron-port.jpg");*/
-        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");
+        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron-port.jpg");
+        /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
         -webkit-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;
@@ -1041,8 +1055,8 @@ and (min-device-width : 569px)
 and (max-device-width : 667px)
 and (orientation : landscape) {
     header {
-        /*background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron.jpg");*/
-        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree.jpg");
+        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron.jpg");
+        /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
         -webkit-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;
@@ -1173,8 +1187,8 @@ and (min-device-width : 320px)
 and (max-device-width : 736px)
 and (orientation : portrait) {
     header {
-        /*background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron-port.jpg");*/
-        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");
+        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron-port.jpg");
+        /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
         -webkit-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;
@@ -1292,8 +1306,8 @@ and (min-device-width : 668px)
 and (max-device-width : 736px)
 and (orientation : landscape) {
     header {
-        /*background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron.jpg");*/
-       background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree.jpg");
+        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron.jpg");
+        /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
         -webkit-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;
@@ -1399,8 +1413,8 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
     header {
-       /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron-port.jpg");*/
-         background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");
+        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron-port.jpg");
+        /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
         -webkit-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;
@@ -1543,8 +1557,8 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) {
     header {
-       /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron.jpg");*/
-       background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-med.jpg");
+        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron.jpg");
+        /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
         -webkit-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;
