@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="shortcut icon" type="image/x-icon" href="img/m-fav3.ico">
 
     <title>Contact Martha</title>
 
@@ -58,28 +59,28 @@
             <ul class="nav navbar-nav navbar-right animated fadeInUp">
 
                 <li>
-                    <a href="#home">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
                     <a href="Facilitators.html">Facilitators</a>
                 </li>
                 <li>
-                    <a href="#burgess">The Burgess Process</a>
+                    <a href="TheBurgessProcess.html">The Burgess Process</a>
                 </li>
                 <li>
-                    <a href="#book">The Life You Want</a>
+                    <a href="index.html#book">The Life You Want</a>
                 </li>
                 <li>
-                    <a href="#radio">Radio Show</a>
+                    <a href="index.html#radio">Radio Show</a>
                 </li>
                 <li>
-                    <a href="#class">2016 Workshops</a>
+                    <a href="Workshops.html">2016 Workshops</a>
                 </li>
                 <li>
                     <a href="Testimonial.html">Testimonials</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact Martha</a>
+                    <a href="contact.html">Contact Martha</a>
                 </li>
                 <li>
                     <a href="http://www.marthaburgessnovak.net/RealTalkBlog">RealTalk with Martha </a>
@@ -92,55 +93,57 @@
 </nav>
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container animated fadeIn">
 
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Contact
-                    <small>Subheading</small>
+                <h1 class="page-header">Contact Martha
                 </h1>
-                <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
-                    </li>
-                    <li class="active">Contact</li>
-                </ol>
+
             </div>
         </div>
         <!-- /.row -->
 
         <!-- Content Row -->
-        <div class="row">
+        <div class="row contact-map">
             <!-- Map Column -->
             <div class="col-md-8">
                 <!-- Embedded Google Map -->
-                <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+
+                <iframe
+                        width="100%"
+                        height="400"
+                        frameborder="0" style="border:0"
+                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCZMNwXfRkon0gT7jWvGOcLD1HrGUF33Ug
+                           &q=Martha+Burgess+Novak,Atlanta+GA" allowfullscreen>
+                </iframe>
+
             </div>
             <!-- Contact Details Column -->
             <div class="col-md-4">
-                <h3>Contact Details</h3>
-                <p>
-                    3481 Melrose Place<br>Beverly Hills, CA 90210<br>
+               <!-- <h3>Contact Martha</h3> -->
+                <!--<p>
+                    195 Brandon Pl NE<br>Atlanta, GA 30328<br>
+                </p> -->
+                <p><i class="fa fa-phone fa-2x animated faa-ring faa-slow"></i>
+                    <abbr title="Phone"></abbr>:<a href="tel:7702064002"> (770) 206-4002</a>
+                <p><i class="fa fa-envelope"></i>
+                    <abbr title="Email"></abbr>:<a href="mailto:theburgessprocess@yahoo.com"> theburgessprocess@yahoo.com</a>
                 </p>
-                <p><i class="fa fa-phone"></i> 
-                    <abbr title="Phone">P</abbr>: (123) 456-7890</p>
-                <p><i class="fa fa-envelope-o"></i> 
-                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">name@example.com</a>
-                </p>
-                <p><i class="fa fa-clock-o"></i> 
-                    <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
+
                 <ul class="list-unstyled list-inline list-social-icons">
                     <li>
-                        <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+                        <a href="https://www.facebook.com/theburgessprocess"><i class="fa fa-facebook-square fa-2x"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                        <a href="https://www.linkedin.com/in/marthaburgess"><i class="fa fa-linkedin-square fa-2x"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+                        <a href="https://twitter.com/MarthaBurgess"><i class="fa fa-twitter-square fa-2x"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                        <a href="https://plus.google.com/u/0/108407100426749067671"><i class="fa fa-google-plus-square fa-2x"></i></a>
                     </li>
                 </ul>
             </div>
@@ -150,55 +153,83 @@
         <!-- Contact Form -->
         <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
         <div class="row">
-            <div class="col-md-8">
-                <h3>Send us a Message</h3>
-                <form name="sentMessage" id="contactForm" novalidate>
-                    <div class="control-group form-group">
-                        <div class="controls">
-                            <label>Full Name:</label>
-                            <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
-                            <p class="help-block"></p>
+            <div class="col-md-12">
+                <!-- Begin MailChimp Signup Form -->
+                <div id="mc_embed_signup">
+                    <form action="//marthaburgessnovak.us14.list-manage.com/subscribe/post?u=18e0a15010576ed7bb764c09b&amp;id=0eab7078f8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <h3 style="text-align:center;">Subscribe to our mailing list to recieve a gift</h3>
+                            <div class="indicates-required control-group form-group"><span class="asterisk">*</span> indicates required</div>
+                            <div class="mc-field-group control-group form-group">
+                                <label for="mce-FNAME">First Name </label>
+                                <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME">
+                            </div>
+                            <div class="mc-field-group control-group form-group">
+                                <label for="mce-LNAME">Last Name </label>
+                                <input type="text" value="" name="LNAME" class="form-control" id="mce-LNAME">
+                            </div>
+                            <div class="mc-field-group control-group form-group">
+                                <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+                                </label>
+                                <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" aria-required="true">
+                            </div>
+
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_18e0a15010576ed7bb764c09b_0eab7078f8" tabindex="-1" value=""></div>
+                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary"></div>
                         </div>
-                    </div>
-                    <div class="control-group form-group">
-                        <div class="controls">
-                            <label>Phone Number:</label>
-                            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
-                        </div>
-                    </div>
-                    <div class="control-group form-group">
-                        <div class="controls">
-                            <label>Email Address:</label>
-                            <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
-                        </div>
-                    </div>
-                    <div class="control-group form-group">
-                        <div class="controls">
-                            <label>Message:</label>
-                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
-                        </div>
-                    </div>
-                    <div id="success"></div>
-                    <!-- For success/fail messages -->
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
+                    </form>
+                </div>
+
+                <!--End mc_embed_signup-->
+
             </div>
 
         </div>
         <!-- /.row -->
 
-        <hr>
-
+    </div>
         <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+<footer>
+    <div id="contact" class="container-fluid">
+        <div class="row foot">
+
+            <div class="col-lg-12 col-md-12 col-xs-12 email-phone">
+                <ul class="foot-contact col-sm-12" style="list-style: none; font-size: 14px">
+                    <li class="col-lg-1 col-sm-12 text-center" id="phone">
+                        <a href="tel:7702064002"><i class="fa fa-phone fa-2x animated faa-ring faa-slow"></i><br> 770.206.4002</a>
+
+                    </li>
+                    <li class="col-lg-2 col-sm-12 text-center" id="email"><a href="mailto:theburgessprocess@yahoo.com"><i class="fa fa-envelope fa-2x "></i><br> Email Martha</a>
+
+                    </li>
+                    <li class="col-lg-9 col-sm-12 social-icon-container" style="float:right; text-align: right;">
+                        <ul class="list-inline social-icons">
+                            <li><a href="https://www.facebook.com/theburgessprocess" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/marthaburgess" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://www.youtube.com/user/marthaburgess"  target="_blank"><i class="fa fa-youtube"></i></a></li>
+                            <li><a href="https://plus.google.com/u/0/108407100426749067671"  target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="https://twitter.com/MarthaBurgess" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="col-lg-12 col-xs-12 col-md-12 copyright">
+                    <p class="copyright fa fa-copyright "> 2016 Martha Burgess Novak</p>
                 </div>
             </div>
-        </footer>
+
+        </div>
+
 
     </div>
+    <div class="container-fluid me-tag" style="margin-bottom: 25px;">
+        <a href="http://www.jimsadlerdevelopment.tech" target="_blank"><i class="fa fa-cog fa-spin fa-lg " aria-hidden="true"></i>  Website developed by Jim Sadler Development</a>
+    </div>
+</footer>
+
     <!-- /.container -->
 
     <!-- jQuery -->

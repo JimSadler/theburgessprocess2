@@ -14,18 +14,17 @@ body {
     font-size: 15px;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
+
 }
-a.fa-envelope-o {
-    color: #0b5868 !important;
+
+
+footer a[href="mailto:theburgessprocess@yahoo.com"], footer a[href="tel:7702064002"] {
+    color: cornsilk;
     text-decoration: none;
 }
-i.fa-envelope-o {
-    color: #0b5868 !important;
-    text-decoration: none;
-}
-a[href="mailto:theburgessprocess@yahoo.com"] {
-    color: #0b5868 !important;
-    text-decoration: none;
+
+span.asterisk {
+    color: red;
 }
 body {
     /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
@@ -78,7 +77,7 @@ div#marthaAbout {
 }
 footer {
     margin-top: 20px;
-    height: 400px;
+    height: 13em;
 }
 .navbar.about {
     background-color: rgba(2, 23, 40, 0.8);
@@ -86,7 +85,10 @@ footer {
 #navbar-index {
     background-color: rgba(2, 23, 40, 0.8);
 }
+.navbar-default .navbar-toggle {
 
+    margin-right: 1.5em;
+}
 
 .container-fluid {
     margin: auto;
@@ -97,14 +99,21 @@ footer {
 
 
 .copyright {
-    margin-top: 15px;
     font-size: 14px;
+    text-align: right;
+    padding-right: 2em !important;
 }
 .me-tag a{
     margin-top: 40px;
     font-size: 12px;
-    color: #333333;
+    color: cornsilk;
 }
+.me-tag {
+    margin-top: 2em;
+    /* margin-left: 4em; */
+    text-align: center;
+}
+
 
 .img-portfolio {
     margin-bottom: 30px;
@@ -146,11 +155,11 @@ footer {
 
 /* Header */
 .header-content-inner {
-    margin-top: 15em;
+    margin-top: 12em;
 
 }
 .header-content-inner.fadeInUpBig{
-    -webkit-animation-duration: 3500ms;
+    -webkit-animation-duration: 3050ms;
 }
 .header-content {
     position: relative;
@@ -169,14 +178,14 @@ header {
     -o-background-size: cover;
 }
 header .header-content .header-content-inner p {
-     margin-bottom: 50px;
-     margin-left: 2em;
-     margin-right: 2em;
-     font-size: 16px;
-     color: #f9f4f2;
-     padding-right: 4.5em;
-     padding-left: 4.5em;
-     width: auto;
+    margin-bottom: 50px;
+    /* margin-left: 2em; */
+    /* margin-right: 2em; */
+    font-size: 16px;
+    color: #f9f4f2;
+    padding-right: 2.5em;
+    padding-left: 2.5em;
+    width: auto;
  }
 hr {
     border-top: 1px solid #ccc !important;
@@ -284,17 +293,17 @@ hr {
     border-top: 1px solid #ccc !important;
     width: 50%;
 }
-a.fa-envelope-o {
-    color: #0b5868 !important;
+
+
+.healer-staff .text-center a:hover {
+    color: steelblue;
 }
-.healer-staff .text-center a:hover, .foot-contact ul li a:hover {
-    color: #008f63 !important;
-}
-.healer-staff .text-center a, .foot-contact ul li a {
-    color: #0b5868 !important;
+.healer-staff .text-center a {
+    color: dimgray;
 }
 ul.foot-contact {
-    color: #0b5868 !important;
+    color: cornsilk;
+    height: 3em;
 }
 #christina-about-img, #tracy-about-img, #betty-about-img, #diana-about-img {
     display: block;
@@ -392,34 +401,52 @@ ul.social-icons {
 .fa-2x {
     font-size: 1.3em !important;
 }
-ul.social-icons li a {
+footer ul.social-icons li a {
     list-style: none;
     display: block;
-    background-color: #777777;
     height: 32px !important;
     width: 32px !important;
-    border-radius: 100%;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 32px;
-    color: #f9f4f2;
+    color: cornsilk;
     outline: none;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
 
 }
-ul.social-icons li a:hover,
-ul.social-icons li a:focus,
-ul.social-icons li a:active {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6e6b4+13,f6e6b4+26,ed9017+86 */
-    background: #f6e6b4; /* Old browsers */
-    background: -moz-linear-gradient(top,  #f6e6b4 13%, #f6e6b4 26%, #ed9017 86%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #f6e6b4 13%,#f6e6b4 26%,#ed9017 86%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #f6e6b4 13%,#f6e6b4 26%,#ed9017 86%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#ed9017',GradientType=0 ); /* IE6-9 */
+.healers ul.social-icons li a {
+    list-style: none;
+    display: block;
+    height: 32px !important;
+    width: 32px !important;
+    font-size: 25px;
+    line-height: 32px;
+    color: dimgray;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 
-    color: #0b5868;
 }
+.healers ul.social-icons li .fa:hover,
+.healers ul.social-icons li a:focus,
+.healers ul.social-icons li a:active,
+/*a[href="mailto:theburgessprocess@yahoo.com"]:hover,
+a[href="tel:7702064002"]:hover,*/
+.healers .fa-envelope:hover,
+.healers .fa-phone:hover {
+    background-color: steelblue;
+    background-position: 100% 0;
+    background-size: 200% 200%;
+    color: transparent;
+    -webkit-transition: .1s .2s;
+    -webkit-background-clip: text;
+}
+
+
+
+
 .fa-3x:hover {
     color: #0b5868;
 }
@@ -538,13 +565,28 @@ h2 #welcome {
 }
 h4 .subheading {
     text-align: center;
-
 }
 
-/* Footer Styles */
+/* Footer Styles *************************************/
 
 footer {
-    margin: 50px 0;
+
+    background-color: #333333;
+    color: cornsilk;
+}
+.row.foot {
+    padding-top: 2em;
+}
+footer ul.social-icons li .fa:hover,
+footer ul.social-icons li a:focus,
+footer ul.social-icons li a:active,
+footer ul.foot-contact li a:hover {
+    background-color: skyBlue;
+    background-position: 100% 0;
+    background-size: 200% 200%;
+    color: transparent;
+    -webkit-transition: .1s .2s;
+    -webkit-background-clip: text;
 }
 /* Workshop Styles **************************************************/
 
@@ -571,8 +613,13 @@ footer {
     height: 20em;
 }
 
-
-
+/**** Contact Page *****/
+#mc_embed_signup_scroll {
+    margin: 5em;
+}
+.contact-map {
+    margin: 2em;
+}
 
 /* Responsive Styles ****************************************************************************************************/
 /* work on stying the portrait header content for the new img
@@ -667,29 +714,20 @@ and (orientation : portrait) {
         width: 35% !important;
         padding-top: 1.5em;
     }
-    footer {
-        margin: 1.5em;
-        height: auto !important;
-    }
-    .me-tag {
-        text-align: center !important;
-    }
-    .me-tag a {
-        margin-top: 20px;
-        font-size: 10px;
-        color: #333333;
-    }
+
+
+
     .copyright {
         font-size: 12px !important;
     }
     #phone{
-        padding-left:0 !important;
+
     }
     #phone p {
         font-size: 12px !important;
     }
     #email {
-        padding-right: 0 !important;
+
     }
     #email a {
         font-size: 12px !important;
@@ -1151,11 +1189,11 @@ and (orientation : landscape) {
     .me-tag a {
         margin-top: 20px;
         font-size: 10px;
-        color: #333333;
+        color: cornsilk;
     }
 
     .copyright {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     #phone {
@@ -1223,7 +1261,7 @@ and (orientation : portrait) {
         margin-left: 0;
     }
     .header-content .header-content-inner {
-        margin-top: 22em;
+        margin-top: 16em;
         padding-right: .5em;
         padding-left: .5em;
     }
@@ -1267,28 +1305,36 @@ and (orientation : portrait) {
         padding-top: 1.5em;
     }
     footer {
-        margin: 1.5em;
-        height: auto !important;
+
+        height: 469px;
     }
     .me-tag {
-        text-align: center !important;
+        text-align: center;
+        margin-top: 3em;
     }
     .me-tag a {
         margin-top: 20px;
         font-size: 10px;
-        color: #333333;
+        color: cornsilk;
     }
     .copyright {
         font-size: 12px !important;
     }
-    #phone{
-        padding-left:0 !important;
+    .social-icon-container {
+        padding-top: 3em;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    #phone {
+        padding: 0;
+        float: left;
     }
     #phone p {
         font-size: 12px !important;
     }
     #email {
-        padding-right: 0 !important;
+        padding: 0;
+        float: right;
     }
     #email a {
         font-size: 12px !important;
@@ -1383,7 +1429,7 @@ and (orientation : landscape) {
     .me-tag a {
         margin-top: 20px;
         font-size: 10px;
-        color: #333333;
+        color: cornsilk;
     }
     .copyright {
         font-size: 12px;
@@ -1527,7 +1573,7 @@ and (orientation : portrait) {
     .me-tag a {
         margin-top: 20px;
         font-size: 10px;
-        color: #333333;
+        color: cornsilk;
     }
     .copyright {
         font-size: 12px !important;
@@ -1682,7 +1728,7 @@ and (orientation : landscape) {
     .me-tag a {
         margin-top: 20px;
         font-size: 10px;
-        color: #333333;
+        color: cornsilk;
     }
     .copyright {
         font-size: 12px !important;
