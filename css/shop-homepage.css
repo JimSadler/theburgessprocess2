@@ -4,8 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+body#store {
+    padding-top: 122px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 .container-fluid {
     margin: auto;
@@ -80,69 +80,81 @@ body {
     padding: 9px;
     color: #333;
 }
-ul.social-icons {
-    list-style: none;
+.thumbnail {
     display: block;
-    margin-bottom: 35px;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+    margin-top: 3em;
 }
-ul.social-icons li a {
+
+.thumbnail .caption {
+    padding: 9px;
+    color: #333;
+    height: 9em;
+}
+/* Footer Styles *************************************/
+
+footer {
+
+    background-color: #333333;
+    color: cornsilk;
+    margin-top: 20px;
+    height: 13em;
+}
+.row.foot {
+    padding-top: 2em;
+}
+footer ul.social-icons li .fa:hover,
+footer ul.social-icons li a:focus,
+footer ul.social-icons li a:active,
+footer ul.foot-contact li a:hover {
+    background-color: skyBlue;
+    background-position: 100% 0;
+    background-size: 200% 200%;
+    color: transparent;
+    -webkit-transition: .1s .2s;
+    -webkit-background-clip: text;
+}
+footer ul.social-icons li a {
     list-style: none;
     display: block;
-    background-color: #777777;
     height: 32px !important;
     width: 32px !important;
-    border-radius: 100%;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 32px;
-    color: #f9f4f2;
+    color: cornsilk;
     outline: none;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-
-}
-ul.social-icons li a:hover,
-ul.social-icons li a:focus,
-ul.social-icons li a:active {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6e6b4+13,f6e6b4+26,ed9017+86 */
-    background: #f6e6b4; /* Old browsers */
-    background: -moz-linear-gradient(top,  #f6e6b4 13%, #f6e6b4 26%, #ed9017 86%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #f6e6b4 13%,#f6e6b4 26%,#ed9017 86%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #f6e6b4 13%,#f6e6b4 26%,#ed9017 86%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#ed9017',GradientType=0 ); /* IE6-9 */
-
-    color: #0b5868;
-}
-.fa-2x {
-    font-size: 1.3em !important;
-}
-.fa {
-    display: inline-block;
-
-}
-img#conscious-life {
-    width: 15%;
-    padding-top: 35px;
-}
-a.fa-envelope-o {
-    color: #0b5868 !important;
-    text-decoration: none;
-}
-i.fa-envelope-o {
-    color: #0b5868 !important;
-    text-decoration: none;
-}
-a[href="mailto:theburgessprocess@yahoo.com"] {
-    color: #0b5868 !important;
-    text-decoration: none;
 }
 ul.foot-contact {
-    color: #0b5868 !important;
+    color: cornsilk;
+    height: 3em;
 }
-.me-tag a {
+.copyright {
+    font-size: 14px;
+    text-align: right;
+    padding-right: 2em !important;
+}
+.me-tag a{
     margin-top: 40px;
     font-size: 12px;
-    color: #333333;
+    color: cornsilk;
 }
-
-
+.me-tag {
+    margin-top: 2em;
+    /* margin-left: 4em; */
+    text-align: center;
+}
+footer a[href="mailto:theburgessprocess@yahoo.com"], footer a[href="tel:7702064002"] {
+    color: cornsilk;
+    text-decoration: none;
+}
