@@ -48,58 +48,55 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar about navbar-default navbar-fixed-top" role="navigation">
-      <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+    <nav id="navbar-index" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid" id="nav-container">
+
+            <div class="navbar-header page scroll">
+                <button type="button" class="navbar-toggle animated fadeIn" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+
                 <a class="navbar-brand page scroll" href="index.html">
-                    <img  class="img-responsive animated flip " id="logo" src="img/m-logo-circle-fill-about-svg.svg" alt="Martha Burgess Novak logo"> <!--onload=$(this).fadeIn();--->
+                    <img  class="img-responsive animated flip" id="logo" src="img/m-logo-circle-fill-about-svg.svg" alt="Martha Burgess Novak logo"> <!--onload=$(this).fadeIn();--->
                 </a>
+                <!-- <a class="navbar-brand page scroll fade" href="index.html"><img id="logo2" class="img-responsive" src="/img/marthaLogoSmall.png" alt="" onload=$(this).fadeIn();></a>-->
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right animated fadeInDown">
 
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="TheBurgessProcess.html">The Burgess Process</a>
-                </li>
-                <li>
-                    <a href="Facilitators.html">Facilitators</a>
-                </li>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right animated fadeInDown">
 
-                <li>
-                    <a href="index.html#book">The Life You Want</a>
-                </li>
-                <li>
-                    <a href="index.html#radio">Radio Show</a>
-                </li>
-                <li>
-                    <a href="Workshops.html">Workshops</a>
-                </li>
-                <li>
-                    <a href="Testimonial.html">Testimonials</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact Martha</a>
-                </li>
-                <li>
-                    <a href="http://www.marthaburgessnovak.net/RealTalkBlog">RealTalk with Martha </a>
-                </li>
-            </ul>
-        </div>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="TheBurgessProcess.html">The Burgess Process</a>
+                    </li>
+                    <li>
+                        <a href="Facilitators.html">Facilitators</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#book">The Life You Want</a>
+                    </li>
+                    <li>
+                        <a href="index.html#radio">Radio Show</a>
+                    </li>
+                    <li>
+                        <a href="Workshops.html">Workshops</a>
+                    </li>
+                    <li>
+                        <a href="http://www.marthaburgessnovak.net/RealTalkBlog">RealTalk with Martha </a>
+                    </li>
+                </ul>
+            </div>
             <!-- /.navbar-collapse -->
-      </div>
+        </div>
         <!-- /.container -->
     </nav>
+
 
     <!-- Page Content -->
     <div class="container animated fadeIn">
@@ -306,15 +303,21 @@
             <div class="row foot">
 
                 <div class="col-lg-12 col-md-12 col-xs-12 email-phone">
-                    <ul class="foot-contact col-sm-12" style="list-style: none; font-size: 14px">
-                        <li class="col-lg-1 col-sm-12 text-center" id="phone">
-                            <a href="tel:7702064002"><i class="fa fa-phone fa-2x animated faa-ring faa-slow"></i><br> 770.206.4002</a>
+                    <ul class="foot-contact foot-horiz-menu col-sm-12" style="list-style: none; font-size: 14px">
+                        <li class="col-lg-2 col-sm-2 col-xs-6 text-center" id="phone">
+                            <a href="tel:7702064002"><i class="fa fa-phone fa-2x animated faa-ring faa-slow "></i> 770.206.4002</a>
 
                         </li>
-                        <li class="col-lg-2 col-sm-12 text-center" id="email">
-                            <a href="mailto:theburgessprocess@yahoo.com"><i class="fa fa-envelope fa-2x "></i><br> Email Martha</a>
+                        <li class="col-lg-2 col-sm-2 col-xs-6 text-center" id="email">
+                            <a href="mailto:theburgessprocess@yahoo.com"><i class="fa fa-envelope fa-2x "></i> Email Martha</a>
                         </li>
-                        <li class="col-lg-9 col-sm-12 social-icon-container" style="float:right; text-align: right;">
+                        <li class="col-lg-2 col-sm-2 col-xs-6 text-center">
+                            <a href="Testimonial.html"><i class="fa fa-comment fa-2x"></i> Testimonials</a>
+                        </li>
+                        <li class="col-lg-2 col-sm-2 col-xs-6 text-center">
+                            <a href="contact.html"><i class="fa  fa-user fa-2x"></i> Contact</a>
+                        </li>
+                        <li class="col-lg-9 col-xs-12 col-sm-8 social-icon-container" style="float:right; text-align: right;">
                             <ul class="list-inline social-icons">
                                 <li><a href="https://www.facebook.com/theburgessprocess" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
                                 <li><a href="https://www.linkedin.com/in/marthaburgess" target="_blank"><i class="fa fa-linkedin"></i></a></li>
@@ -322,10 +325,13 @@
                                 <li><a href="https://plus.google.com/u/0/108407100426749067671"  target="_blank"><i class="fa fa-google-plus"></i></a></li>
                                 <li><a href="https://twitter.com/MarthaBurgess" target="_blank"><i class="fa fa-twitter"></i></a></li>
                             </ul>
+
                         </li>
                     </ul>
+
                     <div class="col-lg-12 col-xs-12 col-md-12 copyright">
-                        <p class="copyright fa fa-copyright "> 2016 Martha Burgess Novak</p>
+
+                        <p class="fa fa-copyright "> 2016 Martha Burgess Novak</p>
                     </div>
                 </div>
 

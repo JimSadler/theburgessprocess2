@@ -6,17 +6,19 @@
 
 /* Global Styles */
 
-html
+html,
 body {
     height: 100%;
     width: 100%;
     background-color: #f9f4f2;
     font-size: 15px;
-    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
-
+    overflow-y:auto;
+    font-family: AvenirLT-Book, sans-serif;
 }
-
+.row {
+    margin-right: 0;
+}
 span.asterisk {
     color: red;
 }
@@ -153,6 +155,8 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    min-height: 100%;
+
 }
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
@@ -539,17 +543,13 @@ footer {
 }
 .row.foot {
     padding-top: 2em;
+    margin-right: 0;
 }
 footer ul.social-icons li .fa:hover,
 footer ul.social-icons li a:focus,
 footer ul.social-icons li a:active,
 footer ul.foot-contact li a:hover {
-    background-color: skyBlue;
-    background-position: 100% 0;
-    background-size: 200% 200%;
-    color: transparent;
-    -webkit-transition: .1s .2s;
-    -webkit-background-clip: text;
+    color: #00b9f2;
 }
 footer ul.social-icons li a {
     list-style: none;
@@ -571,12 +571,18 @@ ul.foot-contact {
 .copyright {
     font-size: 14px;
     text-align: right;
-    padding-right: 2em !important;
+    padding-right: 4em;
+    padding-left: 1em;
+    margin-top: 3em;
 }
+
 .me-tag a{
     margin-top: 40px;
     font-size: 12px;
     color: cornsilk;
+}
+.me-tag a:hover {
+    color: #00b9f2;
 }
 .me-tag {
     margin-top: 2em;
@@ -587,8 +593,21 @@ footer a[href="mailto:theburgessprocess@yahoo.com"], footer a[href="tel:77020640
     color: cornsilk;
     text-decoration: none;
 }
+ul.foot-horiz-menu a {
+    color: cornsilk
+}
+ul.foot-horiz-menu {
+    float: left;
+    list-style: none;
+    display: flex;
+}
+/*ul.foot-horiz-menu li:after {
+    content: " "; padding: 0 .5em;
+}
+*/
 
-/* Workshop Styles **************************************************/
+
+    /* Workshop Styles **************************************************/
 
 .animated.fadeIn {
     -webkit-animation-duration: 4s !important;
@@ -716,6 +735,11 @@ body#store {
     color: #333;
     height: 25em;
 }
+/* Contact Page Styles *******************/
+
+#mc_embed_signup {
+    height: 36em;
+}
 /* Responsive Styles ****************************************************************************************************/
 /* work on stying the portrait header content for the new img
 /* Iphone 5 portrait ****************************/
@@ -814,6 +838,7 @@ and (orientation : portrait) {
 
     .copyright {
         font-size: 12px !important;
+        text-align: center;
     }
     #phone{
 
@@ -832,7 +857,9 @@ and (orientation : portrait) {
         margin-left: 1.5em;
         margin-top: -8px;
     }
-
+    .social-icon-container {
+        text-align: center !important;
+    }
 }
 
 /*@media only screen
@@ -1401,7 +1428,7 @@ and (orientation : portrait) {
     }
     footer {
 
-        height: 469px;
+        height: 350px;
     }
     .me-tag {
         text-align: center;
@@ -1659,8 +1686,8 @@ and (orientation : portrait) {
         padding-top: 1.5em;
     }
     footer {
-        margin: 1.5em;
-        height: auto !important;
+
+        height: 350px;
     }
     .me-tag {
         text-align: center !important;
@@ -1672,6 +1699,8 @@ and (orientation : portrait) {
     }
     .copyright {
         font-size: 12px !important;
+        padding-right: 3em !important;
+
     }
     #phone{
         padding-left:0 !important;
@@ -1689,6 +1718,9 @@ and (orientation : portrait) {
         width:80%;
         margin-left: 1.5em;
         margin-top: -8px;
+    }
+    .social-icon-container {
+        padding-right: 1em;
     }
 }
 

@@ -22,8 +22,7 @@ $(document).ready(function() {
     });
 });
 $(document).ready(function() {
-
-        $('a[href="http://www.blogtalkradio.com/marthaburgessnovak/2016/10/9/YouMatter."]').css('margin-bottom', '2em');
+    $('#contact .foot-contact li.col-lg-2').css({'padding-right':'0','padding-left':'0','width':'9.67%','font-size':'16px'});
 
 });
   //added margin to h3
