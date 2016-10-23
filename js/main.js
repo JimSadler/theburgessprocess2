@@ -22,7 +22,7 @@ $(document).ready(function() {
     });
 });
 $(document).ready(function() {
-    $('#contact .foot-contact li.col-lg-2').css({'padding-right':'0','padding-left':'0','width':'9.67%','font-size':'16px'});
+   // $('#contact .foot-contact li.col-lg-2').css({'padding-right':'0','padding-left':'0','width':'9.67%','font-size':'16px'});
 
 });
   //added margin to h3
@@ -35,3 +35,5 @@ $(document).ready(function() {
     });
     $('.fade').addClass('fade-in');
 });*/
+
+

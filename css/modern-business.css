@@ -18,6 +18,7 @@ body {
 }
 .row {
     margin-right: 0;
+    margin-left: 0;
 }
 span.asterisk {
     color: red;
@@ -539,7 +540,7 @@ footer {
     background-color: #333333;
     color: cornsilk;
     margin-top: 20px;
-    height: 13em;
+    height: 16em;
 }
 .row.foot {
     padding-top: 2em;
@@ -568,12 +569,16 @@ ul.foot-contact {
     color: cornsilk;
     height: 3em;
 }
+.foot-contact li {
+    padding-right: 1em;
+    padding-left: 1em;
+}
 .copyright {
     font-size: 14px;
     text-align: right;
     padding-right: 4em;
     padding-left: 1em;
-    margin-top: 3em;
+    margin-top: -1em;
 }
 
 .me-tag a{
@@ -583,6 +588,9 @@ ul.foot-contact {
 }
 .me-tag a:hover {
     color: #00b9f2;
+}
+.container-fluid.me-tag {
+    margin-top: 5em;
 }
 .me-tag {
     margin-top: 2em;
@@ -839,6 +847,9 @@ and (orientation : portrait) {
     .copyright {
         font-size: 12px !important;
         text-align: center;
+        padding-right: 4em;
+        padding-left: 4em;
+        margin-top: 2em;
     }
     #phone{
 
@@ -1432,7 +1443,7 @@ and (orientation : portrait) {
     }
     .me-tag {
         text-align: center;
-        margin-top: 3em;
+        margin-top: 8em;
     }
     .me-tag a {
         margin-top: 20px;
@@ -1441,21 +1452,28 @@ and (orientation : portrait) {
     }
     .copyright {
         font-size: 12px !important;
+        text-align: center;
+        padding-right: 4em;
+        padding-left: 4em;
+        margin-top: -2em;
     }
     .social-icon-container {
-        padding-top: 3em;
+        padding-top: 7em;
         padding-right: 0;
         padding-left: 0;
+        margin-top: 1em;
     }
     #phone {
-        padding: 0;
+        padding-right: .5em;
+        padding-left: .5em;
         float: left;
     }
     #phone p {
         font-size: 12px !important;
     }
     #email {
-        padding: 0;
+        padding-right: .5em;
+        padding-left: .5em;
         float: right;
     }
     #email a {
@@ -1466,6 +1484,26 @@ and (orientation : portrait) {
         margin-left: 1.5em;
         margin-top: -8px;
     }
+    ul.foot-horiz-menu a {
+        color: cornsilk
+    }
+    ul.foot-horiz-menu {
+        float: left;
+        list-style: none;
+        display: flex;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #testimonial-foot {
+        padding-right: .5em;
+        padding-left: .5em;
+    }
+
+    #contact-foot {
+        padding-right: .5em;
+        padding-left: .5em;
+    }
+
 }
 
 /* iPhone 6 Plus landscape *************************/
