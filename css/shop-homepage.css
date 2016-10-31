@@ -203,3 +203,6 @@ ul.foot-horiz-menu {
     list-style: none;
     display: flex;
 }
+.fa-2x {
+    font-size: 1.3em !important;
+}

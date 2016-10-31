@@ -30,6 +30,8 @@ body {
     margin-right: 35px !important;
     margin-left: 125px !important;
 }*/
+
+/* Animations **************/
 .fade {
     bottom: -50px;
     opacity: 0;
@@ -41,9 +43,14 @@ body {
     bottom: 0;
     opacity: 1;
 }
+.zoomInDown {
+    -webkit-animation-duration: 2s;
+}
 .nav.fadeInDown {
     -webkit-animation-duration: 2s;
 }
+/* End Animations **************************************/
+
 div#burgess-blurb {
     margin-bottom: 40px;
 }
@@ -665,7 +672,7 @@ body#store {
 
 }
 .navbar-default .navbar-nav > li > a {
-    color: #f9f2f4;
+    color: cornsilk;
 }
 #navbar-index {
     background-color: rgba(2, 23, 40, 0.8) !important;
@@ -747,6 +754,15 @@ body#store {
 
 #mc_embed_signup {
     height: 36em;
+}
+
+/* Book Styles **************************************************/
+
+.book {
+    margin: 1em 0 4em;
+}
+.teacup-overview {
+    padding-top: 3em;
 }
 /* Responsive Styles ****************************************************************************************************/
 /* work on stying the portrait header content for the new img
