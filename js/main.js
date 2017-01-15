@@ -23,6 +23,7 @@ $(document).ready(function() {
 });
 $(document).ready(function() {
    // $('#contact .foot-contact li.col-lg-2').css({'padding-right':'0','padding-left':'0','width':'9.67%','font-size':'16px'});
+    //$('p:contains(package of six)').css('margin-bottom','45px');
 
 });
   //added margin to h3
