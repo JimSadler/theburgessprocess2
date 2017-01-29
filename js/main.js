@@ -25,16 +25,10 @@ $(document).ready(function() {
    // $('#contact .foot-contact li.col-lg-2').css({'padding-right':'0','padding-left':'0','width':'9.67%','font-size':'16px'});
     //$('p:contains(package of six)').css('margin-bottom','45px');
 
-});
-  //added margin to h3
+    $('.workshop-content form .buyNowButton').parent().css('margin-top','3em');
 
-/*$( document ).ready(function() {
-    $('#logo').hide().one("load",function(){
-        $(this).fadeIn(2000);
-    }).each(function(){
-        if(this.complete) $(this).trigger("load");
-    });
-    $('.fade').addClass('fade-in');
-});*/
+
+});
+
 
 
