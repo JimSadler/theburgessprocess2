@@ -16,9 +16,26 @@ body {
     overflow-y:auto;
     font-family: AvenirLT-Book, sans-serif;
 }
+a button.buyNow {
+    background:    #073763;
+    background:    -webkit-linear-gradient(#073763, #0e808e);
+    background:    linear-gradient(#073763, #0e808e);
+    border-radius: 4px;
+    color:         #fff;
+    display:       inline-block;
+    padding:       8px 20px;
+    font:          normal 500 24px/1 "Pagella", serif;
+    text-align:    center;
+    text-shadow:   1px 1px 0 #000;
+    letter-spacing: 2px;
+
+}
 .row {
     margin-right: 0;
     margin-left: 0;
+}
+section {
+    margin-bottom: 4em;
 }
 span.asterisk {
     color: red;
@@ -557,10 +574,10 @@ hr.ls-buy-hr {
     margin-top: 10px;
     margin-bottom: 45px;
 }
-input.buyNowButton {
+input.buyNowButton, a button.buyNow  {
     -webkit-filter: grayscale(1);
 }
-input.buyNowButton:hover {
+input.buyNowButton:hover, a button.buyNow:hover {
     -webkit-filter: grayscale(0);
 }
 .row.buyNow {
