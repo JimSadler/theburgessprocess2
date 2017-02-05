@@ -26,6 +26,7 @@ $(document).ready(function() {
     //$('p:contains(package of six)').css('margin-bottom','45px');
 
     $('.workshop-content form .buyNowButton').parent().css('margin-top','3em');
+    //$('div:has(h4:contains(Archived Shows)) a.btn').css('width','15%');
 
 
 });

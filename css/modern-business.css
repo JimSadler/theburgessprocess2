@@ -30,6 +30,42 @@ a button.buyNow {
     letter-spacing: 2px;
 
 }
+.CTA_container .fa {
+    border-radius: 60px;
+    color: white;
+    border: white solid 1px;
+    padding: 6px;
+}
+.wrap {
+    width: 240px;
+    margin: 140px auto;
+}
+
+.btn-default {
+    background-color: transparent;
+    padding: 20px;
+    margin: 20px 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgba(0,0,0,0.075);
+    color: rgba(0, 0, 0, 0.9);
+    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.5);
+    transition: 0.26s ease;
+}
+
+.btn-default:hover {
+    box-shadow: inset 0 0 0 50px rgba(0, 0, 0, 0.7);
+    color: rgba(255,255,255,0.75);
+}
+
+.btn-default:active {
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.9);
+    transition: 0.12s ease;
+}
 .row {
     margin-right: 0;
     margin-left: 0;
@@ -152,6 +188,7 @@ footer {
     min-height: 1px;
     padding-right: 25px;
     padding-left: 25px;
+    padding-bottom: 25px;
 }
 .lectures-head{
     font-size: 16px;
@@ -159,7 +196,7 @@ footer {
 
 /* Header */
 .header-content-inner {
-    margin-top: 12em;
+    margin-top: 6em;
 
 }
 .header-content-inner.fadeInUpBig{
@@ -174,7 +211,7 @@ header {
     width: 100%;
     height: 71em;
     text-align: center;
-    color: #fff;
+    color: black;
     background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -184,11 +221,11 @@ header {
 
 }
 header .header-content .header-content-inner p {
-    margin-bottom: 50px;
+    margin-bottom: 15px;
     /* margin-left: 2em; */
     /* margin-right: 2em; */
     font-size: 16px;
-    color: #f9f4f2;
+    color: black;
     padding-right: 2.5em;
     padding-left: 2.5em;
     width: auto;
@@ -197,11 +234,19 @@ hr {
     border-top: 1px solid #ccc !important;
     width: 50%;
 }
+header hr {
+    border-top: 1px solid black !important;
+
+}
 header .header-content {
     position: relative;
     width: 100%;
-    padding: 340px 15px 20px 15px;
+    padding: 133px 15px 20px 15px;
     text-align: center;
+}
+header .header-content-inner {
+    background-color:rgba(245, 245, 245, 0.50);
+    border-radius: 15px;
 }
 header .header-content .header-content-inner h1 {
     margin-top: 0;
@@ -212,6 +257,19 @@ header .header-content .header-content-inner h1 {
 header .header-content-inner h2 {
     margin-top: 20px;
     margin-bottom: 10px;
+    font-size: 23px;
+}
+#facBut.animated.bounceInUp{
+    -webkit-animation-delay: 2.5s;
+
+}
+#bookBut.animated.bounceInUp{
+    -webkit-animation-delay: 3s;
+
+}
+#workBut.animated.bounceInUp{
+    -webkit-animation-delay: 3.5s;
+
 }
 
 /* end of Header */
@@ -471,7 +529,66 @@ div .radio-archives ul {
     background-color: rgba(45, 75, 83, 0.72);;
 
 }
-.btn-default {
+a.animated-button:link, a.animated-button:visited {
+    position: relative;
+    /*display: block;*/
+    margin: 20px auto 0;
+    /*padding: 14px 15px;*/
+    color: black;
+    font-size:14px;
+    /*font-weight: bold;*/
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    letter-spacing: .08em;
+    border-radius: 7px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+a.animated-button:link:after, a.animated-button:visited:after {
+    content: "";
+    position: absolute;
+    height: 0%;
+    left: 50%;
+    top: 50%;
+    width: 150%;
+    z-index: -1;
+    -webkit-transition: all 0.75s ease 0s;
+    -moz-transition: all 0.75s ease 0s;
+    -o-transition: all 0.75s ease 0s;
+    transition: all 0.75s ease 0s;
+}
+a.animated-button:link:hover, a.animated-button:visited:hover {
+    color: #FFF;
+    text-shadow: none;
+    background-color: #0E7283;
+}
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+    height: 450%;
+}
+
+
+/* Sandy Buttons */
+
+a.animated-button.victoria-three {
+    border: 2px solid #0E7283;
+}
+a.animated-button.victoria-three:after {
+    background: #0E7283;
+    opacity: .5;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+a.animated-button.victoria-three:hover:after {
+    height: 140%;
+    opacity: 1;
+}
+/*btn-default {
     color: #333;
     background-color: #fff;
     border-color: #ccc;
@@ -498,15 +615,14 @@ div .radio-archives ul {
     border-radius: 4px;
 }
 .btn:hover {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6e6b4+13,f6e6b4+26,ed9017+86 */
-    background: #f6e6b4; /* Old browsers */
-    background: -moz-linear-gradient(top,  #f6e6b4 13%, #f6e6b4 26%, #ed9017 86%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #f6e6b4 13%,#f6e6b4 26%,#ed9017 86%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #f6e6b4 13%,#f6e6b4 26%,#ed9017 86%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#ed9017',GradientType=0 ); /* IE6-9 */
+background: #f6e6b4;
+background: -moz-linear-gradient(top,  #f6e6b4 13%, #f6e6b4 26%, #ed9017 86%);
+background: -webkit-linear-gradient(top,  #f6e6b4 13%,#f6e6b4 26%,#ed9017 86%);
+background: linear-gradient(to bottom,  #f6e6b4 13%,#f6e6b4 26%,#ed9017 86%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#ed9017',GradientType=0 ); /* IE6-9 */
 
-    color: #0b5868;
-}
+/*color: #0b5868;
+}*/
 
 nav {
     transition-duration: 2s;
