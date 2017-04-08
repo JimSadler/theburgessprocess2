@@ -30,6 +30,25 @@ a button.buyNow {
     letter-spacing: 2px;
 
 }
+@media (min-width: 768px) {
+
+    .navbar-nav {
+        float: left;
+        margin-left: 130px;
+    }
+}
+
+ul.social-icons1.animated.fadeIn {
+    float:right;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-duration: 2s;
+}
+ul.social-icons1 .fa {
+    font-size: 20px;
+    color: cornsilk;}
+
 .CTA_container .fa {
     border-radius: 60px;
     color: white;
@@ -710,7 +729,7 @@ input.buyNowButton:hover, a button.buyNow:hover {
 
 footer {
 
-    background-color: #405458;
+    background-color: #202D3D;
     color: cornsilk;
     margin-top: 20px;
     height: 16em;
@@ -763,7 +782,7 @@ ul.foot-contact {
     color: #00b9f2;
 }
 .container-fluid.me-tag {
-    margin-top: 5em;
+    margin-top: 0em;
 }
 .me-tag {
     margin-top: 2em;
@@ -1576,7 +1595,7 @@ and (orientation : portrait) {
         margin-left: 0;
     }
     .header-content .header-content-inner {
-        margin-top: 16em;
+        margin-top: -4em;
         padding-right: .5em;
         padding-left: .5em;
     }
@@ -1588,7 +1607,16 @@ and (orientation : portrait) {
 
     .header-content .header-content-inner hr {
         width: 50%;
-        margin-bottom: 5em;
+        margin-bottom: 1em;
+    }
+    header .header-content .header-content-inner p {
+
+        padding-right: 0.5em;
+        padding-left: 0.5em;
+
+    }
+    #workBut{
+        margin-left:7em;
     }
 
     .header-content .header-content-inner #untitled-region-1 {
@@ -2151,6 +2179,9 @@ and (orientation: landscape) {
     .collapse.in{
         display:block !important;
     }
+    .collapse.in .social-icons1  {
+        display:none;
+    }
 
 
 }
@@ -2202,4 +2233,99 @@ and (orientation: landscape) {
 }
 p.theprocesstxt {
     margin-bottom: 55px;
+}
+
+/*Store ***********************************************/
+.page-content {
+    height: 1000px;
+}
+.C-D {
+    margin: 2em 0 6em;
+}
+.D-V {
+    margin: 2em 0 6em;
+}
+.fadeIn {
+    -webkit-animation-duration: 2s !important;
+}
+.fadeInUp {
+    -webkit-animation-duration: 1s !important;
+    -webkit-animation-delay: 2.5s;
+}
+.fadeInDown {
+    -webkit-animation-duration: 3s !important;
+
+}
+.zoomInDown {
+    -webkit-animation-duration: 1.5s !important;
+
+}
+.D-V.fadeIn {
+    -webkit-animation-duration: 2s !important;
+    -webkit-animation-delay: 1s;
+}
+.container-fluid {
+    margin: auto;
+    text-align: center;
+    border: none;
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+    margin-top: 3em;
+}
+
+.thumbnail .caption {
+    padding: 9px;
+    color: #333;
+    height: 9em;
 }
