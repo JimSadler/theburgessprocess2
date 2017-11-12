@@ -28,6 +28,13 @@ $(document).ready(function() {
     $('.workshop-content form .buyNowButton').parent().css('margin-top','3em');
     //$('div:has(h4:contains(Archived Shows)) a.btn').css('width','15%');
 
+    // if($(window).height() > $("body").height()){
+    //     $("footer").css("position", "fixed");
+    // } else {
+    //     $("footer").css("position", "static");
+    // }
+
+
 
 });
 

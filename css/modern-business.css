@@ -16,6 +16,7 @@ body {
     /*overflow-y:auto;*/
     font-family: AvenirLT-Book, sans-serif;
 }
+
 a button.buyNow {
     background:    #073763;
     background:    -webkit-linear-gradient(#073763, #0e808e);
@@ -29,6 +30,9 @@ a button.buyNow {
     text-shadow:   1px 1px 0 #000;
     letter-spacing: 2px;
 
+}
+#index-foot {
+    margin-top: 21em;
 }
 @media (min-width: 768px) {
 
@@ -154,6 +158,7 @@ div#marthaAbout {
 footer {
     margin-top: 20px;
     height: 13em;
+
 }
 .navbar.about {
     background-color: rgba(2, 23, 40, 0.8);
