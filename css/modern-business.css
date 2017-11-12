@@ -13,7 +13,7 @@ body {
     background-color: #f9f4f2;
     font-size: 15px;
     -webkit-overflow-scrolling: touch;
-    overflow-y:auto;
+    /*overflow-y:auto;*/
     font-family: AvenirLT-Book, sans-serif;
 }
 a button.buyNow {
@@ -215,11 +215,12 @@ footer {
 
 /* Header */
 .header-content-inner {
-    margin-top: 6em;
+    margin-top: -1em;
 
 }
 .header-content-inner.fadeInUpBig{
     -webkit-animation-duration: 3050ms;
+    margin-top: -3em;
 }
 .header-content {
     position: relative;
@@ -264,7 +265,7 @@ header .header-content {
     text-align: center;
 }
 header .header-content-inner {
-    background-color:rgba(245, 245, 245, 0.50);
+    background-color:rgba(245, 245, 245, 0.30);
     border-radius: 15px;
 }
 header .header-content .header-content-inner h1 {
@@ -278,20 +279,33 @@ header .header-content-inner h2 {
     margin-bottom: 10px;
     font-size: 23px;
 }
-#facBut.animated.bounceInUp{
+.row.CTA_container {
+    margin-top: -15em;
+    text-align: center;
+}
+#storeBut.animated.bounceInUp{
     -webkit-animation-delay: 2.5s;
+    background-color: #F8B857;
+    width: 12.5em;
 
 }
 #bookBut.animated.bounceInUp{
     -webkit-animation-delay: 3s;
+    background-color: #F8B857;
+    width: 12.5em;
 
 }
 #workBut.animated.bounceInUp{
     -webkit-animation-delay: 3.5s;
+    background-color: #F8B857;
+    width: 12.5em;
 
 }
 
 /* end of Header */
+section.feature {
+    margin-top: 15em;
+}
 /* alternate header styles *********/
 /*.header-content-inner {
     -webkit-animation-duration: 4s;
@@ -479,7 +493,7 @@ ul.social-icons {
 
 }
 .fa-2x {
-    font-size: 1.3em !important;
+    font-size: 1.7em !important;
 }
 
 .healers ul.social-icons li a {
@@ -511,7 +525,35 @@ a[href="tel:7702064002"]:hover,*/
     -webkit-background-clip: text;
 }
 
+@media only screen and (max-device-width: 736px) and (min-device-width: 320px) and (orientation: portrait)  {
 
+    .workshop-content section.basc-form-busi, .workshop-content section.format-header {
+    margin-bottom: -4em;
+    }
+    .workshop-content .page-header {
+        margin-bottom: -1em;
+    }
+    .workshop-content .performance-class-panel-body {
+        height: 59em;
+    }
+    .workshop-content .advanced-class-panel-body {
+        height: 41em;
+    }
+    .social-icon-container {
+        /*padding-top: 7em !important;*/
+    }
+    .footer {
+        height:289px;
+    }
+    .foot-contact li {
+        color: transparent !important;
+    }
+    .header-content-inner a.animated-button.victoria-three {
+        border: 2px solid #f9bf5c;
+    }
+
+
+}
 
 
 .fa-3x:hover {
@@ -1072,6 +1114,10 @@ and (orientation : portrait) {
     .social-icon-container {
         text-align: center !important;
     }
+    .email-phone {
+        text-align: center !important;
+        padding-bottom: 1em;
+    }
 }
 
 /*@media only screen
@@ -1616,7 +1662,7 @@ and (orientation : portrait) {
 
     }
     #workBut{
-        margin-left:7em;
+        /*margin-left:7em;*/
     }
 
     .header-content .header-content-inner #untitled-region-1 {
@@ -1649,7 +1695,7 @@ and (orientation : portrait) {
     }
     footer {
 
-        height: 350px;
+        height: 16.4em;
     }
     .me-tag {
         text-align: center;
@@ -1661,29 +1707,34 @@ and (orientation : portrait) {
         color: cornsilk;
     }
     .copyright {
-        font-size: 12px !important;
+        /*font-size: 12px !important;*/
         text-align: center;
         padding-right: 4em;
         padding-left: 4em;
         margin-top: -2em;
+        padding-bottom: .1em;
+    }
+    p.fa.fa-copyright {
+        font-size: 13px !important;
+        font-weight: bolder;
     }
     .social-icon-container {
-        padding-top: 7em;
+        /*padding-top: 1em;*/
         padding-right: 0;
         padding-left: 0;
-        margin-top: 1em;
+        /*margin-top: 1em;*/
     }
     #phone {
-        padding-right: .5em;
-        padding-left: .5em;
+        padding-right: 2em;
+        padding-left: 2em;
         float: left;
     }
     #phone p {
         font-size: 12px !important;
     }
     #email {
-        padding-right: .5em;
-        padding-left: .5em;
+        padding-right: 2em;
+        padding-left: 2em;
         float: right;
     }
     #email a {
@@ -1705,13 +1756,13 @@ and (orientation : portrait) {
         padding-right: 0;
     }
     #testimonial-foot {
-        padding-right: .5em;
-        padding-left: .5em;
+        padding-right: 2em;
+        padding-left: 2em;
     }
 
     #contact-foot {
-        padding-right: .5em;
-        padding-left: .5em;
+        padding-right: 2em;
+        padding-left: 2em;
     }
 
 }
@@ -2214,15 +2265,38 @@ and (orientation: landscape) {
         -webkit-order: 2;
         order: 2;
     }
+    #diana-about-txt, #christina-about-txt, #betty-about-txt, #tracy-about-txt {
+        padding: 0em;
+        /*margin-top: 130px;*/
+    }
 
     .healers .image {
-        width: 366px !important;
-        height: 465px !important;
+        /*width: 366px !important;*/
+        height: 265px !important;
         margin: auto;
         -webkit-box-ordinal-group: 1;
         -moz-box-ordinal-group: 1;
         -ms-flex-order: 1;
         order: 1;
+    }
+    #christina-about-img, #tracy-about-img, #betty-about-img, #diana-about-img {
+        display: block;
+        max-width: 100%;
+        height: 265px;
+    }
+    #carousel-example-generic {
+        display:none;
+    }
+    #teacup-img img, #book-img img {
+        width: 168px;
+        height: 251px;
+    }
+    .row.CTA_container {
+        margin-top: -18em;
+        /*text-align: center;*/
+    }
+    .h1, h1 {
+        font-size: 24px;
     }
 }
 /*---------------------------------------------------->*/
