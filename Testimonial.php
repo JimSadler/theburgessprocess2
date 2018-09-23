@@ -1,0 +1,65 @@
+<?php include 'includes/Header.php'; ?>
+
+
+<!-- Navigation -->
+<?php include 'includes/Navigation.php'; ?>
+
+<!-- Page Content -->
+    <div class="container animated fadeIn">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Testimonials</h1>
+                <div class="col-lg-12 editable" id="testi"><p class="container-paragraphs">She is a trustworthy and fearless guide for me on my journey to consciousness, with unwavering dedication to truth and lasting,
+                    positive change. Martha lives the simple, yet profound, message conveyed through her work. She has an extraordinary ability to bring ascended information and energy through to be integrated and experienced
+                    in the lives of others. She inspires me with her generosity of spirit and her vision. Thank you, Martha, for being an amazing blessing in my life, and a true friend.</p>
+                    <p class="testimonials">~ Betty Smith Sadler, Master Facilitator and Artist, Atlanta Georgia ~</p>
+                    <p class="container-paragraphs">I’ve been searching for God in my day to day life for most of my life. None of the teachers, books, or programs that I have explored over the years have come close to
+                        helping me know that connection in the way that Martha Burgess Novak and her Burgess Process does. Through her private sessions, lectures, CDs and group classes, I am finding my way to my own
+                        relationship with God. Martha facilitates with love, humor and great, good natured joy, teaching us how to come from Love, the God in each of us, in every relationship. What began as a personal
+                        quest has expanded into more deeply loving, happier relationships with my husband, our children, friends, and even the passing stranger. Our whole family works with the Burgess Process and has
+                        been transformed by it. Even those not directly working with Martha and her work respond to the changes in us and relationships change for the better. I can’t recommend Martha and this work highly
+                        enough!</p>
+                    <p class="testimonials">~ Susan Switzer – Wife, mother, grandmother and community volunteer ~</p>
+                    <p class="container-paragraphs">Martha was giving a leadership training course for AT&amp;T when I first met her. By the end of the day my back hurt so badly, I was lying on the floor. Martha looked down
+                        at me and asked me what I was doing. I told her I had chronic back problems. She said, "Come see me and I'll help you with that." Now I had sought help for my back from professionals for many years
+                        and nothing helped permanently. But I called the very next day. After working with Martha for a few short weeks, I was free of back pain and have stayed free of it for years now. I began taking her
+                        classes and was lucky enough to do weekly sessions and, shortly thereafter, I left AT&amp;T for a new career as a facilitator in her company. Martha Burgess Novak and The Burgess Process are life
+                        changers. They were for me and they will be for you.</p>
+                    <p class="testimonials">~ Tracy Turner, Master Facilitator, Atlanta, Ga. ~</p>
+                    <p class="container-paragraphs">Martha Burgess Novak is simply the best. I knew the moment I saw her that she was the one to lead me on the journey. She safely takes you to the deepest understandings of
+                        yourself and your world, far beyond anything you ever could have imagined. And from there, you begin the life you want. It's inevitable in her presence and you will never look back. Ever. Simply the
+                        best.</p>
+                    <p class="testimonials">~ Beth Leeper, Master Facilitator and Photographer, Atlanta ,Ga. ~</p>
+                    <p class="container-paragraphs">Martha is a brilliant teacher and this is the bottom line of every aspect of her work. She ignites a fire to learn about yourself, about the world and how to live in the
+                        fullest, most joyful, most productive and satisfying of ways. Even after nearly 8 years of working with Martha, I never cease to be amazed at her ability to inspire, and at her honesty and compassion;
+                        lessons are always growing deeper, never stagnant. She translates the language of universal truths into a usable language of the day-to-day and whether she is addressing one person or huge crowds, she
+                        has the ability to make everyone feel she is addressing only him or her. Working and learning with Martha has been exhilarating and the smartest and safest thing I've ever done. It changes life
+                        forever.</p>
+                    <p class="testimonials">~ Elizabeth Groth, Part owner of Groth Vineyards &amp; Winery, Napa Valley ~</p>
+                    <p class="container-paragraphs">Martha has transformed my life with her powerful energy work. She is love personified, radiant from the heart, wise, kind, intellectually brilliant and psychically gifted.
+                        I recommend her unequivocably.</p>
+                    <p class="testimonials">~ Randall P. Martin, Investment Adviser, Atlanta, Ga. ~</p>
+                    <p class="container-paragraphs">My wife has been into consciousness raising for years. I've accompanied her to this and that, and so I thought I was going along for another nice ride when she found Martha
+                        Burgess Novak and The Burgess Process. Right away, Martha and her work spoke to me as a man, as a husband, and as a father. I was truly blown away. Since that time, I have joined Martha in her classes,
+                        in her lectures, and in her private sessions. Her insight is amazing and she really does teach you how to live in joy, love, peace and harmony with ourselves, other people and our God. Martha doesn't
+                        just tell you "it's out there" for you. She gives you the practical, step by step approaches to get there, encouraging you fully along the way. I'd recommend her and this work to every man out there.
+                        Instead of waiting for your wives to initiate... this time, take your wives!</p>
+                    <p class="testimonials">~ Hugh Switzer, Retired Executive, The Coca Cola Company ~</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+
+
+        <!-- /.row -->
+
+
+    </div>
+
+<!-- Footer -->
+<?php include 'includes/Footer.php'; ?>

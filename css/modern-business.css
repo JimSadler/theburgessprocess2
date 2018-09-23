@@ -10,7 +10,7 @@ html,
 body {
     height: 100%;
     width: 100%;
-    background-color: #f9f4f2;
+    /* background-color: #f9f4f2; */
     font-size: 15px;
     -webkit-overflow-scrolling: touch;
     /*overflow-y:auto;*/
@@ -32,13 +32,13 @@ a button.buyNow {
 
 }
 #index-foot {
-    margin-top: 21em;
+    margin-top: 18em;
 }
 @media (min-width: 768px) {
 
     .navbar-nav {
         float: left;
-        margin-left: 130px;
+        margin-left: 26px;
     }
 }
 
@@ -51,7 +51,8 @@ ul.social-icons1.animated.fadeIn {
 }
 ul.social-icons1 .fa {
     font-size: 20px;
-    color: cornsilk;}
+    color: whitesmoke;
+}
 
 .CTA_container .fa {
     border-radius: 60px;
@@ -124,6 +125,9 @@ body {
 }
 .nav.fadeInDown {
     -webkit-animation-duration: 2s;
+    margin-right: -25%;
+    margin-left: 19%;
+
 }
 /* End Animations **************************************/
 
@@ -148,7 +152,7 @@ div#marthaAbout {
     padding-top: 10px;
     margin-top: 5em;
 }
- #nav-container {
+#nav-container {
     padding-right: 1em !important;
     padding-left: 1em !important;
 }
@@ -190,7 +194,7 @@ footer {
 /* Home Page Carousel */
 
 #logo  {
-//background: url('/img/M-logo-fill-index1.png') no-repeat;
+background: url('/img/M-logo-fill-index1.png') no-repeat;
     height: 100px;
     width: 100px;
     margin-left: 3.5em;
@@ -201,7 +205,7 @@ footer {
     -webkit-animation-duration: 3s;
 }
 #logo2 {
-//background: url('/img/M-logo-fill.png') no-repeat;
+    background: url('/img/M-logo-fill.png') no-repeat;
     height: 100px !important;
     width: 100px !important;
     margin-left: 1.5em;
@@ -234,16 +238,20 @@ footer {
 header {
     position: relative;
     width: 100%;
-    height: 71em;
+    height: 2em;
     text-align: center;
     color: black;
+    z-index: 1030;
+    
+}
+header#homepage {
     background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     min-height: 100%;
-
+    height: 71em;
 }
 header .header-content .header-content-inner p {
     margin-bottom: 15px;
@@ -254,7 +262,7 @@ header .header-content .header-content-inner p {
     padding-right: 2.5em;
     padding-left: 2.5em;
     width: auto;
- }
+}
 hr {
     border-top: 1px solid #ccc !important;
     width: 50%;
@@ -270,7 +278,7 @@ header .header-content {
     text-align: center;
 }
 header .header-content-inner {
-    background-color:rgba(245, 245, 245, 0.30);
+    background-color:rgba(245, 245, 245, 0.50);
     border-radius: 15px;
 }
 header .header-content .header-content-inner h1 {
@@ -285,31 +293,32 @@ header .header-content-inner h2 {
     font-size: 23px;
 }
 .row.CTA_container {
-    margin-top: -15em;
+    margin-top: -25em;
     text-align: center;
 }
-#storeBut.animated.bounceInUp{
+#storeBut.animated.bounceInLeft, .storeBut.animated.bounceInLeft{
     -webkit-animation-delay: 2.5s;
     background-color: #F8B857;
     width: 12.5em;
+    z-index:1100;
 
 }
-#bookBut.animated.bounceInUp{
+#bookBut.animated.fadeInUp{
     -webkit-animation-delay: 3s;
     background-color: #F8B857;
     width: 12.5em;
-
+    z-index:1100;
 }
-#workBut.animated.bounceInUp{
+#workBut.animated.bounceInRight {
     -webkit-animation-delay: 3.5s;
     background-color: #F8B857;
     width: 12.5em;
-
+    z-index:1100;
 }
 
 /* end of Header */
 section.feature {
-    margin-top: 15em;
+    margin-top: 25em;
 }
 /* alternate header styles *********/
 /*.header-content-inner {
@@ -518,8 +527,8 @@ ul.social-icons {
 .healers ul.social-icons li .fa:hover,
 .healers ul.social-icons li a:focus,
 .healers ul.social-icons li a:active,
-/*a[href="mailto:theburgessprocess@yahoo.com"]:hover,
-a[href="tel:7702064002"]:hover,*/
+    /*a[href="mailto:theburgessprocess@yahoo.com"]:hover,
+    a[href="tel:7702064002"]:hover,*/
 .healers .fa-envelope:hover,
 .healers .fa-phone:hover {
     background-color: steelblue;
@@ -533,7 +542,7 @@ a[href="tel:7702064002"]:hover,*/
 @media only screen and (max-device-width: 736px) and (min-device-width: 320px) and (orientation: portrait)  {
 
     .workshop-content section.basc-form-busi, .workshop-content section.format-header {
-    margin-bottom: -4em;
+        margin-bottom: -4em;
     }
     .workshop-content .page-header {
         margin-bottom: -1em;
@@ -553,7 +562,7 @@ a[href="tel:7702064002"]:hover,*/
     .foot-contact li {
         color: transparent !important;
     }
-    .header-content-inner a.animated-button.victoria-three {
+    .header-content-inner a.animated-button.victoria-three, button.animated-button.victoria-three {
         border: 2px solid #f9bf5c;
     }
 
@@ -566,7 +575,7 @@ a[href="tel:7702064002"]:hover,*/
 }
 
 .h4, .h5, .h6, h4, h5, h6 {
-    margin-top: 20px;
+    margin-top: 45px;
     margin-bottom: 30px;
 }
 .radio {
@@ -595,11 +604,22 @@ div .radio-archives ul {
     background-color: rgba(45, 75, 83, 0.72);;
 
 }
-a.animated-button:link, a.animated-button:visited {
+
+.navbar-default .navbar-nav > li > a.active {
+    /* background-color: rgba(248, 184, 87, 0.94); */
+    border-radius: 10px;
+    border-radius: 10px;
+    color: rgba(248, 184, 87, 0.94);
+}
+.navbar-nav > li {
+    float: left;
+    margin-top: .2em;
+}
+a.animated-button:link, a.animated-button:visited, button.animated-button:link, button.animated-button:visited {
     position: relative;
     /*display: block;*/
     margin: 20px auto 0;
-    /*padding: 14px 15px;*/
+    padding: 14px 15px !important;
     color: black;
     font-size:14px;
     /*font-weight: bold;*/
@@ -614,7 +634,7 @@ a.animated-button:link, a.animated-button:visited {
     -o-transition: all 1s ease;
     transition: all 1s ease;
 }
-a.animated-button:link:after, a.animated-button:visited:after {
+a.animated-button:link:after, a.animated-button:visited:after, button.animated-button:link:after, button.animated-button:visited:after {
     content: "";
     position: absolute;
     height: 0%;
@@ -627,23 +647,23 @@ a.animated-button:link:after, a.animated-button:visited:after {
     -o-transition: all 0.75s ease 0s;
     transition: all 0.75s ease 0s;
 }
-a.animated-button:link:hover, a.animated-button:visited:hover {
+a.animated-button:link:hover, a.animated-button:visited:hover, button.animated-button:visited:hover, button.animated-button:link:hover {
     color: #FFF;
     text-shadow: none;
     background-color: #0E7283;
 }
-a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after, button.animated-button:link:hover:after, button.animated-button:visited:hover:after {
     height: 450%;
 }
 
 
 /* Sandy Buttons */
 
-a.animated-button.victoria-three {
+a.animated-button.victoria-three, button.animated-button.victoria-three {
     border: 2px solid #0E7283;
     width: 12.5em;
 }
-a.animated-button.victoria-three:after {
+a.animated-button.victoria-three:after, button.animated-button.victoria-three:after{
     background: #0E7283;
     opacity: .5;
     -moz-transform: translateX(-50%) translateY(-50%);
@@ -651,7 +671,7 @@ a.animated-button.victoria-three:after {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
-a.animated-button.victoria-three:hover:after {
+a.animated-button.victoria-three:hover:after, button.animated-button.victoria-three:hover:after  {
     height: 140%;
     opacity: 1;
 }
@@ -721,6 +741,23 @@ h2 #welcome {
     margin-right: auto;
 
 }
+img.appstoreImg {
+    width: 15%;
+}
+img.appstoreImg:hover {
+    filter: invert(100%);
+}
+img.app_icon_book {
+    width: 5.5%;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+@media only screen and (max-device-width: 736px) and (min-device-width: 320px) and (orientation: portrait) {
+    img.appstoreImg {
+        width: 45% ;
+    }
+}
+
 #book-img {
     margin-bottom: 15px;
 }
@@ -778,7 +815,7 @@ input.buyNowButton:hover, a button.buyNow:hover {
 footer {
 
     background-color: #202D3D;
-    color: cornsilk;
+    color: whitesmoke;
     margin-top: 20px;
     height: 16em;
 }
@@ -799,14 +836,14 @@ footer ul.social-icons li a {
     width: 32px !important;
     font-size: 25px;
     line-height: 32px;
-    color: cornsilk;
+    color: whitesmoke;
     outline: none;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
 }
 ul.foot-contact {
-    color: cornsilk;
+    color: whitesmoke;
     height: 3em;
 }
 .foot-contact li {
@@ -814,7 +851,7 @@ ul.foot-contact {
     padding-left: 1em;
 }
 .copyright {
-    font-size: 14px;
+    font-size: 18px;
     text-align: right;
     padding-right: 4em;
     padding-left: 1em;
@@ -823,8 +860,8 @@ ul.foot-contact {
 
 .me-tag a{
     margin-top: 40px;
-    font-size: 12px;
-    color: cornsilk;
+    font-size: 16px;
+    color: whitesmoke;
 }
 .me-tag a:hover {
     color: #00b9f2;
@@ -838,11 +875,11 @@ ul.foot-contact {
     text-align: center;
 }
 footer a[href="mailto:theburgessprocess@yahoo.com"], footer a[href="tel:7702064002"] {
-    color: cornsilk;
+    color: whitesmoke;
     text-decoration: none;
 }
 ul.foot-horiz-menu a {
-    color: cornsilk
+    color: whitesmoke
 }
 ul.foot-horiz-menu {
     float: left;
@@ -855,7 +892,7 @@ ul.foot-horiz-menu {
 */
 
 
-    /* Workshop Styles **************************************************/
+/* Workshop Styles **************************************************/
 
 .animated.fadeIn {
     -webkit-animation-duration: 4s !important;
@@ -905,7 +942,7 @@ body#store {
 
 }
 .navbar-default .navbar-nav > li > a {
-    color: cornsilk;
+    color: whitesmoke;
 }
 #navbar-index {
     background-color: rgba(2, 23, 40, 0.8) !important;
@@ -942,9 +979,9 @@ body#store {
     overflow: hidden;
 }
 
-.caption h4 {
+/* .caption h4 {
     white-space: nowrap;
-}
+} */
 
 .thumbnail img {
     width: 100%;
@@ -1008,7 +1045,7 @@ and (max-device-width : 568px)
 and (orientation : portrait) {
     header {
         background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron-port.jpg");
-       /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
+        /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
         -webkit-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;
@@ -1132,113 +1169,113 @@ and (max-device-width : 1024px)
 and (orientation : landscape) {
     header {
         /*background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron.jpg");*/
-        /*background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree.jpg");
+/*background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree.jpg");
 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover;
-        -o-background-size: cover;
-        height: 100%;
-    }
-    .navbar-brand {
-        float: left;
-        width: 60px;
-        height: 49px;
-    }
-    #burgess {
-        margin-top: 165px;
-    }
-    h3 {
-        font-size: 18px;
-    }
-    h4 {
-        font-size: 16px;
-    }
-    body {
-        font-size: 13px;
-    }
-    header .header-content {
-        padding: 112px 15px 20px 15px;
-        margin: 0;
-    }
-    .header-content .header-content-inner {
-        margin-top: 10.185714em;
-        padding-left: 1em;
-    }
-    .header-content .header-content-inner h2 {
-        font-size: 17px;
-        margin-top: 10px;
-        padding: 24px 0px 1px 0px;
-        text-align: left;
-    }
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+height: 100%;
+}
+.navbar-brand {
+float: left;
+width: 60px;
+height: 49px;
+}
+#burgess {
+margin-top: 165px;
+}
+h3 {
+font-size: 18px;
+}
+h4 {
+font-size: 16px;
+}
+body {
+font-size: 13px;
+}
+header .header-content {
+padding: 112px 15px 20px 15px;
+margin: 0;
+}
+.header-content .header-content-inner {
+margin-top: 10.185714em;
+padding-left: 1em;
+}
+.header-content .header-content-inner h2 {
+font-size: 17px;
+margin-top: 10px;
+padding: 24px 0px 1px 0px;
+text-align: left;
+}
 
-    .header-content .header-content-inner hr {
-        width: 56%;
-        float: left;
+.header-content .header-content-inner hr {
+width: 56%;
+float: left;
 
-    }
-    .header-content .header-content-inner .hr2 {
-        margin: 14px;
-        width: 50%;
-        margin-top: 20px;
-        margin-left: 7em;
-    }
-    .header-content .header-content-inner #untitled-region-1 {
-        font-size: 14px;
-        color: black;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        margin: 68px 10px 10px 20px;
-        padding: 1px;
-    }
-    #logo {
-        width:65%;
-        margin-left: 1.5em;
-    }
-    #book img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 55%;
-    }
-    .conscious-life {
-        margin-bottom: -1.5em;
-    }
-    img#conscious-life {
-        width: 35% !important;
-        padding-top: 1.5em;
-    }
-    footer {
-        margin: 1.5em;
-        height: auto !important;
-    }
-    .me-tag {
-        text-align: center !important;
-    }
-    .me-tag a {
-        margin-top: 20px;
-        font-size: 10px;
-        color: #333333;
-    }
-    .copyright {
-        font-size: 12px !important;
-    }
-    #phone{
-        padding-left:0 !important;
-    }
-    #phone p {
-        font-size: 12px !important;
-    }
-    #email {
-        padding-right: 0 !important;
-    }
-    #email a {
-        font-size: 12px !important;
-    }
-    #logo {
-        width:55% !important;
-        margin-left: 1.5em;
-        margin-top: -8px;
-    }
+}
+.header-content .header-content-inner .hr2 {
+margin: 14px;
+width: 50%;
+margin-top: 20px;
+margin-left: 7em;
+}
+.header-content .header-content-inner #untitled-region-1 {
+font-size: 14px;
+color: black;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+margin: 68px 10px 10px 20px;
+padding: 1px;
+}
+#logo {
+width:65%;
+margin-left: 1.5em;
+}
+#book img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 55%;
+}
+.conscious-life {
+margin-bottom: -1.5em;
+}
+img#conscious-life {
+width: 35% !important;
+padding-top: 1.5em;
+}
+footer {
+margin: 1.5em;
+height: auto !important;
+}
+.me-tag {
+text-align: center !important;
+}
+.me-tag a {
+margin-top: 20px;
+font-size: 10px;
+color: #333333;
+}
+.copyright {
+font-size: 12px !important;
+}
+#phone{
+padding-left:0 !important;
+}
+#phone p {
+font-size: 12px !important;
+}
+#email {
+padding-right: 0 !important;
+}
+#email a {
+font-size: 12px !important;
+}
+#logo {
+width:55% !important;
+margin-left: 1.5em;
+margin-top: -8px;
+}
 }*/
 /* Iphone 5 landscape ****************************/
 @media only screen
@@ -1575,7 +1612,7 @@ and (orientation : landscape) {
     .me-tag a {
         margin-top: 20px;
         font-size: 10px;
-        color: cornsilk;
+        color: whitesmoke;
     }
 
     .copyright {
@@ -1610,180 +1647,179 @@ and (orientation : landscape) {
 and (min-device-width : 320px)
 and (max-device-width : 736px)
 and (orientation : portrait) {
-        header {
-            background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron-port.jpg");
-            /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            background-size: cover;
-            -o-background-size: cover;
-            height: 100%;
+    header {
+        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron-port.jpg");
+        /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        height: 100%;
 
-        }
-
-        .navbar-brand {
-            float: left;
-            width: 60px;
-            height: 49px;
-        }
-        #burgess {
-            margin-top: 0em;
-        }
-        h3 {
-            font-size: 18px;
-        }
-        h4 {
-            font-size: 16px;
-        }
-        body {
-            font-size: 13px;
-        }
-        header .header-content {
-            position: relative;
-            width: auto;
-            padding: 16em 1em 1em 1em;
-            text-align: center;
-            margin-right: 0;
-            margin-left: 0;
-        }
-        .header-content .header-content-inner {
-            margin-top: 9em;
-            padding-right: .5em;
-            padding-left: .5em;
-            background-color: rgba(245, 245, 245, 0.58);
-        }
-        section.feature {
-            margin-top: 1em;
-        }
-        #index-foot {
-             margin-top: 0em;
-        }
-        img.conscious-life {
-            width: 56% !important;
-        }
-        .conscious-life {
-            margin-bottom: -1em !important;
-        }
     }
-    .header-content .header-content-inner h2 {
+
+    .navbar-brand {
+        float: left;
+        width: 60px;
+        height: 49px;
+    }
+    #burgess {
+        margin-top: 0em;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h4 {
         font-size: 16px;
-        margin-top: 10px;
-        padding: 24px 1px 1px 1px;
     }
-
-    .header-content .header-content-inner hr {
-        width: 50%;
-        margin-bottom: 1em;
+    body {
+        font-size: 13px;
     }
-    header .header-content .header-content-inner p {
-
-        padding-right: 0.5em;
-        padding-left: 0.5em;
-
-    }
-    #workBut{
-        /*margin-left:7em;*/
-    }
-
-    .header-content .header-content-inner #untitled-region-1 {
-        display:none;
-        font-size: 15px;
-        color: black;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        padding: 1px;
-        font-weight: 300;
-        margin-left: 0;
+    header .header-content {
+        position: relative;
+        width: auto;
+        padding: 16em 1em 1em 1em;
+        text-align: center;
         margin-right: 0;
-        margin-top: 1.5em;
+        margin-left: 0;
     }
-    #logo {
-        width:65%;
-        margin-left: 1.5em;
+    .header-content .header-content-inner {
+        margin-top: 9em;
+        padding-right: .5em;
+        padding-left: .5em;
+        background-color: rgba(245, 245, 245, 0.58);
     }
-    #book img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 55%;
+    section.feature {
+        margin-top: 1em;
+    }
+    #index-foot {
+        margin-top: 0em;
+    }
+    img.conscious-life {
+        width: 56% !important;
     }
     .conscious-life {
-        margin-bottom: -1.5em;
+        margin-bottom: -1em !important;
     }
-    img#conscious-life {
-        width: 35% !important;
-        padding-top: 1.5em;
-    }
-    footer {
+}
+.header-content .header-content-inner h2 {
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 24px 1px 1px 1px;
+}
 
-        height: 16.4em;
-    }
-    .me-tag {
-        text-align: center;
-        margin-top: 8em;
-    }
-    .me-tag a {
-        margin-top: 20px;
-        font-size: 10px;
-        color: cornsilk;
-    }
-    .copyright {
-        /*font-size: 12px !important;*/
-        text-align: center;
-        padding-right: 4em;
-        padding-left: 4em;
-        margin-top: -2em;
-        padding-bottom: .1em;
-    }
-    p.fa.fa-copyright {
-        font-size: 13px !important;
-        font-weight: bolder;
-    }
-    .social-icon-container {
-        /*padding-top: 1em;*/
-        padding-right: 0;
-        padding-left: 0;
-        /*margin-top: 1em;*/
-    }
-    #phone {
-        padding-right: 2em;
-        padding-left: 2em;
-        float: left;
-    }
-    #phone p {
-        font-size: 12px !important;
-    }
-    #email {
-        padding-right: 2em;
-        padding-left: 2em;
-        float: right;
-    }
-    #email a {
-        font-size: 12px !important;
-    }
-    #logo {
-        width:75% !important;
-        margin-left: 1.5em;
-        margin-top: -8px;
-    }
-    ul.foot-horiz-menu a {
-        color: cornsilk
-    }
-    ul.foot-horiz-menu {
-        float: left;
-        list-style: none;
-        display: flex;
-        padding-left: 0;
-        padding-right: 0;
-    }
-    #testimonial-foot {
-        padding-right: 2em;
-        padding-left: 2em;
-    }
+.header-content .header-content-inner hr {
+    width: 50%;
+    margin-bottom: 1em;
+}
+header .header-content .header-content-inner p {
 
-    #contact-foot {
-        padding-right: 2em;
-        padding-left: 2em;
-    }
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+
+}
+#workBut{
+    /*margin-left:7em;*/
+}
+
+.header-content .header-content-inner #untitled-region-1 {
+    display:none;
+    font-size: 15px;
+    color: black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 1px;
+    font-weight: 300;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1.5em;
+}
+#logo {
+    width:65%;
+    margin-left: 1.5em;
+}
+#book img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+}
+.conscious-life {
+    margin-bottom: -1.5em;
+}
+img#conscious-life {
+    width: 35% !important;
+    padding-top: 1.5em;
+}
+footer {
+    height: 11.4em;
+}
+.me-tag {
+    text-align: center;
+    margin-top: 8em;
+}
+.me-tag a {
+    margin-top: 20px;
+    font-size: 14px;
+    color: whitesmoke;
+}
+.copyright {
+    /*font-size: 12px !important;*/
+    text-align: center;
+    padding-right: 4em;
+    padding-left: 4em;
+    margin-top: -2em;
+    padding-bottom: .1em;
+}
+p.fa.fa-copyright {
+    font-size: 18px !important;
+    font-weight: bolder;
+}
+.social-icon-container {
+    /*padding-top: 1em;*/
+    padding-right: 0;
+    padding-left: 0;
+    /*margin-top: 1em;*/
+}
+#phone {
+    padding-right: 2em;
+    padding-left: 2em;
+    float: left;
+}
+#phone p {
+    font-size: 12px !important;
+}
+#email {
+    padding-right: 2em;
+    padding-left: 2em;
+    float: right;
+}
+#email a {
+    font-size: 12px !important;
+}
+#logo {
+    width:75% !important;
+    margin-left: 1.5em;
+    margin-top: -8px;
+}
+ul.foot-horiz-menu a {
+    color: whitesmoke
+}
+ul.foot-horiz-menu {
+    float: left;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+}
+#testimonial-foot {
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+#contact-foot {
+    padding-right: 2em;
+    padding-left: 2em;
+}
 
 
 
@@ -1870,7 +1906,7 @@ and (orientation : landscape) {
     .me-tag a {
         margin-top: 20px;
         font-size: 10px;
-        color: cornsilk;
+        color: whitesmoke;
     }
     .copyright {
         font-size: 12px;
@@ -2014,7 +2050,7 @@ and (orientation : portrait) {
     .me-tag a {
         margin-top: 20px;
         font-size: 10px;
-        color: cornsilk;
+        color: whitesmoke;
     }
     .copyright {
         font-size: 12px !important;
@@ -2174,7 +2210,7 @@ and (orientation : landscape) {
     .me-tag a {
         margin-top: 20px;
         font-size: 10px;
-        color: cornsilk;
+        color: whitesmoke;
     }
     .copyright {
         font-size: 12px !important;
@@ -2332,13 +2368,17 @@ p.theprocesstxt {
 
 /*Store ***********************************************/
 .page-content {
-    height: 1000px;
+    height: auto;
 }
 .C-D {
-    margin: 2em 0 6em;
+    margin: 0em 0 0em;
 }
 .D-V {
-    margin: 2em 0 6em;
+    margin: 0em 0 0em;
+}
+.dVideo, .dAudio {
+    margin-bottom: -3em;
+    margin-top: 1em;
 }
 .fadeIn {
     -webkit-animation-duration: 2s !important;
@@ -2383,10 +2423,15 @@ p.theprocesstxt {
     overflow: hidden;
 }
 
-.caption h4 {
+/* .caption h4 {
     white-space: nowrap;
+} */
+.caption-title {
+    word-wrap: break-word;
 }
-
+.caption {
+    text-align: center; 
+}
 .thumbnail img {
     width: 100%;
 }
@@ -2418,9 +2463,72 @@ p.theprocesstxt {
     transition: border .2s ease-in-out;
     margin-top: 3em;
 }
-
+.dVideo hr, .dAudio hr {
+    width: 25%;
+}
+.dAudio {
+    margin-top: 0em;
+}
 .thumbnail .caption {
     padding: 9px;
     color: #333;
-    height: 9em;
+    height: 30em;
+    
+}
+.capImg {
+    background-image: url('../img/sunset-2754909_960_720.jpg');
+    background-size: cover;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.capImg .centered {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+img.CLJ_img {
+    width: 80%;
+}
+h4.capPrice {
+    margin-top: 4em;
+    margin-bottom: 1em;
+
+}
+.flipInX {
+    animation-delay: 3s;
+}
+#radio .flipInX {
+    animation-delay: .5s;
+}
+#radio .lightSpeedIn {
+    animation-delay: 1s;
+}
+/* .caption .dVideoBtn {
+    margin-top: 4.5em !important;
+} */
+.btn-container a[data-fsc-item-path="flow"] {
+    margin-top: 4.1em !important;
+    
+}
+.btn-container a[data-fsc-item-path="passion"] {
+    margin-top: 5.5em !important;
+    
+}
+a[data-fsc-item-path="intimacy"] {
+    margin-top: 7.5em !important;
+    
+}
+a[data-fsc-item-path="true-freedom"] {
+    margin-top: 7.7em !important;
+    
+}
+a[data-fsc-item-path="prayers-for-real-life"] {
+    margin-top: 4.5em !important;
+    
+}
+.healers ul.social-icons li a.healer_website {
+    /* height: 12px !important; */
+    font-size: 18px;
 }
