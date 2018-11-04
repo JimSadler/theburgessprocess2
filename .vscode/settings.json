@@ -1,4 +1,6 @@
 {
   "editor.tabSize": 2,
-  "optimizeImages.app": "ImageOptim"
+  "optimizeImages.app": "ImageOptim",
+  "emmet.triggerExpansionOnTab": true
+
 }
