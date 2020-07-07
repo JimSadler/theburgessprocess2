@@ -8,100 +8,100 @@
 
 html,
 body {
-    height: 100%;
-    width: 100%;
-    /* background-color: #f9f4f2; */
-    font-size: 15px;
-    -webkit-overflow-scrolling: touch;
-    /*overflow-y:auto;*/
-    font-family: AvenirLT-Book, sans-serif;
+  height: 100%;
+  width: 100%;
+  /* background-color: #f9f4f2; */
+  font-size: 15px;
+  -webkit-overflow-scrolling: touch;
+  /*overflow-y:auto;*/
+  font-family: AvenirLT-Book, sans-serif;
 }
 
 a button.buyNow {
-    background:    #073763;
-    background:    -webkit-linear-gradient(#073763, #0e808e);
-    background:    linear-gradient(#073763, #0e808e);
-    border-radius: 4px;
-    color:         #fff;
-    display:       inline-block;
-    padding:       8px 20px;
-    font:          normal 500 24px/1 "Pagella", serif;
-    text-align:    center;
-    text-shadow:   1px 1px 0 #000;
-    letter-spacing: 2px;
-
+  background: #073763;
+  background: -webkit-linear-gradient(#073763, #0e808e);
+  background: linear-gradient(#073763, #0e808e);
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  padding: 8px 20px;
+  font: normal 500 24px/1 'Pagella', serif;
+  text-align: center;
+  text-shadow: 1px 1px 0 #000;
+  letter-spacing: 2px;
 }
 #index-foot {
-    margin-top: 18em;
+  margin-top: 18em;
 }
 @media (min-width: 768px) {
-
-    .navbar-nav {
-        float: left;
-        margin-left: 26px;
-    }
+  .navbar-nav {
+    /* margin-left: 26px; */
+    align-self: center;
+    display: inline-block;
+    float: none;
+  }
 }
 
 ul.social-icons1.animated.fadeIn {
-    float:right;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+  float: right;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-duration: 2s;
 }
 ul.social-icons1 .fa {
-    font-size: 20px;
-    color: whitesmoke;
+  font-size: 20px;
+  color: whitesmoke;
 }
 
 .CTA_container .fa {
-    border-radius: 60px;
-    color: white;
-    border: white solid 1px;
-    padding: 6px;
+  border-radius: 60px;
+  color: white;
+  border: white solid 1px;
+  padding: 6px;
 }
 .wrap {
-    width: 240px;
-    margin: 140px auto;
+  width: 240px;
+  margin: 140px auto;
 }
 
 .btn-default {
-    background-color: transparent;
-    padding: 20px;
-    margin: 20px 0;
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-    background-color: rgba(0,0,0,0.075);
-    color: rgba(0, 0, 0, 0.9);
-    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.5);
-    transition: 0.26s ease;
+  background-color: transparent;
+  padding: 20px;
+  margin: 20px 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.075);
+  color: rgba(0, 0, 0, 0.9);
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.5);
+  transition: 0.26s ease;
 }
 
 .btn-default:hover {
-    box-shadow: inset 0 0 0 50px rgba(0, 0, 0, 0.7);
-    color: rgba(255,255,255,0.75);
+  box-shadow: inset 0 0 0 50px rgba(0, 0, 0, 0.7);
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .btn-default:active {
-    background-color: rgba(255,255,255,0.5);
-    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.5);
-    color: rgba(0, 0, 0, 0.9);
-    transition: 0.12s ease;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.9);
+  transition: 0.12s ease;
 }
 .row {
-    margin-right: 0;
-    margin-left: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
 section {
-    margin-bottom: 4em;
+  margin-bottom: 4em;
 }
 span.asterisk {
-    color: red;
+  color: red;
 }
 body {
-    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+  /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 /*.row {
     margin-right: 35px !important;
@@ -110,215 +110,251 @@ body {
 
 /* Animations **************/
 .fade {
-    bottom: -50px;
-    opacity: 0;
-    position: relative;
+  bottom: -50px;
+  opacity: 0;
+  position: relative;
 }
 .fade-in {
-    -webkit-transition: opacity 3s, bottom 2s ease;
-    transition: opacity 3s, bottom 2s ease;
-    bottom: 0;
-    opacity: 1;
+  -webkit-transition: opacity 3s, bottom 2s ease;
+  transition: opacity 3s, bottom 2s ease;
+  bottom: 0;
+  opacity: 1;
 }
 .zoomInDown {
-    -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 2s;
 }
 .nav.fadeInDown {
-    -webkit-animation-duration: 2s;
-    margin-right: -25%;
-    margin-left: 19%;
-
+  -webkit-animation-duration: 2s;
+  margin-left: 0%;
 }
 /* End Animations **************************************/
 
 div#burgess-blurb {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 div#marthaAbout {
-    margin-top: 2em;
+  margin-top: 2em;
 }
 #marthaAboutHead {
-    text-align: center;
-
+  text-align: center;
 }
 .upcoming-lectures {
-    height: 24em;
+  height: 24em;
 }
 .panel-body {
-    height: 355px;
-    text-align: center;
+  height: 355px;
+  text-align: center;
 }
 #marthaAboutImg {
-    padding-top: 10px;
-    margin-top: 5em;
+  padding-top: 10px;
+  margin-top: 5em;
 }
 #nav-container {
-    padding-right: 1em !important;
-    padding-left: 1em !important;
+  padding-right: 1em !important;
+  padding-left: 1em !important;
 }
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: rgba(221, 221, 221, 0);
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: rgba(221, 221, 221, 0);
 }
 footer {
-    margin-top: 20px;
-    height: 13em;
-
+  margin-top: 20px;
+  height: 13em;
 }
 .navbar.about {
-    background-color: rgba(2, 23, 40, 0.8);
+  background-color: rgba(2, 23, 40, 0.8);
 }
 #navbar-index {
-    background-color: rgba(2, 23, 40, 0.8);
+  background-color: rgba(2, 23, 40, 0.8);
 }
 .navbar-default .navbar-toggle {
-
-    margin-right: 1.5em;
+  margin-right: 1.5em;
 }
 
 .container-fluid {
-    margin: auto;
-    text-align: center;
-    padding-right: 10px;
-    padding-left: 10px;
+  margin: auto;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
-
 .img-portfolio {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .img-hover:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 /* Home Page Carousel */
 
-#logo  {
-background: url('/img/M-logo-fill-index1.png') no-repeat;
-    height: 100px;
-    width: 100px;
-    margin-left: 3.5em;
-    margin-top: 5px;
-    -webkit-animation-duration: 1300ms;
+#logo {
+  background: url('/img/M-logo-fill-index1.png') no-repeat;
+  height: 100px;
+  width: 100px;
+  margin-left: 3.5em;
+  margin-top: 5px;
+  -webkit-animation-duration: 1300ms;
 }
-#marthaAbout.fadeIn{
-    -webkit-animation-duration: 3s;
+#marthaAbout.fadeIn {
+  -webkit-animation-duration: 3s;
 }
 #logo2 {
-    background: url('/img/M-logo-fill.png') no-repeat;
-    height: 100px !important;
-    width: 100px !important;
-    margin-left: 1.5em;
-    margin-top: 5px;
+  background: url('/img/M-logo-fill.png') no-repeat;
+  height: 100px !important;
+  width: 100px !important;
+  margin-left: 1.5em;
+  margin-top: 5px;
 }
-.col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 25px;
-    padding-left: 25px;
-    padding-bottom: 25px;
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
 }
-.lectures-head{
-    font-size: 16px;
+.lectures-head {
+  font-size: 16px;
 }
 
 /* Header */
 .header-content-inner {
-    margin-top: -1em;
-
+  margin-top: -1em;
 }
-.header-content-inner.fadeInUpBig{
-    -webkit-animation-duration: 3050ms;
-    margin-top: -3em;
+.header-content-inner.fadeInUpBig {
+  -webkit-animation-duration: 3050ms;
+  margin-top: -3em;
 }
 .header-content {
-    position: relative;
-    background: transparent;
+  position: relative;
+  background: transparent;
 }
 header {
-    position: relative;
-    width: 100%;
-    height: 2em;
-    text-align: center;
-    color: black;
-    z-index: 1030;
-    
+  position: relative;
+  width: 100%;
+  height: 2em;
+  text-align: center;
+  color: black;
+  z-index: 1030;
 }
 header#homepage {
-    background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    min-height: 100%;
-    height: 71em;
+  background-image: url('https://www.marthanovak.com/img/jumbotrons/Marthajumbotron.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  min-height: 100%;
+  height: 71em;
 }
 header .header-content .header-content-inner p {
-    margin-bottom: 15px;
-    /* margin-left: 2em; */
-    /* margin-right: 2em; */
-    font-size: 16px;
-    color: black;
-    padding-right: 2.5em;
-    padding-left: 2.5em;
-    width: auto;
+  margin-bottom: 15px;
+  /* margin-left: 2em; */
+  /* margin-right: 2em; */
+  font-size: 16px;
+  color: black;
+  padding-right: 2.5em;
+  padding-left: 2.5em;
+  width: auto;
 }
 hr {
-    border-top: 1px solid #ccc !important;
-    width: 50%;
+  border-top: 1px solid #ccc !important;
+  width: 50%;
 }
 header hr {
-    border-top: 1px solid black !important;
-
+  border-top: 1px solid black !important;
 }
 header .header-content {
-    position: relative;
-    width: 100%;
-    padding: 133px 15px 20px 15px;
-    text-align: center;
+  position: relative;
+  width: 100%;
+  padding: 133px 15px 20px 15px;
+  text-align: center;
 }
 header .header-content-inner {
-    background-color:rgba(245, 245, 245, 0.50);
-    border-radius: 15px;
+  background-color: rgba(245, 245, 245, 0.5);
+  border-radius: 15px;
 }
 header .header-content .header-content-inner h1 {
-    margin-top: 0;
-    margin-bottom: 0;
-    text-transform: uppercase;
-    font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 header .header-content-inner h2 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-size: 23px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 23px;
 }
 .row.CTA_container {
-    margin-top: -25em;
-    text-align: center;
+  margin-top: -25em;
+  text-align: center;
 }
-#storeBut.animated.bounceInLeft, .storeBut.animated.bounceInLeft{
-    -webkit-animation-delay: 2.5s;
-    background-color: #F8B857;
-    width: 12.5em;
-    z-index:1100;
-
+#storeBut.animated.bounceInLeft,
+.storeBut.animated.bounceInLeft {
+  -webkit-animation-delay: 2.5s;
+  background-color: #f8b857;
+  width: 12.5em;
+  z-index: 1100;
 }
-#bookBut.animated.fadeInUp{
-    -webkit-animation-delay: 3s;
-    background-color: #F8B857;
-    width: 12.5em;
-    z-index:1100;
+#bookBut.animated.fadeInUp {
+  -webkit-animation-delay: 3s;
+  background-color: #f8b857;
+  width: 12.5em;
+  z-index: 1100;
 }
 #workBut.animated.bounceInRight {
-    -webkit-animation-delay: 3.5s;
-    background-color: #F8B857;
-    width: 12.5em;
-    z-index:1100;
+  -webkit-animation-delay: 3.5s;
+  background-color: #f8b857;
+  width: 12.5em;
+  z-index: 1100;
 }
 
 /* end of Header */
 section.feature {
-    margin-top: 25em;
+  margin-top: 25em;
 }
 /* alternate header styles *********/
 /*.header-content-inner {
@@ -377,152 +413,149 @@ header .header-content-inner h2 {
 
 /* end of alt header styles ******/
 
-
-
-
 .container.healers {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: 6.5em;
-    margin-left: 6.5em;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 6.5em;
+  margin-left: 6.5em;
 }
 .container-fluid.martha-intro {
-    margin-top: 6em;
-    padding-bottom: 75px
+  margin-top: 6em;
+  padding-bottom: 75px;
 }
 .row.healer-staff {
-    margin-bottom: 5em;
-    margin-top: 5em;
+  margin-bottom: 5em;
+  margin-top: 5em;
 }
 .container-fluid.healer-head {
-    margin-bottom: -1em;
-    border-bottom: 1px solid #555555;
+  margin-bottom: -1em;
+  border-bottom: 1px solid #555555;
 }
 
 hr {
-
-    border-top: 1px solid #ccc !important;
-    width: 50%;
+  border-top: 1px solid #ccc !important;
+  width: 50%;
 }
-
-
+/* 
+img.staff {
+    border-radius: 50%;
+    width: 36%;
+} */
 .healer-staff .text-center a:hover {
-    color: steelblue;
+  color: steelblue;
 }
 .healer-staff .text-center a {
-    color: dimgray;
+  color: dimgray;
 }
 
-#christina-about-img, #tracy-about-img, #betty-about-img, #diana-about-img {
-    display: block;
-    max-width: 100%;
-    height: 465px;
+#christina-about-img,
+#tracy-about-img,
+#betty-about-img,
+#diana-about-img {
+  display: block;
+  max-width: 100%;
+  /* height: 465px; */
+  border-radius: 50%;
 }
 .facilitator-hr {
-    border-top: 1px solid #ccc;
-    width: 75%;
+  border-top: 1px solid #ccc;
+  width: 75%;
 }
-#diana-about-txt, #christina-about-txt, #betty-about-txt, #tracy-about-txt {
-    padding-top: 4.5em;
+#diana-about-txt,
+#christina-about-txt,
+#betty-about-txt,
+#tracy-about-txt {
+  padding-top: 4.5em;
 }
 p.bio-txt {
-    margin-bottom: 25px;
-    padding-right: 2em;
-    padding-left: 2em;
+  margin-bottom: 25px;
+  padding-right: 2em;
+  padding-left: 2em;
 }
 p .fade {
-    width: 100px;
-    padding: 20px;
+  width: 100px;
+  padding: 20px;
 }
 p.testimonials {
-    font-weight: 500;
-    text-align: center;
+  font-weight: 500;
+  text-align: center;
 }
 #intro {
-    position: absolute;
-    z-index: 1;
-    background: transparent;
-    top: 0;
-    margin-top: 55em;
+  position: absolute;
+  z-index: 1;
+  background: transparent;
+  top: 0;
+  margin-top: 55em;
 }
 #homeIntro {
-    text-align: center;
-    padding: 1px;
-    margin-left: 600px;
-    color: #f9f2f4;
-    font-size: 15px;
-    position: absolute;
-
+  text-align: center;
+  padding: 1px;
+  margin-left: 600px;
+  color: #f9f2f4;
+  font-size: 15px;
+  position: absolute;
 }
 #bio {
-
-    text-align: center;
-    margin-top: 0.5em;
-    margin-bottom: 1em;
-    border-color: #9d9d9d;
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  border-color: #9d9d9d;
 }
 
 .page-header {
-
-    text-align: center;
-    margin-top: 3em;
-    margin-bottom: 1.5em;
-    border-color: #9d9d9d;
-
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+  border-color: #9d9d9d;
 }
 .page-header1 {
-    margin-left: 25em;
-    margin-right: 2em;
-    text-align: center;
-    color: #f9f4f2;
-    padding-bottom: 9px;
-    border-bottom: 1px solid #eee;
+  margin-left: 25em;
+  margin-right: 2em;
+  text-align: center;
+  color: #f9f4f2;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #eee;
 }
 .page-header-about {
-
-    text-align: center;
-    margin-top: 3em;
-    margin-bottom: 2.5em;
-    border-color: #9d9d9d;
-
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 2.5em;
+  border-color: #9d9d9d;
 }
 img.conscious-life {
-    width: 15% !important;
+  width: 15% !important;
 }
 ul .nav {
-    text-align: center;
-    float: right;
-    margin-right: 5px;
-    margin-top: 0;
-    border: none;
-
+  text-align: center;
+  float: right;
+  margin-right: 5px;
+  margin-top: 0;
+  border: none;
 }
 ul.social-icons {
-    list-style: none;
-    display: block;
-    margin-bottom: 35px;
+  list-style: none;
+  display: block;
+  margin-bottom: 35px;
 }
 .fa {
-    display: inline-block;
-
+  display: inline-block;
 }
 .fa-2x {
-    font-size: 1.7em !important;
+  font-size: 1.7em !important;
 }
 
 .healers ul.social-icons li a {
-    list-style: none;
-    display: block;
-    height: 32px !important;
-    width: 32px !important;
-    font-size: 25px;
-    line-height: 32px;
-    color: dimgray;
-    outline: none;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-
+  list-style: none;
+  display: block;
+  height: 32px !important;
+  width: 32px !important;
+  font-size: 25px;
+  line-height: 32px;
+  color: dimgray;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .healers ul.social-icons li .fa:hover,
 .healers ul.social-icons li a:focus,
@@ -531,149 +564,166 @@ ul.social-icons {
     a[href="tel:7702064002"]:hover,*/
 .healers .fa-envelope:hover,
 .healers .fa-phone:hover {
-    background-color: steelblue;
-    background-position: 100% 0;
-    background-size: 200% 200%;
-    color: transparent;
-    -webkit-transition: .1s .2s;
-    -webkit-background-clip: text;
+  background-color: steelblue;
+  background-position: 100% 0;
+  background-size: 200% 200%;
+  color: transparent;
+  /* -webkit-transition: .1s .2s; */
+  -webkit-background-clip: text;
 }
 
-@media only screen and (max-device-width: 736px) and (min-device-width: 320px) and (orientation: portrait)  {
-
-    .workshop-content section.basc-form-busi, .workshop-content section.format-header {
-        margin-bottom: -4em;
-    }
-    .workshop-content .page-header {
-        margin-bottom: -1em;
-    }
-    .workshop-content .performance-class-panel-body {
-        height: 59em;
-    }
-    .workshop-content .advanced-class-panel-body {
-        height: 41em;
-    }
-    .social-icon-container {
-        /*padding-top: 7em !important;*/
-    }
-    .footer {
-        height:289px;
-    }
-    .foot-contact li {
-        color: transparent !important;
-    }
-    .header-content-inner a.animated-button.victoria-three, button.animated-button.victoria-three {
-        border: 2px solid #f9bf5c;
-    }
-
-
+@media only screen and (max-device-width: 736px) and (min-device-width: 320px) and (orientation: portrait) {
+  .workshop-content section.basc-form-busi,
+  .workshop-content section.format-header {
+    margin-bottom: -4em;
+  }
+  .workshop-content .page-header {
+    margin-bottom: -1em;
+  }
+  .workshop-content .performance-class-panel-body {
+    height: 59em;
+  }
+  .workshop-content .advanced-class-panel-body {
+    height: 41em;
+  }
+  .social-icon-container {
+    /*padding-top: 7em !important;*/
+  }
+  .footer {
+    height: 289px;
+  }
+  .foot-contact li {
+    color: transparent !important;
+  }
+  .header-content-inner a.animated-button.victoria-three,
+  button.animated-button.victoria-three {
+    border: 2px solid #f9bf5c;
+  }
 }
-
 
 .fa-3x:hover {
-    color: #0b5868;
+  color: #0b5868;
 }
 
-.h4, .h5, .h6, h4, h5, h6 {
-    margin-top: 45px;
-    margin-bottom: 30px;
+.h4,
+.h5,
+.h6,
+h4,
+h5,
+h6 {
+  margin-top: 45px;
+  margin-bottom: 30px;
 }
 .radio {
-    text-align: center;
+  text-align: center;
 }
 div .radio-archives ul li {
-    list-style: none;
-    display:inline;
+  list-style: none;
+  display: inline;
 }
 div .radio-archives ul {
-    text-align: center;
+  text-align: center;
 }
 .navbar-default {
-    background-color: transparent;
-    border-color: #f9f2f4;
+  background-color: transparent;
+  border-color: #f9f2f4;
 }
 .navbar-default .navbar-nav > li > a:hover {
-    color: #fac16b;
-
+  color: #fac16b;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #f9f2f4;
+  color: #f9f2f4;
 }
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #ffffff;
-    background-color: rgba(45, 75, 83, 0.72);;
-
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #ffffff;
+  background-color: rgba(45, 75, 83, 0.72);
 }
 
 .navbar-default .navbar-nav > li > a.active {
-    /* background-color: rgba(248, 184, 87, 0.94); */
-    border-radius: 10px;
-    border-radius: 10px;
-    color: rgba(248, 184, 87, 0.94);
+  /* background-color: rgba(248, 184, 87, 0.94); */
+  border-radius: 10px;
+  border-radius: 10px;
+  color: rgba(248, 184, 87, 0.94);
 }
 .navbar-nav > li {
-    float: left;
-    margin-top: .2em;
+  float: left;
+  margin-top: 0.2em;
 }
-a.animated-button:link, a.animated-button:visited, button.animated-button:link, button.animated-button:visited {
-    position: relative;
-    /*display: block;*/
-    margin: 20px auto 0;
-    padding: 14px 15px !important;
-    color: black;
-    font-size:14px;
-    /*font-weight: bold;*/
-    text-align: center;
-    text-decoration: none;
-    overflow: hidden;
-    letter-spacing: .08em;
-    border-radius: 7px;
-    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
+a.animated-button:link,
+a.animated-button:visited,
+button.animated-button:link,
+button.animated-button:visited {
+  position: relative;
+  /*display: block;*/
+  margin: 20px auto 0;
+  padding: 14px 15px !important;
+  color: black;
+  font-size: 14px;
+  /*font-weight: bold;*/
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  letter-spacing: 0.08em;
+  border-radius: 7px;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
 }
-a.animated-button:link:after, a.animated-button:visited:after, button.animated-button:link:after, button.animated-button:visited:after {
-    content: "";
-    position: absolute;
-    height: 0%;
-    left: 50%;
-    top: 50%;
-    width: 150%;
-    z-index: -1;
-    -webkit-transition: all 0.75s ease 0s;
-    -moz-transition: all 0.75s ease 0s;
-    -o-transition: all 0.75s ease 0s;
-    transition: all 0.75s ease 0s;
+a.animated-button:link:after,
+a.animated-button:visited:after,
+button.animated-button:link:after,
+button.animated-button:visited:after {
+  content: '';
+  position: absolute;
+  height: 0%;
+  left: 50%;
+  top: 50%;
+  width: 150%;
+  z-index: -1;
+  -webkit-transition: all 0.75s ease 0s;
+  -moz-transition: all 0.75s ease 0s;
+  -o-transition: all 0.75s ease 0s;
+  transition: all 0.75s ease 0s;
 }
-a.animated-button:link:hover, a.animated-button:visited:hover, button.animated-button:visited:hover, button.animated-button:link:hover {
-    color: #FFF;
-    text-shadow: none;
-    background-color: #0E7283;
+a.animated-button:link:hover,
+a.animated-button:visited:hover,
+button.animated-button:visited:hover,
+button.animated-button:link:hover {
+  color: #fff;
+  text-shadow: none;
+  background-color: #0e7283;
 }
-a.animated-button:link:hover:after, a.animated-button:visited:hover:after, button.animated-button:link:hover:after, button.animated-button:visited:hover:after {
-    height: 450%;
+a.animated-button:link:hover:after,
+a.animated-button:visited:hover:after,
+button.animated-button:link:hover:after,
+button.animated-button:visited:hover:after {
+  height: 450%;
 }
-
 
 /* Sandy Buttons */
 
-a.animated-button.victoria-three, button.animated-button.victoria-three {
-    border: 2px solid #0E7283;
-    width: 12.5em;
+a.animated-button.victoria-three,
+button.animated-button.victoria-three {
+  border: 2px solid #0e7283;
+  width: 12.5em;
 }
-a.animated-button.victoria-three:after, button.animated-button.victoria-three:after{
-    background: #0E7283;
-    opacity: .5;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+a.animated-button.victoria-three:after,
+button.animated-button.victoria-three:after {
+  background: #0e7283;
+  opacity: 0.5;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
 }
-a.animated-button.victoria-three:hover:after, button.animated-button.victoria-three:hover:after  {
-    height: 140%;
-    opacity: 1;
+a.animated-button.victoria-three:hover:after,
+button.animated-button.victoria-three:hover:after {
+  height: 140%;
+  opacity: 1;
 }
 /*btn-default {
     color: #333;
@@ -712,271 +762,266 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', end
 }*/
 
 nav {
-    transition-duration: 2s;
+  transition-duration: 2s;
 }
 
-
-.navbar, .navbar-header {
-    background-color: transparent;
-
+.navbar,
+.navbar-header {
+  background-color: transparent;
 }
 .navbar-brand {
-    float: left;
-    width: 60px;
-    height: 60px;
+  float: left;
+  width: 60px;
+  height: 60px;
 }
 h2 #welcome {
-    color: #f9f2f4;
+  color: #f9f2f4;
 }
-
 
 .container-paragraphs {
-    text-align: center;
-    margin-top: 1em;
-
+  text-align: center;
+  margin-top: 1em;
 }
 #book img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 img.appstoreImg {
-    width: 15%;
+  width: 15%;
 }
 img.appstoreImg:hover {
-    filter: invert(100%);
+  filter: invert(100%);
 }
 img.app_icon_book {
-    width: 5.5%;
-    border-radius: 10px;
-    margin-right: 10px;
+  width: 5.5%;
+  border-radius: 10px;
+  margin-right: 10px;
 }
 @media only screen and (max-device-width: 736px) and (min-device-width: 320px) and (orientation: portrait) {
-    img.appstoreImg {
-        width: 45% ;
-    }
+  img.appstoreImg {
+    width: 45%;
+  }
 }
 
 #book-img {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
-
-.col-lg-12 .sub{
-    margin-top: 1em;
-    text-align: center;
+.col-lg-12 .sub {
+  margin-top: 1em;
+  text-align: center;
 }
 
 /* 404 Page Styles */
 
 .error-404 {
-    font-size: 100px;
+  font-size: 100px;
 }
 h4 .subheading {
-    text-align: center;
+  text-align: center;
 }
 
 /* Lecture Styles *************************************/
 hr.ls-head-hr {
-    width: 15%;
-    margin-top: -5px;
+  width: 15%;
+  margin-top: -5px;
 }
 .ls-head-break {
-    margin-top: 20px;
-    margin-bottom: 45px;
+  margin-top: 20px;
+  margin-bottom: 45px;
 }
 hr.ls-buy-hr {
-    width: 100%;
-    margin-bottom: 35px;
+  width: 100%;
+  margin-bottom: 35px;
 }
 .L-Series {
-    margin-top: 10px;
-    margin-bottom: 45px;
+  margin-top: 10px;
+  margin-bottom: 45px;
 }
-input.buyNowButton, a button.buyNow  {
-    -webkit-filter: grayscale(1);
+input.buyNowButton,
+a button.buyNow {
+  -webkit-filter: grayscale(1);
 }
-input.buyNowButton:hover, a button.buyNow:hover {
-    -webkit-filter: grayscale(0);
+input.buyNowButton:hover,
+a button.buyNow:hover {
+  -webkit-filter: grayscale(0);
 }
 .row.buyNow {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 @media (max-width: 768px) {
-    input.buyNowButton {
-        -webkit-filter: grayscale(0);
-    }
+  input.buyNowButton {
+    -webkit-filter: grayscale(0);
+  }
 }
 
 /* Footer Styles *************************************/
 
 footer {
-
-    background-color: #202D3D;
-    color: whitesmoke;
-    margin-top: 20px;
-    height: 16em;
+  background-color: #202d3d;
+  color: whitesmoke;
+  margin-top: 20px;
+  height: 16em;
 }
 .row.foot {
-    padding-top: 2em;
-    margin-right: 0;
+  padding-top: 2em;
+  margin-right: 0;
 }
 footer ul.social-icons li .fa:hover,
 footer ul.social-icons li a:focus,
 footer ul.social-icons li a:active,
 footer ul.foot-contact li a:hover {
-    color: #00b9f2;
+  color: #00b9f2;
 }
 footer ul.social-icons li a {
-    list-style: none;
-    display: block;
-    height: 32px !important;
-    width: 32px !important;
-    font-size: 25px;
-    line-height: 32px;
-    color: whitesmoke;
-    outline: none;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
+  list-style: none;
+  display: block;
+  height: 32px !important;
+  width: 32px !important;
+  font-size: 25px;
+  line-height: 32px;
+  color: whitesmoke;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
 ul.foot-contact {
-    color: whitesmoke;
-    height: 3em;
+  color: whitesmoke;
+  height: 3em;
 }
 .foot-contact li {
-    padding-right: 1em;
-    padding-left: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 .copyright {
-    font-size: 18px;
-    text-align: right;
-    padding-right: 4em;
-    padding-left: 1em;
-    margin-top: -1em;
+  font-size: 18px;
+  text-align: right;
+  padding-right: 4em;
+  padding-left: 1em;
+  margin-top: -1em;
 }
 
-.me-tag a{
-    margin-top: 40px;
-    font-size: 16px;
-    color: whitesmoke;
+.me-tag a {
+  margin-top: 40px;
+  font-size: 16px;
+  color: whitesmoke;
 }
 .me-tag a:hover {
-    color: #00b9f2;
+  color: #00b9f2;
 }
 .container-fluid.me-tag {
-    margin-top: 0em;
+  margin-top: 0em;
 }
 .me-tag {
-    margin-top: 2em;
-    /* margin-left: 4em; */
-    text-align: center;
+  margin-top: 2em;
+  /* margin-left: 4em; */
+  text-align: center;
 }
-footer a[href="mailto:theburgessprocess@yahoo.com"], footer a[href="tel:7702064002"] {
-    color: whitesmoke;
-    text-decoration: none;
+footer a[href='mailto:theburgessprocess@yahoo.com'],
+footer a[href='tel:7702064002'] {
+  color: whitesmoke;
+  text-decoration: none;
 }
 ul.foot-horiz-menu a {
-    color: whitesmoke
+  color: whitesmoke;
 }
 ul.foot-horiz-menu {
-    float: left;
-    list-style: none;
-    display: flex;
+  float: left;
+  list-style: none;
+  display: flex;
 }
 /*ul.foot-horiz-menu li:after {
     content: " "; padding: 0 .5em;
 }
 */
 
-
 /* Workshop Styles **************************************************/
 
 .animated.fadeIn {
-    -webkit-animation-duration: 4s !important;
+  -webkit-animation-duration: 4s !important;
 }
 .performance-class-panel-body {
-    height: 27em;
+  height: 27em;
 }
 .advanced-class-panel-head {
-    text-align: center;
-    margin-top: 2em;
-    margin-bottom: 2em;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
-.format-class-panel-head{
-    text-align: center;
-    margin-top: 2em;
-    margin-bottom: 2em;
+.format-class-panel-head {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
-.format-class-panel-body{
-    height:23em;
+.format-class-panel-body {
+  height: 23em;
 }
-.advanced-class-panel-body{
-    height: 20em;
+.advanced-class-panel-body {
+  height: 20em;
 }
 
 /**** Contact Page *****/
 #mc_embed_signup_scroll {
-    margin: 5em;
+  margin: 5em;
 }
 .contact-map {
-    margin: 2em;
+  margin: 2em;
 }
 /* Store Styles ******************/
 body#store {
-    padding-top: 122px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+  padding-top: 122px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 .container-fluid {
-    margin: auto;
-    text-align: center;
-    border: none;
+  margin: auto;
+  text-align: center;
+  border: none;
 }
 .navbar-default {
-    background-color: transparent !important;
-    border-color: #f9f2f4 !important;
+  background-color: transparent !important;
+  border-color: #f9f2f4 !important;
 }
 .navbar-default .navbar-nav > li > a:hover {
-    color: #fac16b;
-
+  color: #fac16b;
 }
 .navbar-default .navbar-nav > li > a {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 #navbar-index {
-    background-color: rgba(2, 23, 40, 0.8) !important;
+  background-color: rgba(2, 23, 40, 0.8) !important;
 }
 .navbar-brand {
-    float: left;
-    height: 60px;
-    width: 60px;
-    font-size: 18px;
-    line-height: 20px;
+  float: left;
+  height: 60px;
+  width: 60px;
+  font-size: 18px;
+  line-height: 20px;
 }
 #logo {
-    height: 100px !important;
-    width: 100px !important;
-    margin-left: 3.5em;
-    margin-top: 5px;
-    -webkit-animation-duration: 1s;
+  height: 100px !important;
+  width: 100px !important;
+  margin-left: 3.5em;
+  margin-top: 5px;
+  -webkit-animation-duration: 1s;
 }
 .slide-image {
-    width: 100%;
+  width: 100%;
 }
 
 .carousel-holder {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .carousel-control,
 .item {
-    border-radius: 4px;
+  border-radius: 4px;
 }
 
 .caption {
-    height: 130px;
-    overflow: hidden;
+  height: 130px;
+  overflow: hidden;
 }
 
 /* .caption h4 {
@@ -984,183 +1029,175 @@ body#store {
 } */
 
 .thumbnail img {
-    width: 100%;
+  width: 100%;
 }
 
 .ratings {
-    padding-right: 10px;
-    padding-left: 10px;
-    color: #d17581;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #d17581;
 }
 
 .thumbnail {
-    padding: 0;
+  padding: 0;
 }
 
 .thumbnail .caption-full {
-    padding: 9px;
-    color: #333;
+  padding: 9px;
+  color: #333;
 }
 .thumbnail {
-    display: block;
-    padding: 4px;
-    margin-bottom: 20px;
-    line-height: 1.42857143;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    -webkit-transition: border .2s ease-in-out;
-    -o-transition: border .2s ease-in-out;
-    transition: border .2s ease-in-out;
-    margin-top: 3em;
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: border 0.2s ease-in-out;
+  -o-transition: border 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
+  margin-top: 3em;
 }
 
 .thumbnail .caption {
-    padding: 9px;
-    color: #333;
-    height: 25em;
+  padding: 9px;
+  color: #333;
+  height: 25em;
 }
 /* Contact Page Styles *******************/
 
 #mc_embed_signup {
-    height: 36em;
+  height: 36em;
+  margin-top: -100px;
 }
 
 /* Book Styles **************************************************/
 
 .book {
-    margin: 1em 0 4em;
+  margin: 1em 0 4em;
 }
 .teacup-overview {
-    padding-top: 3em;
+  padding-top: 3em;
 }
 /* Responsive Styles ****************************************************************************************************/
 /* work on stying the portrait header content for the new img
 /* Iphone 5 portrait ****************************/
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+  header {
+    background-image: url('http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron-port.jpg');
+    /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    /*-webkit-box-reflect : below 0 -webkit-gradient(linear, left bottom, left top, from(rgba(255,255,255,0.25)), color-stop(0.3, transparent));*/
+  }
 
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px)
-and (orientation : portrait) {
-    header {
-        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron-port.jpg");
-        /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover;
-        -o-background-size: cover;
-        height: 100%;
-        /*-webkit-box-reflect : below 0 -webkit-gradient(linear, left bottom, left top, from(rgba(255,255,255,0.25)), color-stop(0.3, transparent));*/
+  .navbar-brand {
+    float: left;
+    width: 60px;
+    height: 49px;
+  }
+  #burgess {
+    margin-top: 165px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  body {
+    font-size: 13px;
+  }
+  header .header-content {
+    position: relative;
+    width: auto;
+    padding: 16em 1em 1em 1em;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .header-content .header-content-inner {
+    margin-top: 10.285714em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+  }
+  .header-content .header-content-inner h2 {
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 24px 1px 1px 1px;
+  }
 
-    }
+  .header-content .header-content-inner hr {
+    margin: 6px auto;
+    width: 50%;
+  }
+  .header-content .header-content-inner .hr2 {
+    margin: 14px;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 7em;
+  }
+  .header-content .header-content-inner #untitled-region-1 {
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 1px;
+    font-weight: 300;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #logo {
+    width: 65%;
+    margin-left: 1.5em;
+  }
+  #book img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+  }
+  .conscious-life {
+    margin-bottom: -1.5em;
+  }
+  img#conscious-life {
+    width: 35% !important;
+    padding-top: 1.5em;
+  }
 
-    .navbar-brand {
-        float: left;
-        width: 60px;
-        height: 49px;
-    }
-    #burgess {
-        margin-top: 165px;
-    }
-    h3 {
-        font-size: 18px;
-    }
-    h4 {
-        font-size: 16px;
-    }
-    body {
-        font-size: 13px;
-    }
-    header .header-content {
-        position: relative;
-        width: auto;
-        padding: 16em 1em 1em 1em;
-        text-align: center;
-        margin-right: 0;
-        margin-left: 0;
-    }
-    .header-content .header-content-inner {
-        margin-top: 10.285714em;
-        padding-right: .5em;
-        padding-left: .5em;
-    }
-    .header-content .header-content-inner h2 {
-        font-size: 17px;
-        margin-top: 10px;
-        padding: 24px 1px 1px 1px;
-    }
-
-    .header-content .header-content-inner hr {
-        margin: 6px auto;
-        width: 50%;
-    }
-    .header-content .header-content-inner .hr2 {
-        margin: 14px;
-        width: 50%;
-        margin-top: 20px;
-        margin-left: 7em;
-    }
-    .header-content .header-content-inner #untitled-region-1 {
-        font-size: 15px;
-        color: #fff;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        padding: 1px;
-        font-weight: 300;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #logo {
-        width:65%;
-        margin-left: 1.5em;
-    }
-    #book img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 55%;
-    }
-    .conscious-life {
-        margin-bottom: -1.5em;
-    }
-    img#conscious-life {
-        width: 35% !important;
-        padding-top: 1.5em;
-    }
-
-
-
-    .copyright {
-        font-size: 12px !important;
-        text-align: center;
-        padding-right: 4em;
-        padding-left: 4em;
-        margin-top: 2em;
-    }
-    #phone{
-
-    }
-    #phone p {
-        font-size: 12px !important;
-    }
-    #email {
-
-    }
-    #email a {
-        font-size: 12px !important;
-    }
-    #logo {
-        width:55% !important;
-        margin-left: 1.5em;
-        margin-top: -8px;
-    }
-    .social-icon-container {
-        text-align: center !important;
-    }
-    .email-phone {
-        text-align: center !important;
-        padding-bottom: 1em;
-    }
+  .copyright {
+    font-size: 12px !important;
+    text-align: center;
+    padding-right: 4em;
+    padding-left: 4em;
+    margin-top: 2em;
+  }
+  #phone {
+  }
+  #phone p {
+    font-size: 12px !important;
+  }
+  #email {
+  }
+  #email a {
+    font-size: 12px !important;
+  }
+  #logo {
+    width: 55% !important;
+    margin-left: 1.5em;
+    margin-top: -8px;
+  }
+  .social-icon-container {
+    text-align: center !important;
+  }
+  .email-phone {
+    text-align: center !important;
+    padding-bottom: 1em;
+  }
 }
 
 /*@media only screen
@@ -1278,1257 +1315,1241 @@ margin-top: -8px;
 }
 }*/
 /* Iphone 5 landscape ****************************/
-@media only screen
-and (max-device-width : 568px)
-and (orientation : landscape) {
-    header {
-        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron.jpg");
-        /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
+@media only screen and (max-device-width: 568px) and (orientation: landscape) {
+  header {
+    background-image: url('http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron.jpg');
+    /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover;
-        -o-background-size: cover;
-        height: 100%;
-    }
-    .navbar-brand {
-        float: left;
-        width: 60px;
-        height: 49px;
-    }
-    #burgess {
-        margin-top: 0;
-    }
-    h3 {
-        font-size: 18px;
-    }
-    h4 {
-        font-size: 16px;
-    }
-    body {
-        font-size: 13px;
-    }
-    header .header-content {
-        padding: 103px 15px 20px 15px;
-        margin: 0;
-    }
-    .header-content .header-content-inner {
-        margin-top: 10.185714em;
-        padding-left: 1em;
-    }
-    .header-content .header-content-inner h2 {
-        font-size: 17px;
-        margin-top: 10px;
-        padding: 24px 1px 1px 1px;
-        text-align: left;
-    }
-
-    .header-content .header-content-inner hr {
-        width: 56%;
-        float: left;
-    }
-    .header-content .header-content-inner #untitled-region-1 {
-        display: none;
-        font-size: 14px;
-        color: black;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        margin: 68px 10px 10px 20px;
-        padding: 1px;
-    }
-    #logo {
-        width:65%;
-        margin-left: 1.5em;
-    }
-    #book img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 55%;
-    }
-    .conscious-life {
-        margin-bottom: -1.5em;
-    }
-    img#conscious-life {
-        width: 35% !important;
-        padding-top: 1.5em;
-    }
-    footer {
-        margin: 1.5em;
-        height: auto !important;
-    }
-    .me-tag {
-        text-align: center !important;
-    }
-    .me-tag a {
-        margin-top: 20px;
-        font-size: 10px;
-        color: #333333;
-    }
-    .copyright {
-        font-size: 12px !important;
-    }
-    #phone{
-        padding-left:0 !important;
-    }
-    #phone p {
-        font-size: 12px !important;
-    }
-    #email {
-        padding-right: 0 !important;
-    }
-    #email a {
-        font-size: 12px !important;
-    }
-    #logo {
-        width:55% !important;
-        margin-left: 1.5em;
-        margin-top: -8px;
-    }
-}
-
-/* iPhone 6 portrait ******************************/
-@media only screen
-and (min-device-width : 569px)
-and (max-device-width : 667px)
-and (orientation : portrait) {
-    header {
-        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron-port.jpg");
-        /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover;
-        -o-background-size: cover;
-        height: 100%;
-
-    }
-
-    .navbar-brand {
-        float: left;
-        width: 60px;
-        height: 49px;
-    }
-    #burgess {
-        margin-top: 165px;
-    }
-    h3 {
-        font-size: 18px;
-    }
-    h4 {
-        font-size: 16px;
-    }
-    body {
-        font-size: 13px;
-    }
-
-    header .header-content {
-        position: relative;
-        width: auto;
-        padding: 16em 1em 1em 1em;
-        text-align: center;
-        margin-right: 0;
-        margin-left: 0;
-
-    }
-    .header-content .header-content-inner {
-        margin-top: 16.285714em;
-        padding-right: .5em;
-        padding-left: .5em;
-    }
-    .header-content .header-content-inner h2 {
-        font-size: 17px;
-        margin-top: 10px;
-        padding: 24px 1px 1px 1px;
-    }
-
-    .header-content .header-content-inner hr {
-        margin: 6px auto;
-        width: 50%;
-    }
-    .header-content .header-content-inner .hr2 {
-        margin: 14px;
-        width: 50%;
-        margin-top: 20px;
-        margin-left: 7em;
-    }
-    .header-content .header-content-inner #untitled-region-1 {
-        font-size: 15px;
-        color: #fff;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        padding: 1px;
-        font-weight: 300;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #logo {
-        width:65%;
-        margin-left: 1.5em;
-    }
-    #book img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 55%;
-    }
-    .conscious-life {
-        margin-bottom: -1.5em;
-    }
-    img#conscious-life {
-        width: 35% !important;
-        padding-top: 1.5em;
-    }
-    footer {
-        margin: 1.5em;
-        height: auto !important;
-    }
-    .me-tag {
-        text-align: center !important;
-    }
-    .me-tag a {
-        margin-top: 20px;
-        font-size: 10px;
-        color: #333333;
-    }
-    .copyright {
-        font-size: 12px !important;
-    }
-    #phone{
-        padding-left:0 !important;
-    }
-    #phone p {
-        font-size: 12px !important;
-    }
-    #email {
-        padding-right: 0 !important;
-    }
-    #email a {
-        font-size: 12px !important;
-    }
-    #logo {
-        width:55% !important;
-        margin-left: 1.5em;
-        margin-top: -8px;
-    }
-}
-
-/* iPhone 6 landscape ******************************/
-@media only screen
-and (min-device-width : 569px)
-and (max-device-width : 667px)
-and (orientation : landscape) {
-    header {
-        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron.jpg");
-        /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover;
-        -o-background-size: cover;
-        height: 100%;
-    }
-
-    .navbar-brand {
-        float: left;
-        width: 60px;
-        height: 49px;
-    }
-
-    #burgess {
-        margin-top: 0;
-    }
-
-    h3 {
-        font-size: 18px;
-    }
-
-    h4 {
-        font-size: 16px;
-    }
-
-    body {
-        font-size: 14px;
-    }
-
-    header .header-content {
-        padding: 11em 1.5em 2em 1.5em;
-        margin: 0;
-    }
-
-    .header-content .header-content-inner {
-        margin-top: 9.185714em;
-        padding-left: 1em;
-    }
-
-    .header-content .header-content-inner h2 {
-        font-size: 17px;
-        margin-top: 10px;
-        padding: 24px 1px 1px 1px;
-        text-align: left;
-
-    }
-
-    .header-content .header-content-inner hr {
-        width: 50%;
-        float: left;
-    }
-
-    .header-content .header-content-inner #untitled-region-1 {
-        display: none;
-        font-size: 14px;
-        color: black;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        margin: 5.6em 1em 1em 2em;
-        padding: 1px;
-    }
-
-    #logo {
-        width: 65%;
-        margin-left: 1.5em;
-    }
-
-    #book img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 40%;
-    }
-
-    .conscious-life {
-        margin-bottom: -1.5em;
-    }
-
-    img#conscious-life {
-        width: 35% !important;
-        padding-top: 1.5em;
-    }
-
-    footer {
-        margin: 1.5em;
-        height: auto !important;
-    }
-
-    .me-tag {
-        text-align: center !important;
-    }
-
-    .me-tag a {
-        margin-top: 20px;
-        font-size: 10px;
-        color: whitesmoke;
-    }
-
-    .copyright {
-        font-size: 14px;
-    }
-
-    #phone {
-        padding-left: 0;
-    }
-
-    #phone p {
-        font-size: 12px;
-    }
-
-    #email {
-        padding-right: 0;
-    }
-
-    #email a {
-        font-size: 12px;
-    }
-
-    #logo {
-        width: 55%;
-        margin-left: 1.5em;
-        margin-top: -8px;
-    }
-}
-
-/* iPhone 6 Plus portrait *************************/
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 736px)
-and (orientation : portrait) {
-    header {
-        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron-port.jpg");
-        /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover;
-        -o-background-size: cover;
-        height: 100%;
-
-    }
-
-    .navbar-brand {
-        float: left;
-        width: 60px;
-        height: 49px;
-    }
-    #burgess {
-        margin-top: 0em;
-    }
-    h3 {
-        font-size: 18px;
-    }
-    h4 {
-        font-size: 16px;
-    }
-    body {
-        font-size: 13px;
-    }
-    header .header-content {
-        position: relative;
-        width: auto;
-        padding: 16em 1em 1em 1em;
-        text-align: center;
-        margin-right: 0;
-        margin-left: 0;
-    }
-    .header-content .header-content-inner {
-        margin-top: 9em;
-        padding-right: .5em;
-        padding-left: .5em;
-        background-color: rgba(245, 245, 245, 0.58);
-    }
-    section.feature {
-        margin-top: 1em;
-    }
-    #index-foot {
-        margin-top: 0em;
-    }
-    img.conscious-life {
-        width: 56% !important;
-    }
-    .conscious-life {
-        margin-bottom: -1em !important;
-    }
-}
-.header-content .header-content-inner h2 {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+  }
+  .navbar-brand {
+    float: left;
+    width: 60px;
+    height: 49px;
+  }
+  #burgess {
+    margin-top: 0;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h4 {
     font-size: 16px;
+  }
+  body {
+    font-size: 13px;
+  }
+  header .header-content {
+    padding: 103px 15px 20px 15px;
+    margin: 0;
+  }
+  .header-content .header-content-inner {
+    margin-top: 10.185714em;
+    padding-left: 1em;
+  }
+  .header-content .header-content-inner h2 {
+    font-size: 17px;
     margin-top: 10px;
     padding: 24px 1px 1px 1px;
-}
+    text-align: left;
+  }
 
-.header-content .header-content-inner hr {
-    width: 50%;
-    margin-bottom: 1em;
-}
-header .header-content .header-content-inner p {
-
-    padding-right: 0.5em;
-    padding-left: 0.5em;
-
-}
-#workBut{
-    /*margin-left:7em;*/
-}
-
-.header-content .header-content-inner #untitled-region-1 {
-    display:none;
-    font-size: 15px;
+  .header-content .header-content-inner hr {
+    width: 56%;
+    float: left;
+  }
+  .header-content .header-content-inner #untitled-region-1 {
+    display: none;
+    font-size: 14px;
     color: black;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 68px 10px 10px 20px;
     padding: 1px;
-    font-weight: 300;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 1.5em;
-}
-#logo {
-    width:65%;
+  }
+  #logo {
+    width: 65%;
     margin-left: 1.5em;
-}
-#book img {
+  }
+  #book img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 55%;
-}
-.conscious-life {
+  }
+  .conscious-life {
     margin-bottom: -1.5em;
-}
-img#conscious-life {
+  }
+  img#conscious-life {
     width: 35% !important;
     padding-top: 1.5em;
-}
-footer {
-    height: 11.4em;
-}
-.me-tag {
-    text-align: center;
-    margin-top: 8em;
-}
-.me-tag a {
+  }
+  footer {
+    margin: 1.5em;
+    height: auto !important;
+  }
+  .me-tag {
+    text-align: center !important;
+  }
+  .me-tag a {
     margin-top: 20px;
-    font-size: 14px;
-    color: whitesmoke;
-}
-.copyright {
-    /*font-size: 12px !important;*/
-    text-align: center;
-    padding-right: 4em;
-    padding-left: 4em;
-    margin-top: -2em;
-    padding-bottom: .1em;
-}
-p.fa.fa-copyright {
-    font-size: 18px !important;
-    font-weight: bolder;
-}
-.social-icon-container {
-    /*padding-top: 1em;*/
-    padding-right: 0;
-    padding-left: 0;
-    /*margin-top: 1em;*/
-}
-#phone {
-    padding-right: 2em;
-    padding-left: 2em;
-    float: left;
-}
-#phone p {
+    font-size: 10px;
+    color: #333333;
+  }
+  .copyright {
     font-size: 12px !important;
-}
-#email {
-    padding-right: 2em;
-    padding-left: 2em;
-    float: right;
-}
-#email a {
+  }
+  #phone {
+    padding-left: 0 !important;
+  }
+  #phone p {
     font-size: 12px !important;
-}
-#logo {
-    width:75% !important;
+  }
+  #email {
+    padding-right: 0 !important;
+  }
+  #email a {
+    font-size: 12px !important;
+  }
+  #logo {
+    width: 55% !important;
     margin-left: 1.5em;
     margin-top: -8px;
+  }
+}
+
+/* iPhone 6 portrait ******************************/
+@media only screen and (min-device-width: 569px) and (max-device-width: 667px) and (orientation: portrait) {
+  header {
+    background-image: url('http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron-port.jpg');
+    /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+  }
+
+  .navbar-brand {
+    float: left;
+    width: 60px;
+    height: 49px;
+  }
+  #burgess {
+    margin-top: 165px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  body {
+    font-size: 13px;
+  }
+
+  header .header-content {
+    position: relative;
+    width: auto;
+    padding: 16em 1em 1em 1em;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .header-content .header-content-inner {
+    margin-top: 16.285714em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+  }
+  .header-content .header-content-inner h2 {
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 24px 1px 1px 1px;
+  }
+
+  .header-content .header-content-inner hr {
+    margin: 6px auto;
+    width: 50%;
+  }
+  .header-content .header-content-inner .hr2 {
+    margin: 14px;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 7em;
+  }
+  .header-content .header-content-inner #untitled-region-1 {
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 1px;
+    font-weight: 300;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #logo {
+    width: 65%;
+    margin-left: 1.5em;
+  }
+  #book img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+  }
+  .conscious-life {
+    margin-bottom: -1.5em;
+  }
+  img#conscious-life {
+    width: 35% !important;
+    padding-top: 1.5em;
+  }
+  footer {
+    margin: 1.5em;
+    height: auto !important;
+  }
+  .me-tag {
+    text-align: center !important;
+  }
+  .me-tag a {
+    margin-top: 20px;
+    font-size: 10px;
+    color: #333333;
+  }
+  .copyright {
+    font-size: 12px !important;
+  }
+  #phone {
+    padding-left: 0 !important;
+  }
+  #phone p {
+    font-size: 12px !important;
+  }
+  #email {
+    padding-right: 0 !important;
+  }
+  #email a {
+    font-size: 12px !important;
+  }
+  #logo {
+    width: 55% !important;
+    margin-left: 1.5em;
+    margin-top: -8px;
+  }
+}
+
+/* iPhone 6 landscape ******************************/
+@media only screen and (min-device-width: 569px) and (max-device-width: 667px) and (orientation: landscape) {
+  header {
+    background-image: url('http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron.jpg');
+    /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+  }
+
+  .navbar-brand {
+    float: left;
+    width: 60px;
+    height: 49px;
+  }
+
+  #burgess {
+    margin-top: 0;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  header .header-content {
+    padding: 11em 1.5em 2em 1.5em;
+    margin: 0;
+  }
+
+  .header-content .header-content-inner {
+    margin-top: 9.185714em;
+    padding-left: 1em;
+  }
+
+  .header-content .header-content-inner h2 {
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 24px 1px 1px 1px;
+    text-align: left;
+  }
+
+  .header-content .header-content-inner hr {
+    width: 50%;
+    float: left;
+  }
+
+  .header-content .header-content-inner #untitled-region-1 {
+    display: none;
+    font-size: 14px;
+    color: black;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 5.6em 1em 1em 2em;
+    padding: 1px;
+  }
+
+  #logo {
+    width: 65%;
+    margin-left: 1.5em;
+  }
+
+  #book img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  .conscious-life {
+    margin-bottom: -1.5em;
+  }
+
+  img#conscious-life {
+    width: 35% !important;
+    padding-top: 1.5em;
+  }
+
+  footer {
+    margin: 1.5em;
+    height: auto !important;
+  }
+
+  .me-tag {
+    text-align: center !important;
+  }
+
+  .me-tag a {
+    margin-top: 20px;
+    font-size: 10px;
+    color: whitesmoke;
+  }
+
+  .copyright {
+    font-size: 14px;
+  }
+
+  #phone {
+    padding-left: 0;
+  }
+
+  #phone p {
+    font-size: 12px;
+  }
+
+  #email {
+    padding-right: 0;
+  }
+
+  #email a {
+    font-size: 12px;
+  }
+
+  #logo {
+    width: 55%;
+    margin-left: 1.5em;
+    margin-top: -8px;
+  }
+}
+
+/* iPhone 6 Plus portrait *************************/
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: portrait) {
+  header {
+    background-image: url('http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron-port.jpg');
+    /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+  }
+
+  .navbar-brand {
+    float: left;
+    width: 60px;
+    height: 49px;
+  }
+  #burgess {
+    margin-top: 0em;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  body {
+    font-size: 13px;
+  }
+  header .header-content {
+    position: relative;
+    width: auto;
+    padding: 16em 1em 1em 1em;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .header-content .header-content-inner {
+    margin-top: 9em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    background-color: rgba(245, 245, 245, 0.58);
+  }
+  section.feature {
+    margin-top: 1em;
+  }
+  #index-foot {
+    margin-top: 0em;
+  }
+  img.conscious-life {
+    width: 56% !important;
+  }
+  .conscious-life {
+    margin-bottom: -1em !important;
+  }
+}
+.header-content .header-content-inner h2 {
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 24px 1px 1px 1px;
+}
+
+.header-content .header-content-inner hr {
+  width: 50%;
+  margin-bottom: 1em;
+}
+header .header-content .header-content-inner p {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+#workBut {
+  /*margin-left:7em;*/
+}
+
+.header-content .header-content-inner #untitled-region-1 {
+  display: none;
+  font-size: 15px;
+  color: black;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 1px;
+  font-weight: 300;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1.5em;
+}
+#logo {
+  width: 65%;
+  margin-left: 1.5em;
+}
+#book img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+.conscious-life {
+  margin-bottom: -1.5em;
+}
+img#conscious-life {
+  width: 35% !important;
+  padding-top: 1.5em;
+}
+footer {
+  height: 11.4em;
+}
+.me-tag {
+  text-align: center;
+  margin-top: 8em;
+}
+.me-tag a {
+  margin-top: 20px;
+  font-size: 14px;
+  color: whitesmoke;
+}
+.copyright {
+  /*font-size: 12px !important;*/
+  text-align: center;
+  padding-right: 4em;
+  padding-left: 4em;
+  margin-top: -2em;
+  padding-bottom: 0.1em;
+}
+p.fa.fa-copyright {
+  font-size: 18px !important;
+  font-weight: bolder;
+}
+.social-icon-container {
+  /*padding-top: 1em;*/
+  padding-right: 0;
+  padding-left: 0;
+  /*margin-top: 1em;*/
+}
+#phone {
+  padding-right: 2em;
+  padding-left: 2em;
+  float: left;
+}
+#phone p {
+  font-size: 12px !important;
+}
+#email {
+  padding-right: 2em;
+  padding-left: 2em;
+  float: right;
+}
+#email a {
+  font-size: 12px !important;
+}
+#logo {
+  width: 75% !important;
+  margin-left: 1.5em;
+  margin-top: -8px;
 }
 ul.foot-horiz-menu a {
-    color: whitesmoke
+  color: whitesmoke;
 }
 ul.foot-horiz-menu {
-    float: left;
-    list-style: none;
-    display: flex;
-    padding-left: 0;
-    padding-right: 0;
+  float: left;
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  padding-right: 0;
 }
 #testimonial-foot {
-    padding-right: 2em;
-    padding-left: 2em;
+  padding-right: 2em;
+  padding-left: 2em;
 }
 
 #contact-foot {
-    padding-right: 2em;
-    padding-left: 2em;
+  padding-right: 2em;
+  padding-left: 2em;
 }
 
-
-
 /* iPhone 6 Plus landscape *************************/
-@media only screen
-and (min-device-width : 668px)
-and (max-device-width : 736px)
-and (orientation : landscape) {
-    header {
-        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron.jpg");
-        /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover;
-        -o-background-size: cover;
-        height: 100%;
-    }
-    .navbar-brand {
-        float: left;
-        width: 60px;
-        height: 49px;
-    }
-    #burgess {
-        margin-top: 0;
-    }
-    h3 {
-        font-size: 18px;
-    }
-    h4 {
-        font-size: 16px;
-    }
-    body {
-        font-size: 14px;
-    }
-    header .header-content {
-        padding: 80px 15px 20px 15px;
-        margin-right: 0;
-    }
-    .header-content .header-content-inner {
-        margin-top: 11.185714em;
-    }
-    .header-content .header-content-inner h2 {
-        font-size: 17px;
-        margin-top: 10px;
-        padding: 107px 338px 1px 1px;
-    }
-    .header-content .header-content-inner hr {
-        margin: 6px 300px 1px 1px;
-        width: 50%;
-    }
+@media only screen and (min-device-width: 668px) and (max-device-width: 736px) and (orientation: landscape) {
+  header {
+    background-image: url('http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron.jpg');
+    /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+  }
+  .navbar-brand {
+    float: left;
+    width: 60px;
+    height: 49px;
+  }
+  #burgess {
+    margin-top: 0;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  body {
+    font-size: 14px;
+  }
+  header .header-content {
+    padding: 80px 15px 20px 15px;
+    margin-right: 0;
+  }
+  .header-content .header-content-inner {
+    margin-top: 11.185714em;
+  }
+  .header-content .header-content-inner h2 {
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 107px 338px 1px 1px;
+  }
+  .header-content .header-content-inner hr {
+    margin: 6px 300px 1px 1px;
+    width: 50%;
+  }
 
-    .header-content .header-content-inner #untitled-region-1 {
-        display: none;
-        font-size: 14px;
-        color: black;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        margin: 72px 10px 10px 20px;
-        padding: 1px;
-    }
-    #logo {
-        width:65%;
-        margin-left: 1.5em;
-    }
-    #book img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 40%;
-    }
-    .conscious-life {
-        margin-bottom: -1.5em;
-    }
-    img#conscious-life {
-        width: 35%;
-        padding-top: 1.5em;
-    }
-    footer {
-        margin: 1.5em;
-        height: auto;
-    }
-    .me-tag {
-        text-align: center;
-    }
-    .me-tag a {
-        margin-top: 20px;
-        font-size: 10px;
-        color: whitesmoke;
-    }
-    .copyright {
-        font-size: 12px;
-    }
-    #phone{
-        padding-left:0;
-    }
-    #phone p {
-        font-size: 12px;
-    }
-    #email {
-        padding-right: 0;
-    }
-    #email a {
-        font-size: 12px;
-    }
-    #logo {
-        width:55%;
-        margin-left: 1.5em;
-        margin-top: -8px;
-    }
+  .header-content .header-content-inner #untitled-region-1 {
+    display: none;
+    font-size: 14px;
+    color: black;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 72px 10px 10px 20px;
+    padding: 1px;
+  }
+  #logo {
+    width: 65%;
+    margin-left: 1.5em;
+  }
+  #book img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  .conscious-life {
+    margin-bottom: -1.5em;
+  }
+  img#conscious-life {
+    width: 35%;
+    padding-top: 1.5em;
+  }
+  footer {
+    margin: 1.5em;
+    height: auto;
+  }
+  .me-tag {
+    text-align: center;
+  }
+  .me-tag a {
+    margin-top: 20px;
+    font-size: 10px;
+    color: whitesmoke;
+  }
+  .copyright {
+    font-size: 12px;
+  }
+  #phone {
+    padding-left: 0;
+  }
+  #phone p {
+    font-size: 12px;
+  }
+  #email {
+    padding-right: 0;
+  }
+  #email a {
+    font-size: 12px;
+  }
+  #logo {
+    width: 55%;
+    margin-left: 1.5em;
+    margin-top: -8px;
+  }
 }
 
 /* iPad in portrait *********************************/
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : portrait) {
-    header {
-        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron-port.jpg");
-        /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover;
-        -o-background-size: cover;
-        height: 100%;
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  header {
+    background-image: url('http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron-port.jpg');
+    /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+  }
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,
+  .navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7px;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in {
+    display: block !important;
+  }
+  .navbar-brand {
+    float: left;
+    width: 60px;
+    height: 49px;
+  }
+  #burgess {
+    margin-top: 165px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  body {
+    font-size: 17px;
+  }
+  header .header-content {
+    padding: 325px 15px 20px 15px;
+    margin: 0;
+  }
+  .header-content .header-content-inner {
+    margin-top: 32.185714em;
+  }
+  .header-content .header-content-inner h2 {
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 5px 1px 1px 1px;
+  }
 
-    }
-    .navbar-header {
-        float: none;
-    }
-    .navbar-left,.navbar-right {
-        float: none !important;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-fixed-top {
-        top: 0;
-        border-width: 0 0 1px;
-    }
-    .navbar-collapse.collapse {
-        display: none !important;
-    }
-    .navbar-nav {
-        float: none!important;
-        margin-top: 7px;
-    }
-    .navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .collapse.in{
-        display:block !important;
-    }
-    .navbar-brand {
-        float: left;
-        width: 60px;
-        height: 49px;
-    }
-    #burgess {
-        margin-top: 165px;
-    }
-    h3 {
-        font-size: 18px;
-    }
-    h4 {
-        font-size: 16px;
-    }
-    body {
-        font-size: 17px;
-    }
-    header .header-content {
-        padding: 325px 15px 20px 15px;
-        margin: 0;
-    }
-    .header-content .header-content-inner {
-        margin-top: 32.185714em;
-    }
-    .header-content .header-content-inner h2 {
-        font-size: 25px;
-        margin-top: 10px;
-        padding: 5px 1px 1px 1px;
-    }
+  .header-content .header-content-inner hr {
+    margin: 6px auto;
+    width: 50%;
+  }
+  .header-content .header-content-inner .hr2 {
+    margin: 14px;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 7em;
+  }
+  .header-content .header-content-inner #untitled-region-1 {
+    font-size: 17px;
+    color: black;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 141px 10px 10px 20px;
+    padding: 1px;
+  }
 
-    .header-content .header-content-inner hr {
-        margin: 6px auto;
-        width: 50%;
-    }
-    .header-content .header-content-inner .hr2 {
-        margin: 14px;
-        width: 50%;
-        margin-top: 20px;
-        margin-left: 7em;
-    }
-    .header-content .header-content-inner #untitled-region-1 {
-        font-size: 17px;
-        color: black;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        margin: 141px 10px 10px 20px;
-        padding: 1px;
-    }
-
-    #book img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 55%;
-    }
-    .conscious-life {
-        margin-bottom: -1.5em;
-    }
-    img#conscious-life {
-        width: 35% !important;
-        padding-top: 1.5em;
-    }
-    footer {
-
-        height: 350px;
-    }
-    .me-tag {
-        text-align: center !important;
-    }
-    .me-tag a {
-        margin-top: 20px;
-        font-size: 10px;
-        color: whitesmoke;
-    }
-    .copyright {
-        font-size: 12px !important;
-        padding-right: 3em !important;
-
-    }
-    #phone{
-        padding-left:0 !important;
-    }
-    #phone p {
-        font-size: 12px !important;
-    }
-    #email {
-        padding-right: 0 !important;
-    }
-    #email a {
-        font-size: 12px !important;
-    }
-    #logo {
-        width:80%;
-        margin-left: 1.5em;
-        margin-top: -8px;
-    }
-    .social-icon-container {
-        padding-right: 1em;
-    }
+  #book img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+  }
+  .conscious-life {
+    margin-bottom: -1.5em;
+  }
+  img#conscious-life {
+    width: 35% !important;
+    padding-top: 1.5em;
+  }
+  footer {
+    height: 350px;
+  }
+  .me-tag {
+    text-align: center !important;
+  }
+  .me-tag a {
+    margin-top: 20px;
+    font-size: 10px;
+    color: whitesmoke;
+  }
+  .copyright {
+    font-size: 12px !important;
+    padding-right: 3em !important;
+  }
+  #phone {
+    padding-left: 0 !important;
+  }
+  #phone p {
+    font-size: 12px !important;
+  }
+  #email {
+    padding-right: 0 !important;
+  }
+  #email a {
+    font-size: 12px !important;
+  }
+  #logo {
+    width: 80%;
+    margin-left: 1.5em;
+    margin-top: -8px;
+  }
+  .social-icon-container {
+    padding-right: 1em;
+  }
 }
 
 /* iPad in landscape *********************************/
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : landscape) {
-    header {
-        background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron.jpg");
-        /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        background-size: cover;
-        -o-background-size: cover;
-        height: 100%;
-    }
-    .navbar-brand {
-        float: left;
-        width: 60px;
-        height: 49px;
-    }
-    .navbar-header {
-        float: none;
-    }
-    .navbar-left,.navbar-right {
-        float: none !important;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-fixed-top {
-        top: 0;
-        border-width: 0 0 1px;
-    }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-        margin-top: 7px;
-    }
-    .navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .collapse.in{
-        display:block !important;
-    }
-    .navbar-brand {
-        float: left;
-        width: 60px;
-        height: 49px;
-    }
-    #burgess {
-        margin-top: 282px;
-    }
-    h3 {
-        font-size: 18px;
-    }
-    h4 {
-        font-size: 16px;
-    }
-    body {
-        font-size: 14px;
-    }
-    header .header-content {
-        padding: 224px 15px 20px 15px;
-        margin: 0;
-    }
-    .header-content .header-content-inner {
-        margin-top: 22.185714em;
-        padding-right: 22em;
-    }
-    .header-content .header-content-inner h2 {
-        font-size: 23px;
-        margin-top: 10px;
-        padding: 20px 1px 1px 1px;
-        text-align: left;
-    }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  header {
+    background-image: url('http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron.jpg');
+    /* background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Nature-Tree-port.jpg");*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+  }
+  .navbar-brand {
+    float: left;
+    width: 60px;
+    height: 49px;
+  }
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,
+  .navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7px;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in {
+    display: block !important;
+  }
+  .navbar-brand {
+    float: left;
+    width: 60px;
+    height: 49px;
+  }
+  #burgess {
+    margin-top: 282px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  body {
+    font-size: 14px;
+  }
+  header .header-content {
+    padding: 224px 15px 20px 15px;
+    margin: 0;
+  }
+  .header-content .header-content-inner {
+    margin-top: 22.185714em;
+    padding-right: 22em;
+  }
+  .header-content .header-content-inner h2 {
+    font-size: 23px;
+    margin-top: 10px;
+    padding: 20px 1px 1px 1px;
+    text-align: left;
+  }
 
-    .header-content .header-content-inner hr {
-        width: 58%;
-        margin: 0;
-        float: left;
-    }
-    .header-content .header-content-inner .hr2 {
-        margin: 14px;
-        width: 50%;
-        margin-top: 20px;
-        margin-left: 7em;
-    }
-    .header-content .header-content-inner #untitled-region-1 {
-        font-size: 14px;
-        color: #fff;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        margin: 2em 10em 1em 0;
-        padding: 1px;
-
-    }
-    #logo {
-        width:65%;
-        margin-left: 1.5em;
-    }
-    #book img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 25%;
-    }
-    .conscious-life {
-        margin-bottom: -1.5em;
-    }
-    img#conscious-life {
-        width: 23% !important;
-        padding-top: 1.5em;
-    }
-    footer {
-        margin: 1.5em;
-        height: auto !important;
-    }
-    .me-tag {
-        text-align: center !important;
-    }
-    .me-tag a {
-        margin-top: 20px;
-        font-size: 10px;
-        color: whitesmoke;
-    }
-    .copyright {
-        font-size: 12px !important;
-    }
-    #phone{
-        padding-left:0 !important;
-    }
-    #phone p {
-        font-size: 12px !important;
-    }
-    #email {
-        padding-right: 0 !important;
-    }
-    #email a {
-        font-size: 12px !important;
-    }
-    #logo {
-        width:80% !important;
-        margin-left: 1.5em;
-        margin-top: -8px;
-    }
+  .header-content .header-content-inner hr {
+    width: 58%;
+    margin: 0;
+    float: left;
+  }
+  .header-content .header-content-inner .hr2 {
+    margin: 14px;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 7em;
+  }
+  .header-content .header-content-inner #untitled-region-1 {
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 2em 10em 1em 0;
+    padding: 1px;
+  }
+  #logo {
+    width: 65%;
+    margin-left: 1.5em;
+  }
+  #book img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+  .conscious-life {
+    margin-bottom: -1.5em;
+  }
+  img#conscious-life {
+    width: 23% !important;
+    padding-top: 1.5em;
+  }
+  footer {
+    margin: 1.5em;
+    height: auto !important;
+  }
+  .me-tag {
+    text-align: center !important;
+  }
+  .me-tag a {
+    margin-top: 20px;
+    font-size: 10px;
+    color: whitesmoke;
+  }
+  .copyright {
+    font-size: 12px !important;
+  }
+  #phone {
+    padding-left: 0 !important;
+  }
+  #phone p {
+    font-size: 12px !important;
+  }
+  #email {
+    padding-right: 0 !important;
+  }
+  #email a {
+    font-size: 12px !important;
+  }
+  #logo {
+    width: 80% !important;
+    margin-left: 1.5em;
+    margin-top: -8px;
+  }
 }
 
 /* Galaxy S5/ HTC One Portrait ***********************/
-@media screen
-and (device-width: 360px)
-and (device-height: 640px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: portrait) {
-
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
 }
 /* Galaxy S5/ HTC One Landscape ***********************/
-@media screen
-and (device-width: 360px)
-and (device-height: 640px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: landscape) {
-
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
 }
 
 @media (max-width: 1271px) {
-    .navbar-header {
-        float: none;
-    }
-    .navbar-left,.navbar-right {
-        float: none !important;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-fixed-top {
-        top: 0;
-        border-width: 0 0 1px;
-    }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-        margin-top: 7px;
-    }
-    .navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .collapse.in{
-        display:block !important;
-    }
-    .collapse.in .social-icons1  {
-        display:none;
-    }
-
-
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,
+  .navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7px;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in {
+    display: block !important;
+  }
+  .collapse.in .social-icons1 {
+    display: none;
+  }
+  .navbar-fixed-top .navbar-collapse {
+    max-height: 456px;
+  }
+  .nav.fadeInDown {
+    /* -webkit-animation-duration: 2s; */
+    margin-right: 0%;
+    margin-left: 0%;
+  }
 }
 
 @media (max-width: 1211px) {
-    .healers .healer-staff {
-        display: -webkit-box;
-        display: -moz-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -moz-box-orient: vertical;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        /* optional */
-        -webkit-box-align: start;
-        -moz-box-align: start;
-        -ms-flex-align: start;
-        -webkit-align-items: flex-start;
-        align-items: flex-start;
-    }
+  .healers .healer-staff {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* optional */
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+  }
 
-    .healers .txt {
-        margin: auto;
-        -webkit-box-ordinal-group: 2;
-        -moz-box-ordinal-group: 2;
-        -ms-flex-order: 2;
-        -webkit-order: 2;
-        order: 2;
-    }
-    #diana-about-txt, #christina-about-txt, #betty-about-txt, #tracy-about-txt {
-        padding: 0em;
-        /*margin-top: 130px;*/
-    }
+  .healers .txt {
+    margin: auto;
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
+  #diana-about-txt,
+  #christina-about-txt,
+  #betty-about-txt,
+  #tracy-about-txt {
+    padding: 0em;
+    /*margin-top: 130px;*/
+  }
 
-    .healers .image {
-        /*width: 366px !important;*/
-        height: 265px !important;
-        margin: auto;
-        -webkit-box-ordinal-group: 1;
-        -moz-box-ordinal-group: 1;
-        -ms-flex-order: 1;
-        order: 1;
-    }
-    #christina-about-img, #tracy-about-img, #betty-about-img, #diana-about-img {
-        display: block;
-        max-width: 100%;
-        height: 265px;
-    }
-    #carousel-example-generic {
-        display:none;
-    }
-    #teacup-img img, #book-img img {
-        width: 168px;
-        height: 251px;
-    }
-    .row.CTA_container {
-        margin-top: -18em;
-        /*text-align: center;*/
-        display: none;
-    }
-    .h1, h1 {
-        font-size: 24px;
-    }
+  .healers .image {
+    /*width: 366px !important;*/
+    height: 265px !important;
+    margin: auto;
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  #christina-about-img,
+  #tracy-about-img,
+  #betty-about-img,
+  #diana-about-img {
+    display: block;
+    max-width: 100%;
+    height: 265px;
+    border-radius: 50%;
+  }
+  #carousel-example-generic {
+    display: none;
+  }
+  #teacup-img img,
+  #book-img img {
+    width: 168px;
+    height: 251px;
+  }
+  .row.CTA_container {
+    margin-top: -18em;
+    /*text-align: center;*/
+    display: none;
+  }
+  .h1,
+  h1 {
+    font-size: 24px;
+  }
 }
 /*---------------------------------------------------->*/
 
 .theprocess {
-    text-align: center;
-    margin-bottom: 25px;
+  text-align: center;
+  margin-bottom: 25px;
 }
 p.theprocesstxt {
-    margin-bottom: 55px;
+  margin-bottom: 55px;
 }
 
 /*Store ***********************************************/
 .page-content {
-    height: auto;
+  height: auto;
 }
 .C-D {
-    margin: 0em 0 0em;
+  margin: 0em 0 0em;
 }
 .D-V {
-    margin: 0em 0 0em;
+  margin: 0em 0 0em;
 }
-.dVideo, .dAudio {
-    margin-bottom: -3em;
-    margin-top: 1em;
+.dVideo,
+.dAudio {
+  margin-bottom: -3em;
+  margin-top: 1em;
 }
 .fadeIn {
-    -webkit-animation-duration: 2s !important;
+  -webkit-animation-duration: 2s !important;
 }
 .fadeInUp {
-    -webkit-animation-duration: 1s !important;
-    -webkit-animation-delay: 2.5s;
+  -webkit-animation-duration: 1s !important;
+  -webkit-animation-delay: 2.5s;
 }
 .fadeInDown {
-    -webkit-animation-duration: 3s !important;
-
+  -webkit-animation-duration: 3s !important;
 }
 .zoomInDown {
-    -webkit-animation-duration: 1.5s !important;
-
+  -webkit-animation-duration: 1.5s !important;
 }
 .D-V.fadeIn {
-    -webkit-animation-duration: 2s !important;
-    -webkit-animation-delay: 1s;
+  -webkit-animation-duration: 2s !important;
+  -webkit-animation-delay: 1s;
 }
 .container-fluid {
-    margin: auto;
-    text-align: center;
-    border: none;
+  margin: auto;
+  text-align: center;
+  border: none;
 }
 
 .slide-image {
-    width: 100%;
+  width: 100%;
 }
 
 .carousel-holder {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .carousel-control,
 .item {
-    border-radius: 4px;
+  border-radius: 4px;
 }
 
 .caption {
-    height: 130px;
-    overflow: hidden;
+  height: 130px;
+  overflow: hidden;
 }
 
 /* .caption h4 {
     white-space: nowrap;
 } */
 .caption-title {
-    word-wrap: break-word;
+  word-wrap: break-word;
 }
 .caption {
-    text-align: center; 
+  text-align: center;
 }
 .thumbnail img {
-    width: 100%;
+  width: 100%;
 }
 
 .ratings {
-    padding-right: 10px;
-    padding-left: 10px;
-    color: #d17581;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #d17581;
 }
 
 .thumbnail {
-    padding: 0;
+  padding: 0;
 }
 
 .thumbnail .caption-full {
-    padding: 9px;
-    color: #333;
+  padding: 9px;
+  color: #333;
 }
 .thumbnail {
-    display: block;
-    padding: 4px;
-    margin-bottom: 20px;
-    line-height: 1.42857143;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    -webkit-transition: border .2s ease-in-out;
-    -o-transition: border .2s ease-in-out;
-    transition: border .2s ease-in-out;
-    margin-top: 3em;
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: border 0.2s ease-in-out;
+  -o-transition: border 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
+  margin-top: 3em;
 }
-.dVideo hr, .dAudio hr {
-    width: 25%;
+.dVideo hr,
+.dAudio hr {
+  width: 25%;
 }
 .dAudio {
-    margin-top: 0em;
+  margin-top: 0em;
 }
 .thumbnail .caption {
-    padding: 9px;
-    color: #333;
-    height: 30em;
-    
+  padding: 9px;
+  color: #333;
+  height: 30em;
 }
 .capImg {
-    background-image: url('../img/sunset-2754909_960_720.jpg');
-    background-size: cover;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 5px;
+  background-image: url('../img/sunset-2754909_960_720.jpg');
+  background-size: cover;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
 }
 .capImg .centered {
-    position: absolute;
-    top: 28%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 img.CLJ_img {
-    width: 80%;
+  width: 80%;
 }
 h4.capPrice {
-    margin-top: 4em;
-    margin-bottom: 1em;
-
+  margin-top: 4em;
+  margin-bottom: 1em;
 }
 .flipInX {
-    animation-delay: 3s;
+  animation-delay: 3s;
 }
 #radio .flipInX {
-    animation-delay: .5s;
+  animation-delay: 0.5s;
 }
 #radio .lightSpeedIn {
-    animation-delay: 1s;
+  animation-delay: 1s;
 }
 /* .caption .dVideoBtn {
     margin-top: 4.5em !important;
 } */
-.btn-container a[data-fsc-item-path="flow"] {
-    margin-top: 4.1em !important;
-    
+.btn-container a[data-fsc-item-path='flow'] {
+  margin-top: 4.1em !important;
 }
-.btn-container a[data-fsc-item-path="passion"] {
-    margin-top: 5.5em !important;
-    
+.btn-container a[data-fsc-item-path='passion'] {
+  margin-top: 5.5em !important;
 }
-a[data-fsc-item-path="intimacy"] {
-    margin-top: 7.5em !important;
-    
+a[data-fsc-item-path='intimacy'] {
+  margin-top: 7.5em !important;
 }
-a[data-fsc-item-path="true-freedom"] {
-    margin-top: 7.7em !important;
-    
+a[data-fsc-item-path='true-freedom'] {
+  margin-top: 7.7em !important;
 }
-a[data-fsc-item-path="prayers-for-real-life"] {
-    margin-top: 4.5em !important;
-    
+a[data-fsc-item-path='prayers-for-real-life'] {
+  margin-top: 4.5em !important;
 }
 .healers ul.social-icons li a.healer_website {
-    /* height: 12px !important; */
-    font-size: 18px;
+  /* height: 12px !important; */
+  font-size: 18px;
+}
+/* radio promotion section */
+
+.communittyImg img {
+  width: 70%;
+  border-radius: 5px;
+}
+#radio_community {
+  margin-top: 10%;
+  padding: 2% 5% 5%;
+  border: 1px solid #363636;
+  border-radius: 10px;
+}
+#radio_community .community {
+  margin-top: 2%;
 }

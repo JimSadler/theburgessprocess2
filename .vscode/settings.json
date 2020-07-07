@@ -1,6 +1,7 @@
 {
   "editor.tabSize": 2,
   "optimizeImages.app": "ImageOptim",
-  "emmet.triggerExpansionOnTab": true
+  "emmet.triggerExpansionOnTab": true,
+  "liveServer.settings.port": 5501
 
 }

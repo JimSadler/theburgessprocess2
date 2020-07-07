@@ -1,48 +1,116 @@
-<?php include "./includes/Header.php";?>
-  <!-- Navigation -->
+<?php include "./includes/Header.php"; ?>
+<!-- Navigation -->
 
-  <!-- /.container-fluid -->
-  <?php include "./includes/Navigation.php";?>
+<!-- /.container-fluid -->
+<?php include "./includes/Navigation.php"; ?>
 
-  <!-- Features Section -->
+<!-- Features Section -->
 
-  <div id="main-content" role="main">
-    <div class="container" style="text-align: center;">
-      <div id='radio' class="row">
-        <div class="col-md-12 editable" id="untitled-region-9">
-          <h3 class="page-header">Radio Show</h3>
-          <h4 role="presentation"> Real Talk with Martha Burgess Novak is on Blog Talk Radio and Facebook Live</h4>
+<div id="main-content" role="main">
+  <div class="container" style="text-align: center;">
+    <div id='radio' class="row">
+      <div class="col-md-12 editable" id="untitled-region-9">
+        <h3 class="page-header">Radio Show</h3>
+        <h4 role="presentation"> Real Talk with Martha Novak is on Blog Talk Radio and Facebook Live</h4>
 
-          <h5 role="presentation">Sunday, 11/04/18 at 10AM, east coast time.</h5>
-          <p class="p1">
-            <span class="s1"> This show is the last of a series on cognitive distortions and the consciousness required to move beyond them.  Join us for a lively time!  It's been a fascinating series so don't forget to listen to the archived shows on this and other subjects on Blog Talk Radio and Facebook Live. </span>
-          </p>
-          <p>
-              <span>  Do know that some of our shows do not broadcast because we struggle with speed in various show locations.  Usually, if you cannot find a show in one venue, it will be in another.  Thank you for being loyal listeners and "searching around" to find Martha.  You'll find many of her shows on YouTube as well.</span>
-          </p>
+        <h5 role="presentation">Sunday, 07/19/20 at 10AM east coast time.</h5>
 
-           <p>Don't forget that next Sunday, November 4th we revert to EST.  Our show will go live at 10AM. We ask, too, that if you are enjoying our shows, please tell social media about us.  This means a lot.  We appreciate all of you who are following us, liking us, and sharing us.  
-          </p>
-          <a class="btn btn-sm animated-button victoria-three animated flipInX" href="http://www.blogtalkradio.com/marthaburgessnovak/2018/11/04/real-talk-with-martha-burgess-novak "
-            target="_blank">Listen to the Show
-          </a>
-          <a class="btn btn-sm animated-button victoria-three animated flipInX" href="https://www.facebook.com/RealTalkwithMartha/" target="_blank">Facebook Live</a>
-          <br>
-          <br>
-          <hr>
-          <br>
-          
-        </div>
+        <p class="p1">
+          <span class="s1"> We continue our series on "Happiness Through Authenticity." It's a dynamic series and we
+            hope you are enjoying it.
+            <br><br>
+
+            All Martha's shows are archived on Blog Talk Radio, Facebook Live and YouTube so do please check out past
+            shows. We also encourage you to form study groups around these shows to support your journey. Thank you so
+            much for following Martha,
+            befriending her (Martha Novak on FB), sharing these shows, and liking them. Your kindness in taking time to
+            do these things increases
+            our number of listeners and helps get the word around. We appreciate it!
+
+
+          </span>
+        </p>
+
+        <p>There are all sorts of information and consciousness tools on this site (CDs, DVDs, books, and a fabulous app
+          for iPhones that is only .99 and extremely fun to use).
+
+
+        </p>
+        <a class="btn btn-sm animated-button victoria-three animated flipInX"
+          href="https://www.blogtalkradio.com/marthanovak/2020/07/10/real-talk-with-martha-novak" target="_blank">Listen
+          to the Show
+        </a>
+        <a class="btn btn-sm animated-button victoria-three animated flipInX"
+          href="https://www.facebook.com/pg/RealTalkwithMartha/videos/?ref=page_internal" target="_blank">Facebook
+          Live</a>
         <br>
-        <!-- <iframe width="100%" height="550px" src="https://percolate.blogtalkradio.com/offsiteplayer?hostId=120131" frameborder="0"
-          allowfullscreen></iframe> -->
-        <h4>Subscribe to Podcast&nbsp;</h4>
-        <a class="btn btn-sm animated-button victoria-three animated lightSpeedIn" href="itpc://www.blogtalkradio.com/marthaburgessnovak/podcast" target="_blank">iTunes</a>
+        <br>
+        <hr>
+        <br>
+
       </div>
+      <br>
+      <!-- <iframe width="100%" height="550px" src="https://percolate.blogtalkradio.com/offsiteplayer?hostId=120131" frameborder="0"
+          allowfullscreen></iframe> -->
+      <h4>Subscribe to Podcast&nbsp;</h4>
+      <a class="btn btn-sm animated-button victoria-three animated lightSpeedIn"
+        href="itpc:http://www.blogtalkradio.com/marthanovak/podcast" target="_blank">iTunes</a>
+    </div>
+    <div id='radio_community' class="row">
+      <h2 class="communityHead"> Community</h2>
+      <p>Hello, everyone! We would like our community to know each other. Please do send in a picture of who is
+        listening to our show,
+        first names only. It can be you, a group of friends, and/or your pets but let's all see each other! We will post
+        them to a new
+        "Community Page" and keep in mind that, if you send them in, you are giving us permission to use them on this
+        page. Keep them clean,
+        ladies and gentlemen, because anything that isn't gets deleted and Martha will never see them. But show us your
+        beautiful, conscious
+        selves as you listen to this show on Sunday mornings and let's participate with each other this way.
+        <br>
+        <br>
+        Click the
+        button below to email us your photo, and please put "Community" in the subject line.</p>
+      <div class="communittyImg community col-lg-8">
+        <img src="img/community Images/LRadke.jpg" alt="">
+      </div>
+      <div class="communityText community col-lg-4">
+        <h3>Linda R.</h3>
+        <p>"Even dogs (especially my highly evolved Beagle mix, Fay) listen with rapt attention to Martha’s Sunday
+          talks!"</p>
+      </div>
+      <a href="mailto:admin@marthanovak.com" class="btn btn-sm animated-button victoria-three animated flipInX">Send us
+        your photo!</a>
     </div>
   </div>
-  <!-- /.row -->
+</div>
+<!-- /.row -->
 
 
-  <!-- Footer -->
-<?php include "./includes/Footer.php";?>
+<!-- <form method="" action="">
+  <div>
+    <legend id="subscription_description">What is Your Favorite Pet?</legend>
+    <ul>
+      <li style="list-style-type: none;">
+        <label for="cats1">
+          <input type="radio" name="favorite" aria-describedby="subscription_description" id=" cats1">Cats
+        </label>
+      </li>
+      <li style="list-style-type: none;">
+        <label for="dogs1">
+          <input type="radio" name="favorite" aria-describedby="subscription_description" id="dogs1">Dogs
+        </label>
+      </li>
+      <li style="list-style-type: none;">
+        <label for="birds1">
+          <input type="radio" name="favorite" aria-describedby="subscription_description" id="birds1">Birds
+        </label>
+      </li>
+    </ul>
+  </div>
+  <input type="submit" value="Submit now">
+</form> -->
+
+</div>
+<!-- Footer -->
+<?php include "./includes/Footer.php"; ?>
