@@ -37,7 +37,7 @@
 
         </p>
         <a class="btn btn-sm animated-button victoria-three animated flipInX"
-          href="https://www.blogtalkradio.com/marthanovak/2020/07/10/real-talk-with-martha-novak" target="_blank">Listen
+          href="https://www.blogtalkradio.com/marthanovak/2020/07/19/real-talk-with-martha-novak" target="_blank">Listen
           to the Show
         </a>
         <a class="btn btn-sm animated-button victoria-three animated flipInX"
