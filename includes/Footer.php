@@ -1,7 +1,7 @@
 	<!-- Footer -->
 	<footer id="index-foot" role='contentinfo'>
-		<div id="contact" class="container-fluid">
-			<div class="row foot">
+	  <div id="contact" class="container-fluid">
+	    <div class="row foot">
 
 				<div class="col-lg-6 col-sm-12 col-xs-12 email-phone" style="float:left;">
 					<ul class="foot-contact foot-horiz-menu col-sm-12" style="list-style: none;">
@@ -60,9 +60,9 @@
 							</a>
 						</li>
 
-					</ul>
-				</div>
-				<div class="col-lg-12 col-xs-12 col-md-12 copyright">
+	        </ul>
+	      </div>
+	      <div class="col-lg-12 col-xs-12 col-md-12 copyright">
 
 					<p class="fa fa-copyright "> 2018 Martha Novak</p>
 				</div>
@@ -86,6 +86,6 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/main.js"></script>
 
-</body>
+	</body>
 
-</html>
+	</html>

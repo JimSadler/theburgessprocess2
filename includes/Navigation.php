@@ -1,20 +1,22 @@
 <nav id="navbar-index" class="navbar navbar-default navbar-fixed-top" role="navigation">
-			<div class="container-fluid" id="nav-container">
+  <div class="container-fluid" id="nav-container">
 
-				<div class="navbar-header page scroll">
-					<button type="button" class="navbar-toggle animated fadeIn" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
+    <div class="navbar-header page scroll">
+      <button type="button" class="navbar-toggle animated fadeIn" data-toggle="collapse"
+        data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
 
-					<a class="navbar-brand page scroll" href="index.php">
-						<img class="img-responsive animated flip" id="logo" src="img/m-logo-circle-fill-about-svg.svg" alt="Martha Burgess Novak logo">
-						<!--onload=$(this).fadeIn();-->
-					</a>
-					<!-- <a class="navbar-brand page scroll fade" href="index.html"><img id="logo2" class="img-responsive" src="/img/marthaLogoSmall.png" alt="" onload=$(this).fadeIn();></a>-->
-				</div>
+      <a class="navbar-brand page scroll" href="index.php">
+        <img class="img-responsive animated flip" id="logo" src="img/m-logo-circle-fill-about-svg.svg"
+          alt="Martha Burgess Novak logo">
+        <!--onload=$(this).fadeIn();-->
+      </a>
+      <!-- <a class="navbar-brand page scroll fade" href="index.html"><img id="logo2" class="img-responsive" src="/img/marthaLogoSmall.png" alt="" onload=$(this).fadeIn();></a>-->
+    </div>
 
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar animated fadeInDown">
@@ -44,18 +46,18 @@
 						  </li>
 						  <li>
 							<a href="realTalk.php">Real Talk</a>
-						  </li>
-						  <li>
-							<a href="store.php">Merchandise</a>
-						  </li>
-						  <li>
-							<a href="contact.php">Contact</a>
-						 </li>
-						 <li>
-							<a href="Testimonial.php">Testimonials</a>
-						 </li>
-						</ul>
-						<!-- <ul class="list-inline social-icons1 animated fadeIn">
+						  </li> -->
+        <li>
+          <a href="store.php">Merchandise</a>
+        </li>
+        <li>
+          <a href="contact.php">Contact</a>
+        </li>
+        <li>
+          <a href="Testimonial.php">Testimonials</a>
+        </li>
+      </ul>
+      <!-- <ul class="list-inline social-icons1 animated fadeIn">
 						  <li>
 							<a href="https://www.facebook.com/theburgessprocess" target="_blank">
 							  <i class="fa fa-facebook-square"></i>
@@ -87,8 +89,8 @@
 							</a>
 						  </li>
 						</ul> -->
-					  </div>
-				<!-- /.navbar-collapse -->
-			</div>
-			<!-- /.container -->
-		</nav>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>

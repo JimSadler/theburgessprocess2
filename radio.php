@@ -54,5 +54,30 @@
 <!-- /.row -->
 
 
+<!-- <form method="" action="">
+  <div>
+    <legend id="subscription_description">What is Your Favorite Pet?</legend>
+    <ul>
+      <li style="list-style-type: none;">
+        <label for="cats1">
+          <input type="radio" name="favorite" aria-describedby="subscription_description" id=" cats1">Cats
+        </label>
+      </li>
+      <li style="list-style-type: none;">
+        <label for="dogs1">
+          <input type="radio" name="favorite" aria-describedby="subscription_description" id="dogs1">Dogs
+        </label>
+      </li>
+      <li style="list-style-type: none;">
+        <label for="birds1">
+          <input type="radio" name="favorite" aria-describedby="subscription_description" id="birds1">Birds
+        </label>
+      </li>
+    </ul>
+  </div>
+  <input type="submit" value="Submit now">
+</form> -->
+
+</div>
 <!-- Footer -->
 <?php include "./includes/Footer.php"; ?>
