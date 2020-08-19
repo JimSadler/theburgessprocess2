@@ -37,8 +37,10 @@ a button.buyNow {
 @media (min-width: 768px) {
 
     .navbar-nav {
-        float: left;
-        margin-left: 26px;
+        /* margin-left: 26px; */
+        align-self: center;
+        display: inline-block;
+        float: none;
     }
 }
 
@@ -125,8 +127,7 @@ body {
 }
 .nav.fadeInDown {
     -webkit-animation-duration: 2s;
-    margin-right: -25%;
-    margin-left: 19%;
+    margin-left: 0%; 
 
 }
 /* End Animations **************************************/
@@ -245,7 +246,7 @@ header {
     
 }
 header#homepage {
-    background-image: url("http://www.marthaburgessnovak.net/img/jumbotrons/Marthajumbotron.jpg");
+    background-image: url("https://www.marthanovak.com/img/jumbotrons/Marthajumbotron.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -404,8 +405,11 @@ hr {
     border-top: 1px solid #ccc !important;
     width: 50%;
 }
-
-
+/* 
+img.staff {
+    border-radius: 50%;
+    width: 36%;
+} */
 .healer-staff .text-center a:hover {
     color: steelblue;
 }
@@ -416,7 +420,8 @@ hr {
 #christina-about-img, #tracy-about-img, #betty-about-img, #diana-about-img {
     display: block;
     max-width: 100%;
-    height: 465px;
+    /* height: 465px; */
+    border-radius: 50%;
 }
 .facilitator-hr {
     border-top: 1px solid #ccc;
@@ -535,7 +540,7 @@ ul.social-icons {
     background-position: 100% 0;
     background-size: 200% 200%;
     color: transparent;
-    -webkit-transition: .1s .2s;
+    /* -webkit-transition: .1s .2s; */
     -webkit-background-clip: text;
 }
 
@@ -1024,6 +1029,7 @@ body#store {
 
 #mc_embed_signup {
     height: 36em;
+    margin-top: -100px;
 }
 
 /* Book Styles **************************************************/
@@ -2289,6 +2295,15 @@ and (orientation: landscape) {
     .collapse.in .social-icons1  {
         display:none;
     }
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 456px;
+    }
+    .nav.fadeInDown {
+        /* -webkit-animation-duration: 2s; */
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    
 
 
 }
@@ -2339,6 +2354,7 @@ and (orientation: landscape) {
         display: block;
         max-width: 100%;
         height: 265px;
+        border-radius: 50%;
     }
     #carousel-example-generic {
         display:none;

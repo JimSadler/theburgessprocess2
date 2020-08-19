@@ -16,7 +16,13 @@
                 m
                     .parentNode
                     .insertBefore(a, m)
-            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+            })(
+                window,
+                document,
+                'script',
+                'https://www.google-analytics.com/analytics.js',
+                'ga'
+            );
 
             ga('create', 'UA-86182952-1', 'auto');
             ga('send', 'pageview');
@@ -27,10 +33,7 @@
         <script>
             (function (w, d, s, l, i) {
                 w[l] = w[l] || [];
-                w[l].push({
-                    'gtm.start': new Date().getTime(),
-                    event: 'gtm.js'
-                });
+                w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
                 var f = d.getElementsByTagName(s)[0],
                     j = d.createElement(s),
                     dl = l != 'dataLayer'
@@ -67,7 +70,7 @@
         <link rel="manifest" href="/manifest.json">
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
         <meta name="theme-color" content="#ffffff">
-        <link rel="icon" href="https://www.marthaburgessnovak.net/favicon.ico?v=2"/>
+        <link rel="icon" href="https://www.marthanovak.com/favicon.ico?v=2"/>
         <!-- Bootstrap Core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -80,15 +83,12 @@
         <link rel="stylesheet" href="css/animate.css" type="text/css">
 
         <!-- Fast Sring popup storefront -->
-                    <!-- Flow -->
-                        <!-- <script
-                            id="fsc-api"
-                            src="https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.7.6/fastspring-builder.min.js"
-                            type="text/javascript"
-                            data-storefront="marthaburgessnovak.test.onfastspring.com/popup-Flow">
-                        </script> -->
-
-
+        <!-- Flow -->
+        <script
+            id="fsc-api"
+            src="https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.7.6/fastspring-builder.min.js"
+            type="text/javascript"
+            data-storefront="marthaburgessnovak.onfastspring.com/popup-Flow"></script>
 
         <!--[endif]-->
 

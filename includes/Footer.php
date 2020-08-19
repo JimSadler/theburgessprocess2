@@ -11,7 +11,7 @@
 							</a>
 						</li>
 						<li id="email">
-							<a aria-label="Email Martha" href="mailto:theburgessprocess@yahoo.com">
+							<a aria-label="Email Martha" href="mailto:martha@marthanovak.com">
 								<i class="fa fa-envelope fa-2x"></i>
 							</a>
 						</li>
@@ -30,7 +30,7 @@
 				<div class="col-lg-6 col-xs-12 col-sm-12 social-icon-container" style="float:right; text-align: right;">
 					<ul class="list-inline social-icons">
 						<li>
-							<a href="https://www.facebook.com/theburgessprocess" target="_blank">
+							<a href="https://www.facebook.com/RealTalkwithMartha/" target="_blank">
 								<i class="fa fa-facebook-square"></i>
 							</a>
 						</li>
@@ -44,11 +44,11 @@
 								<i class="fa fa-youtube"></i>
 							</a>
 						</li>
-						<li>
+						<!-- <li>
 							<a href="https://plus.google.com/u/0/108407100426749067671" target="_blank">
 								<i class="fa fa-google-plus"></i>
 							</a>
-						</li>
+						</li> -->
 						<li>
 							<a href="https://twitter.com/MarthaBurgess" target="_blank">
 								<i class="fa fa-twitter"></i>
@@ -64,7 +64,7 @@
 				</div>
 				<div class="col-lg-12 col-xs-12 col-md-12 copyright">
 
-					<p class="fa fa-copyright "> 2016 Martha Burgess Novak</p>
+					<p class="fa fa-copyright "> 2018 Martha Novak</p>
 				</div>
 			</div>
 		</div>

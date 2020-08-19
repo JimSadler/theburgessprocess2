@@ -311,8 +311,9 @@
 </div>
 <!-- Footer -->
 <?php include 'includes/Footer.php';?>
-<script
+<!-- <script
     id="fsc-api"
     src="https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.7.6/fastspring-builder.min.js"
     type="text/javascript"
     data-storefront="marthaburgessnovak.test.onfastspring.com/popup-Flow"></script>
+     -->

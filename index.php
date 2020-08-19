@@ -14,10 +14,10 @@
 		<div id='home' class="row header-content">
 			<div class="col-lg-1"></div>
 			<div class="col-lg-10 col-sm-12 header-content-inner animated fadeInUpBig">
-				<h2 class=>Welcome to Martha Burgess Novak</h2>
+				<h2 class=>Welcome to Martha Novak</h2>
 				<hr>
 				<p class="editable">Whether you have been on a lifelong voyage and are looking for the next step, or you are just beginning to question who
-					you are and if there is more to life than what you currently know, Martha Burgess Novak addresses all aspects of the
+					you are and if there is more to life than what you currently know, Martha addresses all aspects of the
 					modern day spiritual journey.</p>
 
 			</div>

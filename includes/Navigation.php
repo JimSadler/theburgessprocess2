@@ -18,14 +18,14 @@
 
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar animated fadeInDown">
-						  <li>
+						  <!-- <li>
 							<a href="index.php">Home</a>
+						  </li> -->
+						  <li>
+							<a href="infinite_insight.php">Infinite Insight</a>
 						  </li>
 						  <li>
-							<a href="TheBurgessProcess.php">The Burgess Process</a>
-						  </li>
-						  <li>
-							<a href="Facilitators.php">Facilitators</a>
+							<a href="About.php">About Us</a>
 						  </li>
 						  <li>
 							<!--<a href="Lectures.php">Lectures</a>-->
@@ -40,7 +40,7 @@
 							<a href="Workshops.php">Workshops</a>
 						  </li>
 						  <li>
-							<a href="https://www.marthaburgessnovak.net/RealTalkBlog">Blog Talk</a>
+							<a href="https://www.marthanovak.com/RealTalkBlog/">Blog Talk</a>
 						  </li>
 						  <li>
 							<a href="realTalk.php">Real Talk</a>
